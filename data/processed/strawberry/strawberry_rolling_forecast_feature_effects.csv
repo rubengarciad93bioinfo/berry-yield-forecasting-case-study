@@ -1,0 +1,1157 @@
+model,model_label,forecast_origin_date,feature,effect_type,effect_value,abs_effect_value,n_training_rows,n_current_year_training_rows
+rolling_weather_gdd_ridge,Rolling weather + GDD linear model,2023-07-29,treatment_n_level,standardized_coefficient,13.23089949112205,13.23089949112205,79,0
+rolling_weather_gdd_ridge,Rolling weather + GDD linear model,2023-07-29,forecast_horizon_days,standardized_coefficient,2.0024588190286887,2.0024588190286887,79,0
+rolling_weather_gdd_ridge,Rolling weather + GDD linear model,2023-07-29,day_of_year,standardized_coefficient,5.10400948728023,5.10400948728023,79,0
+rolling_weather_gdd_ridge,Rolling weather + GDD linear model,2023-07-29,days_since_weather_start,standardized_coefficient,5.104009487280368,5.104009487280368,79,0
+rolling_weather_gdd_ridge,Rolling weather + GDD linear model,2023-07-29,tmean_c,standardized_coefficient,-2.3732531305370643,2.3732531305370643,79,0
+rolling_weather_gdd_ridge,Rolling weather + GDD linear model,2023-07-29,rhmean_pct,standardized_coefficient,9.682912106943602,9.682912106943602,79,0
+rolling_weather_gdd_ridge,Rolling weather + GDD linear model,2023-07-29,solar_radiation,standardized_coefficient,-1.3488073185215608,1.3488073185215608,79,0
+rolling_weather_gdd_ridge,Rolling weather + GDD linear model,2023-07-29,gdd_base_10,standardized_coefficient,-2.373253130537079,2.373253130537079,79,0
+rolling_weather_gdd_ridge,Rolling weather + GDD linear model,2023-07-29,cumulative_gdd_base_10,standardized_coefficient,4.166365233502335,4.166365233502335,79,0
+rolling_weather_gdd_ridge,Rolling weather + GDD linear model,2023-07-29,cumulative_solar_radiation,standardized_coefficient,-6.533110366356601,6.533110366356601,79,0
+rolling_weather_gdd_ridge,Rolling weather + GDD linear model,2023-07-29,tmean_7d,standardized_coefficient,-2.179485890777811,2.179485890777811,79,0
+rolling_weather_gdd_ridge,Rolling weather + GDD linear model,2023-07-29,solar_radiation_7d,standardized_coefficient,-5.015968322491248,5.015968322491248,79,0
+rolling_weather_gdd_ridge,Rolling weather + GDD linear model,2023-07-29,rhmean_7d,standardized_coefficient,2.9102824788725408,2.9102824788725408,79,0
+rolling_crop_development_ridge,Rolling crop development linear model,2023-07-29,treatment_n_level,standardized_coefficient,4.432462476549696,4.432462476549696,79,0
+rolling_crop_development_ridge,Rolling crop development linear model,2023-07-29,forecast_horizon_days,standardized_coefficient,5.917980944551796,5.917980944551796,79,0
+rolling_crop_development_ridge,Rolling crop development linear model,2023-07-29,day_of_year,standardized_coefficient,-0.9063365144340064,0.9063365144340064,79,0
+rolling_crop_development_ridge,Rolling crop development linear model,2023-07-29,days_since_weather_start,standardized_coefficient,-0.9063365144340016,0.9063365144340016,79,0
+rolling_crop_development_ridge,Rolling crop development linear model,2023-07-29,cumulative_gdd_base_10,standardized_coefficient,0.8820060477200768,0.8820060477200768,79,0
+rolling_crop_development_ridge,Rolling crop development linear model,2023-07-29,cumulative_solar_radiation,standardized_coefficient,-1.2999866458520244,1.2999866458520244,79,0
+rolling_crop_development_ridge,Rolling crop development linear model,2023-07-29,tmean_7d,standardized_coefficient,-3.3990695256356798,3.3990695256356798,79,0
+rolling_crop_development_ridge,Rolling crop development linear model,2023-07-29,solar_radiation_7d,standardized_coefficient,-7.825343693386929,7.825343693386929,79,0
+rolling_crop_development_ridge,Rolling crop development linear model,2023-07-29,current_fruit_number,standardized_coefficient,6.2631080618732025,6.2631080618732025,79,0
+rolling_crop_development_ridge,Rolling crop development linear model,2023-07-29,current_fresh_matter_g,standardized_coefficient,11.209952592795403,11.209952592795403,79,0
+rolling_crop_development_ridge,Rolling crop development linear model,2023-07-29,current_dry_matter_g,standardized_coefficient,-2.465484110787785,2.465484110787785,79,0
+rolling_crop_development_ridge,Rolling crop development linear model,2023-07-29,previous_fruit_number,standardized_coefficient,-17.31796830447548,17.31796830447548,79,0
+rolling_crop_development_ridge,Rolling crop development linear model,2023-07-29,previous_fresh_matter_g,standardized_coefficient,4.64885005561474,4.64885005561474,79,0
+rolling_crop_development_ridge,Rolling crop development linear model,2023-07-29,previous_dry_matter_g,standardized_coefficient,-0.4639114384139697,0.4639114384139697,79,0
+rolling_crop_development_ridge,Rolling crop development linear model,2023-07-29,change_fruit_number,standardized_coefficient,-15.768191314857491,15.768191314857491,79,0
+rolling_crop_development_ridge,Rolling crop development linear model,2023-07-29,change_fresh_matter_g,standardized_coefficient,9.755127823517267,9.755127823517267,79,0
+rolling_crop_development_ridge,Rolling crop development linear model,2023-07-29,rolling_mean_2_fruit_number,standardized_coefficient,3.4800464124458417,3.4800464124458417,79,0
+rolling_crop_development_ridge,Rolling crop development linear model,2023-07-29,rolling_mean_2_fresh_matter_g,standardized_coefficient,-0.10276162700026623,0.10276162700026623,79,0
+rolling_crop_development_ridge,Rolling crop development linear model,2023-07-29,rolling_mean_3_fruit_number,standardized_coefficient,8.01206876538315,8.01206876538315,79,0
+rolling_crop_development_ridge,Rolling crop development linear model,2023-07-29,rolling_mean_3_fresh_matter_g,standardized_coefficient,8.778861742274678,8.778861742274678,79,0
+rolling_crop_development_ridge,Rolling crop development linear model,2023-07-29,mean_fruit_diameter_mm,standardized_coefficient,1.5324903339063078,1.5324903339063078,79,0
+rolling_crop_development_ridge,Rolling crop development linear model,2023-07-29,mean_individual_fruit_fresh_weight_g,standardized_coefficient,2.450337331801087,2.450337331801087,79,0
+rolling_crop_development_ridge,Rolling crop development linear model,2023-07-29,mean_tagged_fruit_diameter_mm,standardized_coefficient,2.993628388363265,2.993628388363265,79,0
+rolling_crop_development_ridge,Rolling crop development linear model,2023-07-29,mean_tagged_fruit_length_mm,standardized_coefficient,-9.573170251181772,9.573170251181772,79,0
+rolling_crop_development_rf,Rolling crop development random forest,2023-07-29,treatment_n_level,importance,0.11681862852349548,0.11681862852349548,79,0
+rolling_crop_development_rf,Rolling crop development random forest,2023-07-29,forecast_horizon_days,importance,0.010932770531302163,0.010932770531302163,79,0
+rolling_crop_development_rf,Rolling crop development random forest,2023-07-29,day_of_year,importance,0.002565150322283243,0.002565150322283243,79,0
+rolling_crop_development_rf,Rolling crop development random forest,2023-07-29,days_since_weather_start,importance,0.00494726533308464,0.00494726533308464,79,0
+rolling_crop_development_rf,Rolling crop development random forest,2023-07-29,tmax_c,importance,0.012897846539645645,0.012897846539645645,79,0
+rolling_crop_development_rf,Rolling crop development random forest,2023-07-29,tmin_c,importance,0.004800628423527668,0.004800628423527668,79,0
+rolling_crop_development_rf,Rolling crop development random forest,2023-07-29,tmean_c,importance,0.00862517196118241,0.00862517196118241,79,0
+rolling_crop_development_rf,Rolling crop development random forest,2023-07-29,rhmean_pct,importance,0.02052432564333495,0.02052432564333495,79,0
+rolling_crop_development_rf,Rolling crop development random forest,2023-07-29,solar_radiation,importance,0.08184922726222797,0.08184922726222797,79,0
+rolling_crop_development_rf,Rolling crop development random forest,2023-07-29,gdd_base_10,importance,0.006598070503271073,0.006598070503271073,79,0
+rolling_crop_development_rf,Rolling crop development random forest,2023-07-29,cumulative_gdd_base_10,importance,0.005714249480016056,0.005714249480016056,79,0
+rolling_crop_development_rf,Rolling crop development random forest,2023-07-29,cumulative_solar_radiation,importance,0.0017576844276792636,0.0017576844276792636,79,0
+rolling_crop_development_rf,Rolling crop development random forest,2023-07-29,tmean_7d,importance,0.0024458807992192894,0.0024458807992192894,79,0
+rolling_crop_development_rf,Rolling crop development random forest,2023-07-29,solar_radiation_7d,importance,0.025688013431149393,0.025688013431149393,79,0
+rolling_crop_development_rf,Rolling crop development random forest,2023-07-29,rhmean_7d,importance,0.01679412521987147,0.01679412521987147,79,0
+rolling_crop_development_rf,Rolling crop development random forest,2023-07-29,current_fruit_number,importance,0.01484547781803753,0.01484547781803753,79,0
+rolling_crop_development_rf,Rolling crop development random forest,2023-07-29,current_fresh_matter_g,importance,0.2434375779175112,0.2434375779175112,79,0
+rolling_crop_development_rf,Rolling crop development random forest,2023-07-29,current_dry_matter_g,importance,0.015497069055782664,0.015497069055782664,79,0
+rolling_crop_development_rf,Rolling crop development random forest,2023-07-29,previous_fruit_number,importance,0.01271961759785293,0.01271961759785293,79,0
+rolling_crop_development_rf,Rolling crop development random forest,2023-07-29,previous_fresh_matter_g,importance,0.015283777667277093,0.015283777667277093,79,0
+rolling_crop_development_rf,Rolling crop development random forest,2023-07-29,previous_dry_matter_g,importance,0.01316705583832017,0.01316705583832017,79,0
+rolling_crop_development_rf,Rolling crop development random forest,2023-07-29,change_fruit_number,importance,0.002541017282703166,0.002541017282703166,79,0
+rolling_crop_development_rf,Rolling crop development random forest,2023-07-29,change_fresh_matter_g,importance,0.016859186955849724,0.016859186955849724,79,0
+rolling_crop_development_rf,Rolling crop development random forest,2023-07-29,rolling_mean_2_fruit_number,importance,0.036048056921469576,0.036048056921469576,79,0
+rolling_crop_development_rf,Rolling crop development random forest,2023-07-29,rolling_mean_2_fresh_matter_g,importance,0.040902043129861065,0.040902043129861065,79,0
+rolling_crop_development_rf,Rolling crop development random forest,2023-07-29,rolling_mean_3_fruit_number,importance,0.03442974240919317,0.03442974240919317,79,0
+rolling_crop_development_rf,Rolling crop development random forest,2023-07-29,rolling_mean_3_fresh_matter_g,importance,0.16141971530639496,0.16141971530639496,79,0
+rolling_crop_development_rf,Rolling crop development random forest,2023-07-29,mean_fruit_diameter_mm,importance,0.016078590285304593,0.016078590285304593,79,0
+rolling_crop_development_rf,Rolling crop development random forest,2023-07-29,mean_individual_fruit_fresh_weight_g,importance,0.03768205777202744,0.03768205777202744,79,0
+rolling_crop_development_rf,Rolling crop development random forest,2023-07-29,mean_tagged_fruit_diameter_mm,importance,0.006115127115641737,0.006115127115641737,79,0
+rolling_crop_development_rf,Rolling crop development random forest,2023-07-29,mean_tagged_fruit_length_mm,importance,0.010014848525482243,0.010014848525482243,79,0
+rolling_weather_gdd_ridge,Rolling weather + GDD linear model,2023-08-01,treatment_n_level,standardized_coefficient,13.292803290972754,13.292803290972754,81,2
+rolling_weather_gdd_ridge,Rolling weather + GDD linear model,2023-08-01,forecast_horizon_days,standardized_coefficient,1.8168316513500602,1.8168316513500602,81,2
+rolling_weather_gdd_ridge,Rolling weather + GDD linear model,2023-08-01,day_of_year,standardized_coefficient,1.9361455504638372,1.9361455504638372,81,2
+rolling_weather_gdd_ridge,Rolling weather + GDD linear model,2023-08-01,days_since_weather_start,standardized_coefficient,4.960620912350326,4.960620912350326,81,2
+rolling_weather_gdd_ridge,Rolling weather + GDD linear model,2023-08-01,tmean_c,standardized_coefficient,-2.148363986410979,2.148363986410979,81,2
+rolling_weather_gdd_ridge,Rolling weather + GDD linear model,2023-08-01,rhmean_pct,standardized_coefficient,9.949809024841077,9.949809024841077,81,2
+rolling_weather_gdd_ridge,Rolling weather + GDD linear model,2023-08-01,solar_radiation,standardized_coefficient,-1.2933959148082719,1.2933959148082719,81,2
+rolling_weather_gdd_ridge,Rolling weather + GDD linear model,2023-08-01,gdd_base_10,standardized_coefficient,-2.148363986410915,2.148363986410915,81,2
+rolling_weather_gdd_ridge,Rolling weather + GDD linear model,2023-08-01,cumulative_gdd_base_10,standardized_coefficient,3.876290161219569,3.876290161219569,81,2
+rolling_weather_gdd_ridge,Rolling weather + GDD linear model,2023-08-01,cumulative_solar_radiation,standardized_coefficient,-2.235407411254519,2.235407411254519,81,2
+rolling_weather_gdd_ridge,Rolling weather + GDD linear model,2023-08-01,tmean_7d,standardized_coefficient,-3.560219299399275,3.560219299399275,81,2
+rolling_weather_gdd_ridge,Rolling weather + GDD linear model,2023-08-01,solar_radiation_7d,standardized_coefficient,-4.484144662653623,4.484144662653623,81,2
+rolling_weather_gdd_ridge,Rolling weather + GDD linear model,2023-08-01,rhmean_7d,standardized_coefficient,3.9501959100910264,3.9501959100910264,81,2
+rolling_crop_development_ridge,Rolling crop development linear model,2023-08-01,treatment_n_level,standardized_coefficient,4.451322629698873,4.451322629698873,81,2
+rolling_crop_development_ridge,Rolling crop development linear model,2023-08-01,forecast_horizon_days,standardized_coefficient,5.399572697969346,5.399572697969346,81,2
+rolling_crop_development_ridge,Rolling crop development linear model,2023-08-01,day_of_year,standardized_coefficient,-7.557711341744099,7.557711341744099,81,2
+rolling_crop_development_ridge,Rolling crop development linear model,2023-08-01,days_since_weather_start,standardized_coefficient,-0.8718520370999344,0.8718520370999344,81,2
+rolling_crop_development_ridge,Rolling crop development linear model,2023-08-01,cumulative_gdd_base_10,standardized_coefficient,1.5839656578776364,1.5839656578776364,81,2
+rolling_crop_development_ridge,Rolling crop development linear model,2023-08-01,cumulative_solar_radiation,standardized_coefficient,7.423850184867618,7.423850184867618,81,2
+rolling_crop_development_ridge,Rolling crop development linear model,2023-08-01,tmean_7d,standardized_coefficient,-4.412245706987072,4.412245706987072,81,2
+rolling_crop_development_ridge,Rolling crop development linear model,2023-08-01,solar_radiation_7d,standardized_coefficient,-7.97379589592098,7.97379589592098,81,2
+rolling_crop_development_ridge,Rolling crop development linear model,2023-08-01,current_fruit_number,standardized_coefficient,7.118602242807635,7.118602242807635,81,2
+rolling_crop_development_ridge,Rolling crop development linear model,2023-08-01,current_fresh_matter_g,standardized_coefficient,10.189757321826091,10.189757321826091,81,2
+rolling_crop_development_ridge,Rolling crop development linear model,2023-08-01,current_dry_matter_g,standardized_coefficient,-4.420804790542912,4.420804790542912,81,2
+rolling_crop_development_ridge,Rolling crop development linear model,2023-08-01,previous_fruit_number,standardized_coefficient,-12.78340331618327,12.78340331618327,81,2
+rolling_crop_development_ridge,Rolling crop development linear model,2023-08-01,previous_fresh_matter_g,standardized_coefficient,5.275950356788701,5.275950356788701,81,2
+rolling_crop_development_ridge,Rolling crop development linear model,2023-08-01,previous_dry_matter_g,standardized_coefficient,-1.4830716420265402,1.4830716420265402,81,2
+rolling_crop_development_ridge,Rolling crop development linear model,2023-08-01,change_fruit_number,standardized_coefficient,-14.034460466526925,14.034460466526925,81,2
+rolling_crop_development_ridge,Rolling crop development linear model,2023-08-01,change_fresh_matter_g,standardized_coefficient,9.874194296152034,9.874194296152034,81,2
+rolling_crop_development_ridge,Rolling crop development linear model,2023-08-01,rolling_mean_2_fruit_number,standardized_coefficient,2.971476988317513,2.971476988317513,81,2
+rolling_crop_development_ridge,Rolling crop development linear model,2023-08-01,rolling_mean_2_fresh_matter_g,standardized_coefficient,-1.7770304162843056,1.7770304162843056,81,2
+rolling_crop_development_ridge,Rolling crop development linear model,2023-08-01,rolling_mean_3_fruit_number,standardized_coefficient,7.9422494705659235,7.9422494705659235,81,2
+rolling_crop_development_ridge,Rolling crop development linear model,2023-08-01,rolling_mean_3_fresh_matter_g,standardized_coefficient,8.993561711138714,8.993561711138714,81,2
+rolling_crop_development_ridge,Rolling crop development linear model,2023-08-01,mean_fruit_diameter_mm,standardized_coefficient,3.0318624925715736,3.0318624925715736,81,2
+rolling_crop_development_ridge,Rolling crop development linear model,2023-08-01,mean_individual_fruit_fresh_weight_g,standardized_coefficient,1.964654206671487,1.964654206671487,81,2
+rolling_crop_development_ridge,Rolling crop development linear model,2023-08-01,mean_tagged_fruit_diameter_mm,standardized_coefficient,4.910421210648666,4.910421210648666,81,2
+rolling_crop_development_ridge,Rolling crop development linear model,2023-08-01,mean_tagged_fruit_length_mm,standardized_coefficient,-9.378886756928624,9.378886756928624,81,2
+rolling_crop_development_rf,Rolling crop development random forest,2023-08-01,treatment_n_level,importance,0.08660430996390754,0.08660430996390754,81,2
+rolling_crop_development_rf,Rolling crop development random forest,2023-08-01,forecast_horizon_days,importance,0.011640433748871658,0.011640433748871658,81,2
+rolling_crop_development_rf,Rolling crop development random forest,2023-08-01,day_of_year,importance,0.0033805659426229557,0.0033805659426229557,81,2
+rolling_crop_development_rf,Rolling crop development random forest,2023-08-01,days_since_weather_start,importance,0.0034677805000108033,0.0034677805000108033,81,2
+rolling_crop_development_rf,Rolling crop development random forest,2023-08-01,tmax_c,importance,0.011883807598207652,0.011883807598207652,81,2
+rolling_crop_development_rf,Rolling crop development random forest,2023-08-01,tmin_c,importance,0.005339859071288152,0.005339859071288152,81,2
+rolling_crop_development_rf,Rolling crop development random forest,2023-08-01,tmean_c,importance,0.009341091248662071,0.009341091248662071,81,2
+rolling_crop_development_rf,Rolling crop development random forest,2023-08-01,rhmean_pct,importance,0.019514568050546976,0.019514568050546976,81,2
+rolling_crop_development_rf,Rolling crop development random forest,2023-08-01,solar_radiation,importance,0.07504358938578136,0.07504358938578136,81,2
+rolling_crop_development_rf,Rolling crop development random forest,2023-08-01,gdd_base_10,importance,0.007344935659404216,0.007344935659404216,81,2
+rolling_crop_development_rf,Rolling crop development random forest,2023-08-01,cumulative_gdd_base_10,importance,0.0064171052931911625,0.0064171052931911625,81,2
+rolling_crop_development_rf,Rolling crop development random forest,2023-08-01,cumulative_solar_radiation,importance,0.0018411821280281545,0.0018411821280281545,81,2
+rolling_crop_development_rf,Rolling crop development random forest,2023-08-01,tmean_7d,importance,0.00403698432311416,0.00403698432311416,81,2
+rolling_crop_development_rf,Rolling crop development random forest,2023-08-01,solar_radiation_7d,importance,0.02819719166725885,0.02819719166725885,81,2
+rolling_crop_development_rf,Rolling crop development random forest,2023-08-01,rhmean_7d,importance,0.015205726927937905,0.015205726927937905,81,2
+rolling_crop_development_rf,Rolling crop development random forest,2023-08-01,current_fruit_number,importance,0.017869900626875008,0.017869900626875008,81,2
+rolling_crop_development_rf,Rolling crop development random forest,2023-08-01,current_fresh_matter_g,importance,0.24267474250216783,0.24267474250216783,81,2
+rolling_crop_development_rf,Rolling crop development random forest,2023-08-01,current_dry_matter_g,importance,0.017116079388428643,0.017116079388428643,81,2
+rolling_crop_development_rf,Rolling crop development random forest,2023-08-01,previous_fruit_number,importance,0.011296691422050866,0.011296691422050866,81,2
+rolling_crop_development_rf,Rolling crop development random forest,2023-08-01,previous_fresh_matter_g,importance,0.018732533783995413,0.018732533783995413,81,2
+rolling_crop_development_rf,Rolling crop development random forest,2023-08-01,previous_dry_matter_g,importance,0.01188550003199829,0.01188550003199829,81,2
+rolling_crop_development_rf,Rolling crop development random forest,2023-08-01,change_fruit_number,importance,0.0025870654646715824,0.0025870654646715824,81,2
+rolling_crop_development_rf,Rolling crop development random forest,2023-08-01,change_fresh_matter_g,importance,0.017281787403064075,0.017281787403064075,81,2
+rolling_crop_development_rf,Rolling crop development random forest,2023-08-01,rolling_mean_2_fruit_number,importance,0.04254365216719708,0.04254365216719708,81,2
+rolling_crop_development_rf,Rolling crop development random forest,2023-08-01,rolling_mean_2_fresh_matter_g,importance,0.038826667318388346,0.038826667318388346,81,2
+rolling_crop_development_rf,Rolling crop development random forest,2023-08-01,rolling_mean_3_fruit_number,importance,0.04423201020498166,0.04423201020498166,81,2
+rolling_crop_development_rf,Rolling crop development random forest,2023-08-01,rolling_mean_3_fresh_matter_g,importance,0.17850817244666065,0.17850817244666065,81,2
+rolling_crop_development_rf,Rolling crop development random forest,2023-08-01,mean_fruit_diameter_mm,importance,0.013368951997380585,0.013368951997380585,81,2
+rolling_crop_development_rf,Rolling crop development random forest,2023-08-01,mean_individual_fruit_fresh_weight_g,importance,0.04178681547103337,0.04178681547103337,81,2
+rolling_crop_development_rf,Rolling crop development random forest,2023-08-01,mean_tagged_fruit_diameter_mm,importance,0.002965016089193306,0.002965016089193306,81,2
+rolling_crop_development_rf,Rolling crop development random forest,2023-08-01,mean_tagged_fruit_length_mm,importance,0.009065282173079675,0.009065282173079675,81,2
+rolling_weather_gdd_ridge,Rolling weather + GDD linear model,2023-08-04,treatment_n_level,standardized_coefficient,12.929936024426558,12.929936024426558,84,5
+rolling_weather_gdd_ridge,Rolling weather + GDD linear model,2023-08-04,forecast_horizon_days,standardized_coefficient,1.7840658455646154,1.7840658455646154,84,5
+rolling_weather_gdd_ridge,Rolling weather + GDD linear model,2023-08-04,day_of_year,standardized_coefficient,0.7249431296523077,0.7249431296523077,84,5
+rolling_weather_gdd_ridge,Rolling weather + GDD linear model,2023-08-04,days_since_weather_start,standardized_coefficient,4.969903748512714,4.969903748512714,84,5
+rolling_weather_gdd_ridge,Rolling weather + GDD linear model,2023-08-04,tmean_c,standardized_coefficient,-2.3677327221851248,2.3677327221851248,84,5
+rolling_weather_gdd_ridge,Rolling weather + GDD linear model,2023-08-04,rhmean_pct,standardized_coefficient,10.109979118544384,10.109979118544384,84,5
+rolling_weather_gdd_ridge,Rolling weather + GDD linear model,2023-08-04,solar_radiation,standardized_coefficient,-0.8145208118105544,0.8145208118105544,84,5
+rolling_weather_gdd_ridge,Rolling weather + GDD linear model,2023-08-04,gdd_base_10,standardized_coefficient,-2.367732722185137,2.367732722185137,84,5
+rolling_weather_gdd_ridge,Rolling weather + GDD linear model,2023-08-04,cumulative_gdd_base_10,standardized_coefficient,3.7135620133295557,3.7135620133295557,84,5
+rolling_weather_gdd_ridge,Rolling weather + GDD linear model,2023-08-04,cumulative_solar_radiation,standardized_coefficient,-0.28699518303311533,0.28699518303311533,84,5
+rolling_weather_gdd_ridge,Rolling weather + GDD linear model,2023-08-04,tmean_7d,standardized_coefficient,-3.9942658353339695,3.9942658353339695,84,5
+rolling_weather_gdd_ridge,Rolling weather + GDD linear model,2023-08-04,solar_radiation_7d,standardized_coefficient,-4.4169137085822,4.4169137085822,84,5
+rolling_weather_gdd_ridge,Rolling weather + GDD linear model,2023-08-04,rhmean_7d,standardized_coefficient,4.246711543703753,4.246711543703753,84,5
+rolling_crop_development_ridge,Rolling crop development linear model,2023-08-04,treatment_n_level,standardized_coefficient,3.847765904279222,3.847765904279222,84,5
+rolling_crop_development_ridge,Rolling crop development linear model,2023-08-04,forecast_horizon_days,standardized_coefficient,5.42337090407808,5.42337090407808,84,5
+rolling_crop_development_ridge,Rolling crop development linear model,2023-08-04,day_of_year,standardized_coefficient,-6.028577034906587,6.028577034906587,84,5
+rolling_crop_development_ridge,Rolling crop development linear model,2023-08-04,days_since_weather_start,standardized_coefficient,-0.5743303610673061,0.5743303610673061,84,5
+rolling_crop_development_ridge,Rolling crop development linear model,2023-08-04,cumulative_gdd_base_10,standardized_coefficient,1.8829534441290532,1.8829534441290532,84,5
+rolling_crop_development_ridge,Rolling crop development linear model,2023-08-04,cumulative_solar_radiation,standardized_coefficient,5.411222897585707,5.411222897585707,84,5
+rolling_crop_development_ridge,Rolling crop development linear model,2023-08-04,tmean_7d,standardized_coefficient,-4.654984798654172,4.654984798654172,84,5
+rolling_crop_development_ridge,Rolling crop development linear model,2023-08-04,solar_radiation_7d,standardized_coefficient,-7.746123370469143,7.746123370469143,84,5
+rolling_crop_development_ridge,Rolling crop development linear model,2023-08-04,current_fruit_number,standardized_coefficient,8.609607825424641,8.609607825424641,84,5
+rolling_crop_development_ridge,Rolling crop development linear model,2023-08-04,current_fresh_matter_g,standardized_coefficient,9.011508917501564,9.011508917501564,84,5
+rolling_crop_development_ridge,Rolling crop development linear model,2023-08-04,current_dry_matter_g,standardized_coefficient,-5.247023574593293,5.247023574593293,84,5
+rolling_crop_development_ridge,Rolling crop development linear model,2023-08-04,previous_fruit_number,standardized_coefficient,-13.382433568209901,13.382433568209901,84,5
+rolling_crop_development_ridge,Rolling crop development linear model,2023-08-04,previous_fresh_matter_g,standardized_coefficient,6.026211421635918,6.026211421635918,84,5
+rolling_crop_development_ridge,Rolling crop development linear model,2023-08-04,previous_dry_matter_g,standardized_coefficient,-1.4275503202383724,1.4275503202383724,84,5
+rolling_crop_development_ridge,Rolling crop development linear model,2023-08-04,change_fruit_number,standardized_coefficient,-12.468700203746387,12.468700203746387,84,5
+rolling_crop_development_ridge,Rolling crop development linear model,2023-08-04,change_fresh_matter_g,standardized_coefficient,9.109742234555968,9.109742234555968,84,5
+rolling_crop_development_ridge,Rolling crop development linear model,2023-08-04,rolling_mean_2_fruit_number,standardized_coefficient,3.7294324983213785,3.7294324983213785,84,5
+rolling_crop_development_ridge,Rolling crop development linear model,2023-08-04,rolling_mean_2_fresh_matter_g,standardized_coefficient,-2.05991664564664,2.05991664564664,84,5
+rolling_crop_development_ridge,Rolling crop development linear model,2023-08-04,rolling_mean_3_fruit_number,standardized_coefficient,9.368170519213894,9.368170519213894,84,5
+rolling_crop_development_ridge,Rolling crop development linear model,2023-08-04,rolling_mean_3_fresh_matter_g,standardized_coefficient,7.357106732061905,7.357106732061905,84,5
+rolling_crop_development_ridge,Rolling crop development linear model,2023-08-04,mean_fruit_diameter_mm,standardized_coefficient,2.637559987835677,2.637559987835677,84,5
+rolling_crop_development_ridge,Rolling crop development linear model,2023-08-04,mean_individual_fruit_fresh_weight_g,standardized_coefficient,2.781357758291112,2.781357758291112,84,5
+rolling_crop_development_ridge,Rolling crop development linear model,2023-08-04,mean_tagged_fruit_diameter_mm,standardized_coefficient,4.584485673552503,4.584485673552503,84,5
+rolling_crop_development_ridge,Rolling crop development linear model,2023-08-04,mean_tagged_fruit_length_mm,standardized_coefficient,-9.353353437387803,9.353353437387803,84,5
+rolling_crop_development_rf,Rolling crop development random forest,2023-08-04,treatment_n_level,importance,0.052333847279659104,0.052333847279659104,84,5
+rolling_crop_development_rf,Rolling crop development random forest,2023-08-04,forecast_horizon_days,importance,0.012222795740858796,0.012222795740858796,84,5
+rolling_crop_development_rf,Rolling crop development random forest,2023-08-04,day_of_year,importance,0.0035266222464531015,0.0035266222464531015,84,5
+rolling_crop_development_rf,Rolling crop development random forest,2023-08-04,days_since_weather_start,importance,0.005952817691638543,0.005952817691638543,84,5
+rolling_crop_development_rf,Rolling crop development random forest,2023-08-04,tmax_c,importance,0.012184341311800791,0.012184341311800791,84,5
+rolling_crop_development_rf,Rolling crop development random forest,2023-08-04,tmin_c,importance,0.0069521278289865415,0.0069521278289865415,84,5
+rolling_crop_development_rf,Rolling crop development random forest,2023-08-04,tmean_c,importance,0.012276398694158185,0.012276398694158185,84,5
+rolling_crop_development_rf,Rolling crop development random forest,2023-08-04,rhmean_pct,importance,0.01928131544634395,0.01928131544634395,84,5
+rolling_crop_development_rf,Rolling crop development random forest,2023-08-04,solar_radiation,importance,0.06192167602805739,0.06192167602805739,84,5
+rolling_crop_development_rf,Rolling crop development random forest,2023-08-04,gdd_base_10,importance,0.009963736714740755,0.009963736714740755,84,5
+rolling_crop_development_rf,Rolling crop development random forest,2023-08-04,cumulative_gdd_base_10,importance,0.0030967045588507374,0.0030967045588507374,84,5
+rolling_crop_development_rf,Rolling crop development random forest,2023-08-04,cumulative_solar_radiation,importance,0.0028372658172149015,0.0028372658172149015,84,5
+rolling_crop_development_rf,Rolling crop development random forest,2023-08-04,tmean_7d,importance,0.0045085172353474,0.0045085172353474,84,5
+rolling_crop_development_rf,Rolling crop development random forest,2023-08-04,solar_radiation_7d,importance,0.025117937099416156,0.025117937099416156,84,5
+rolling_crop_development_rf,Rolling crop development random forest,2023-08-04,rhmean_7d,importance,0.018724933569250476,0.018724933569250476,84,5
+rolling_crop_development_rf,Rolling crop development random forest,2023-08-04,current_fruit_number,importance,0.01939371027189689,0.01939371027189689,84,5
+rolling_crop_development_rf,Rolling crop development random forest,2023-08-04,current_fresh_matter_g,importance,0.25418700221510493,0.25418700221510493,84,5
+rolling_crop_development_rf,Rolling crop development random forest,2023-08-04,current_dry_matter_g,importance,0.015774290757225886,0.015774290757225886,84,5
+rolling_crop_development_rf,Rolling crop development random forest,2023-08-04,previous_fruit_number,importance,0.014315666887390529,0.014315666887390529,84,5
+rolling_crop_development_rf,Rolling crop development random forest,2023-08-04,previous_fresh_matter_g,importance,0.02156603833743639,0.02156603833743639,84,5
+rolling_crop_development_rf,Rolling crop development random forest,2023-08-04,previous_dry_matter_g,importance,0.012203021730955053,0.012203021730955053,84,5
+rolling_crop_development_rf,Rolling crop development random forest,2023-08-04,change_fruit_number,importance,0.001657385083737831,0.001657385083737831,84,5
+rolling_crop_development_rf,Rolling crop development random forest,2023-08-04,change_fresh_matter_g,importance,0.01731906942504318,0.01731906942504318,84,5
+rolling_crop_development_rf,Rolling crop development random forest,2023-08-04,rolling_mean_2_fruit_number,importance,0.05473762428723567,0.05473762428723567,84,5
+rolling_crop_development_rf,Rolling crop development random forest,2023-08-04,rolling_mean_2_fresh_matter_g,importance,0.039139849628664874,0.039139849628664874,84,5
+rolling_crop_development_rf,Rolling crop development random forest,2023-08-04,rolling_mean_3_fruit_number,importance,0.08228057025370455,0.08228057025370455,84,5
+rolling_crop_development_rf,Rolling crop development random forest,2023-08-04,rolling_mean_3_fresh_matter_g,importance,0.15479629429126915,0.15479629429126915,84,5
+rolling_crop_development_rf,Rolling crop development random forest,2023-08-04,mean_fruit_diameter_mm,importance,0.011350611856123247,0.011350611856123247,84,5
+rolling_crop_development_rf,Rolling crop development random forest,2023-08-04,mean_individual_fruit_fresh_weight_g,importance,0.040484691160469946,0.040484691160469946,84,5
+rolling_crop_development_rf,Rolling crop development random forest,2023-08-04,mean_tagged_fruit_diameter_mm,importance,0.002572881856457457,0.002572881856457457,84,5
+rolling_crop_development_rf,Rolling crop development random forest,2023-08-04,mean_tagged_fruit_length_mm,importance,0.007320254694507545,0.007320254694507545,84,5
+rolling_weather_gdd_ridge,Rolling weather + GDD linear model,2023-08-07,treatment_n_level,standardized_coefficient,12.64440159827644,12.64440159827644,87,8
+rolling_weather_gdd_ridge,Rolling weather + GDD linear model,2023-08-07,forecast_horizon_days,standardized_coefficient,1.7425882978454654,1.7425882978454654,87,8
+rolling_weather_gdd_ridge,Rolling weather + GDD linear model,2023-08-07,day_of_year,standardized_coefficient,0.8682137710044593,0.8682137710044593,87,8
+rolling_weather_gdd_ridge,Rolling weather + GDD linear model,2023-08-07,days_since_weather_start,standardized_coefficient,4.945323482823352,4.945323482823352,87,8
+rolling_weather_gdd_ridge,Rolling weather + GDD linear model,2023-08-07,tmean_c,standardized_coefficient,-2.379662176691512,2.379662176691512,87,8
+rolling_weather_gdd_ridge,Rolling weather + GDD linear model,2023-08-07,rhmean_pct,standardized_coefficient,10.099437465557639,10.099437465557639,87,8
+rolling_weather_gdd_ridge,Rolling weather + GDD linear model,2023-08-07,solar_radiation,standardized_coefficient,-0.8584925011819151,0.8584925011819151,87,8
+rolling_weather_gdd_ridge,Rolling weather + GDD linear model,2023-08-07,gdd_base_10,standardized_coefficient,-2.379662176691517,2.379662176691517,87,8
+rolling_weather_gdd_ridge,Rolling weather + GDD linear model,2023-08-07,cumulative_gdd_base_10,standardized_coefficient,3.821117938503371,3.821117938503371,87,8
+rolling_weather_gdd_ridge,Rolling weather + GDD linear model,2023-08-07,cumulative_solar_radiation,standardized_coefficient,-0.33064014213290815,0.33064014213290815,87,8
+rolling_weather_gdd_ridge,Rolling weather + GDD linear model,2023-08-07,tmean_7d,standardized_coefficient,-4.1267605286330085,4.1267605286330085,87,8
+rolling_weather_gdd_ridge,Rolling weather + GDD linear model,2023-08-07,solar_radiation_7d,standardized_coefficient,-4.455194633918453,4.455194633918453,87,8
+rolling_weather_gdd_ridge,Rolling weather + GDD linear model,2023-08-07,rhmean_7d,standardized_coefficient,4.066371395530144,4.066371395530144,87,8
+rolling_crop_development_ridge,Rolling crop development linear model,2023-08-07,treatment_n_level,standardized_coefficient,3.591520915325017,3.591520915325017,87,8
+rolling_crop_development_ridge,Rolling crop development linear model,2023-08-07,forecast_horizon_days,standardized_coefficient,5.089024634974843,5.089024634974843,87,8
+rolling_crop_development_ridge,Rolling crop development linear model,2023-08-07,day_of_year,standardized_coefficient,-1.2871306392364186,1.2871306392364186,87,8
+rolling_crop_development_ridge,Rolling crop development linear model,2023-08-07,days_since_weather_start,standardized_coefficient,-1.1000072100923575,1.1000072100923575,87,8
+rolling_crop_development_ridge,Rolling crop development linear model,2023-08-07,cumulative_gdd_base_10,standardized_coefficient,3.050517446277759,3.050517446277759,87,8
+rolling_crop_development_ridge,Rolling crop development linear model,2023-08-07,cumulative_solar_radiation,standardized_coefficient,-2.1272027133874634,2.1272027133874634,87,8
+rolling_crop_development_ridge,Rolling crop development linear model,2023-08-07,tmean_7d,standardized_coefficient,-5.157359062749451,5.157359062749451,87,8
+rolling_crop_development_ridge,Rolling crop development linear model,2023-08-07,solar_radiation_7d,standardized_coefficient,-6.394214235847653,6.394214235847653,87,8
+rolling_crop_development_ridge,Rolling crop development linear model,2023-08-07,current_fruit_number,standardized_coefficient,10.855678000422087,10.855678000422087,87,8
+rolling_crop_development_ridge,Rolling crop development linear model,2023-08-07,current_fresh_matter_g,standardized_coefficient,9.127578837327608,9.127578837327608,87,8
+rolling_crop_development_ridge,Rolling crop development linear model,2023-08-07,current_dry_matter_g,standardized_coefficient,-6.579790104342585,6.579790104342585,87,8
+rolling_crop_development_ridge,Rolling crop development linear model,2023-08-07,previous_fruit_number,standardized_coefficient,-10.626273933957748,10.626273933957748,87,8
+rolling_crop_development_ridge,Rolling crop development linear model,2023-08-07,previous_fresh_matter_g,standardized_coefficient,5.073169966478507,5.073169966478507,87,8
+rolling_crop_development_ridge,Rolling crop development linear model,2023-08-07,previous_dry_matter_g,standardized_coefficient,-2.7916663285926413,2.7916663285926413,87,8
+rolling_crop_development_ridge,Rolling crop development linear model,2023-08-07,change_fruit_number,standardized_coefficient,-13.92193970088535,13.92193970088535,87,8
+rolling_crop_development_ridge,Rolling crop development linear model,2023-08-07,change_fresh_matter_g,standardized_coefficient,9.084457678266643,9.084457678266643,87,8
+rolling_crop_development_ridge,Rolling crop development linear model,2023-08-07,rolling_mean_2_fruit_number,standardized_coefficient,2.1940254154669234,2.1940254154669234,87,8
+rolling_crop_development_ridge,Rolling crop development linear model,2023-08-07,rolling_mean_2_fresh_matter_g,standardized_coefficient,-3.36816243510673,3.36816243510673,87,8
+rolling_crop_development_ridge,Rolling crop development linear model,2023-08-07,rolling_mean_3_fruit_number,standardized_coefficient,8.2254015531401,8.2254015531401,87,8
+rolling_crop_development_ridge,Rolling crop development linear model,2023-08-07,rolling_mean_3_fresh_matter_g,standardized_coefficient,9.065682443266363,9.065682443266363,87,8
+rolling_crop_development_ridge,Rolling crop development linear model,2023-08-07,mean_fruit_diameter_mm,standardized_coefficient,2.4738803483382297,2.4738803483382297,87,8
+rolling_crop_development_ridge,Rolling crop development linear model,2023-08-07,mean_individual_fruit_fresh_weight_g,standardized_coefficient,3.658935604704164,3.658935604704164,87,8
+rolling_crop_development_ridge,Rolling crop development linear model,2023-08-07,mean_tagged_fruit_diameter_mm,standardized_coefficient,2.603125460578068,2.603125460578068,87,8
+rolling_crop_development_ridge,Rolling crop development linear model,2023-08-07,mean_tagged_fruit_length_mm,standardized_coefficient,-6.029822169386784,6.029822169386784,87,8
+rolling_crop_development_rf,Rolling crop development random forest,2023-08-07,treatment_n_level,importance,0.05460925046642021,0.05460925046642021,87,8
+rolling_crop_development_rf,Rolling crop development random forest,2023-08-07,forecast_horizon_days,importance,0.010443957464725965,0.010443957464725965,87,8
+rolling_crop_development_rf,Rolling crop development random forest,2023-08-07,day_of_year,importance,0.003052183146800623,0.003052183146800623,87,8
+rolling_crop_development_rf,Rolling crop development random forest,2023-08-07,days_since_weather_start,importance,0.002868742302962474,0.002868742302962474,87,8
+rolling_crop_development_rf,Rolling crop development random forest,2023-08-07,tmax_c,importance,0.01371219517654055,0.01371219517654055,87,8
+rolling_crop_development_rf,Rolling crop development random forest,2023-08-07,tmin_c,importance,0.007454630011735507,0.007454630011735507,87,8
+rolling_crop_development_rf,Rolling crop development random forest,2023-08-07,tmean_c,importance,0.013407469519193568,0.013407469519193568,87,8
+rolling_crop_development_rf,Rolling crop development random forest,2023-08-07,rhmean_pct,importance,0.01951020579926036,0.01951020579926036,87,8
+rolling_crop_development_rf,Rolling crop development random forest,2023-08-07,solar_radiation,importance,0.05421613263225441,0.05421613263225441,87,8
+rolling_crop_development_rf,Rolling crop development random forest,2023-08-07,gdd_base_10,importance,0.011356616927922562,0.011356616927922562,87,8
+rolling_crop_development_rf,Rolling crop development random forest,2023-08-07,cumulative_gdd_base_10,importance,0.006898637557101043,0.006898637557101043,87,8
+rolling_crop_development_rf,Rolling crop development random forest,2023-08-07,cumulative_solar_radiation,importance,0.004797923173437198,0.004797923173437198,87,8
+rolling_crop_development_rf,Rolling crop development random forest,2023-08-07,tmean_7d,importance,0.004690541586510607,0.004690541586510607,87,8
+rolling_crop_development_rf,Rolling crop development random forest,2023-08-07,solar_radiation_7d,importance,0.024695839223393797,0.024695839223393797,87,8
+rolling_crop_development_rf,Rolling crop development random forest,2023-08-07,rhmean_7d,importance,0.022004790695865018,0.022004790695865018,87,8
+rolling_crop_development_rf,Rolling crop development random forest,2023-08-07,current_fruit_number,importance,0.018420083407723747,0.018420083407723747,87,8
+rolling_crop_development_rf,Rolling crop development random forest,2023-08-07,current_fresh_matter_g,importance,0.2531444419542071,0.2531444419542071,87,8
+rolling_crop_development_rf,Rolling crop development random forest,2023-08-07,current_dry_matter_g,importance,0.015400940539182326,0.015400940539182326,87,8
+rolling_crop_development_rf,Rolling crop development random forest,2023-08-07,previous_fruit_number,importance,0.01750083069489811,0.01750083069489811,87,8
+rolling_crop_development_rf,Rolling crop development random forest,2023-08-07,previous_fresh_matter_g,importance,0.021770023323164935,0.021770023323164935,87,8
+rolling_crop_development_rf,Rolling crop development random forest,2023-08-07,previous_dry_matter_g,importance,0.011972743634417226,0.011972743634417226,87,8
+rolling_crop_development_rf,Rolling crop development random forest,2023-08-07,change_fruit_number,importance,0.004394825338906936,0.004394825338906936,87,8
+rolling_crop_development_rf,Rolling crop development random forest,2023-08-07,change_fresh_matter_g,importance,0.019726310293038514,0.019726310293038514,87,8
+rolling_crop_development_rf,Rolling crop development random forest,2023-08-07,rolling_mean_2_fruit_number,importance,0.04876519310812741,0.04876519310812741,87,8
+rolling_crop_development_rf,Rolling crop development random forest,2023-08-07,rolling_mean_2_fresh_matter_g,importance,0.0419125465398566,0.0419125465398566,87,8
+rolling_crop_development_rf,Rolling crop development random forest,2023-08-07,rolling_mean_3_fruit_number,importance,0.07648372785807066,0.07648372785807066,87,8
+rolling_crop_development_rf,Rolling crop development random forest,2023-08-07,rolling_mean_3_fresh_matter_g,importance,0.14997976574592942,0.14997976574592942,87,8
+rolling_crop_development_rf,Rolling crop development random forest,2023-08-07,mean_fruit_diameter_mm,importance,0.01230156185587815,0.01230156185587815,87,8
+rolling_crop_development_rf,Rolling crop development random forest,2023-08-07,mean_individual_fruit_fresh_weight_g,importance,0.04443619494152885,0.04443619494152885,87,8
+rolling_crop_development_rf,Rolling crop development random forest,2023-08-07,mean_tagged_fruit_diameter_mm,importance,0.002261319889759748,0.002261319889759748,87,8
+rolling_crop_development_rf,Rolling crop development random forest,2023-08-07,mean_tagged_fruit_length_mm,importance,0.00781037519118642,0.00781037519118642,87,8
+rolling_weather_gdd_ridge,Rolling weather + GDD linear model,2023-08-11,treatment_n_level,standardized_coefficient,11.808315714539166,11.808315714539166,91,12
+rolling_weather_gdd_ridge,Rolling weather + GDD linear model,2023-08-11,forecast_horizon_days,standardized_coefficient,2.2058704831527924,2.2058704831527924,91,12
+rolling_weather_gdd_ridge,Rolling weather + GDD linear model,2023-08-11,day_of_year,standardized_coefficient,3.428653380786094,3.428653380786094,91,12
+rolling_weather_gdd_ridge,Rolling weather + GDD linear model,2023-08-11,days_since_weather_start,standardized_coefficient,4.47253745541622,4.47253745541622,91,12
+rolling_weather_gdd_ridge,Rolling weather + GDD linear model,2023-08-11,tmean_c,standardized_coefficient,-3.2307165748406983,3.2307165748406983,91,12
+rolling_weather_gdd_ridge,Rolling weather + GDD linear model,2023-08-11,rhmean_pct,standardized_coefficient,10.722203974589348,10.722203974589348,91,12
+rolling_weather_gdd_ridge,Rolling weather + GDD linear model,2023-08-11,solar_radiation,standardized_coefficient,0.9315027904152284,0.9315027904152284,91,12
+rolling_weather_gdd_ridge,Rolling weather + GDD linear model,2023-08-11,gdd_base_10,standardized_coefficient,-3.2307165748405815,3.2307165748405815,91,12
+rolling_weather_gdd_ridge,Rolling weather + GDD linear model,2023-08-11,cumulative_gdd_base_10,standardized_coefficient,5.526504028661417,5.526504028661417,91,12
+rolling_weather_gdd_ridge,Rolling weather + GDD linear model,2023-08-11,cumulative_solar_radiation,standardized_coefficient,-4.9585092734343315,4.9585092734343315,91,12
+rolling_weather_gdd_ridge,Rolling weather + GDD linear model,2023-08-11,tmean_7d,standardized_coefficient,-3.210381496382493,3.210381496382493,91,12
+rolling_weather_gdd_ridge,Rolling weather + GDD linear model,2023-08-11,solar_radiation_7d,standardized_coefficient,-5.438106315781536,5.438106315781536,91,12
+rolling_weather_gdd_ridge,Rolling weather + GDD linear model,2023-08-11,rhmean_7d,standardized_coefficient,3.303831056536151,3.303831056536151,91,12
+rolling_crop_development_ridge,Rolling crop development linear model,2023-08-11,treatment_n_level,standardized_coefficient,3.210162116066641,3.210162116066641,91,12
+rolling_crop_development_ridge,Rolling crop development linear model,2023-08-11,forecast_horizon_days,standardized_coefficient,4.593543121861472,4.593543121861472,91,12
+rolling_crop_development_ridge,Rolling crop development linear model,2023-08-11,day_of_year,standardized_coefficient,6.179329443634203,6.179329443634203,91,12
+rolling_crop_development_ridge,Rolling crop development linear model,2023-08-11,days_since_weather_start,standardized_coefficient,-1.5551316141976792,1.5551316141976792,91,12
+rolling_crop_development_ridge,Rolling crop development linear model,2023-08-11,cumulative_gdd_base_10,standardized_coefficient,4.149585577954006,4.149585577954006,91,12
+rolling_crop_development_ridge,Rolling crop development linear model,2023-08-11,cumulative_solar_radiation,standardized_coefficient,-12.534528137199795,12.534528137199795,91,12
+rolling_crop_development_ridge,Rolling crop development linear model,2023-08-11,tmean_7d,standardized_coefficient,-5.756136637467149,5.756136637467149,91,12
+rolling_crop_development_ridge,Rolling crop development linear model,2023-08-11,solar_radiation_7d,standardized_coefficient,-4.983897895084672,4.983897895084672,91,12
+rolling_crop_development_ridge,Rolling crop development linear model,2023-08-11,current_fruit_number,standardized_coefficient,12.099567540156686,12.099567540156686,91,12
+rolling_crop_development_ridge,Rolling crop development linear model,2023-08-11,current_fresh_matter_g,standardized_coefficient,10.418090899592167,10.418090899592167,91,12
+rolling_crop_development_ridge,Rolling crop development linear model,2023-08-11,current_dry_matter_g,standardized_coefficient,-6.980168884502209,6.980168884502209,91,12
+rolling_crop_development_ridge,Rolling crop development linear model,2023-08-11,previous_fruit_number,standardized_coefficient,-7.661003007327562,7.661003007327562,91,12
+rolling_crop_development_ridge,Rolling crop development linear model,2023-08-11,previous_fresh_matter_g,standardized_coefficient,6.227776710918206,6.227776710918206,91,12
+rolling_crop_development_ridge,Rolling crop development linear model,2023-08-11,previous_dry_matter_g,standardized_coefficient,-5.941085007973823,5.941085007973823,91,12
+rolling_crop_development_ridge,Rolling crop development linear model,2023-08-11,change_fruit_number,standardized_coefficient,-16.15156622771896,16.15156622771896,91,12
+rolling_crop_development_ridge,Rolling crop development linear model,2023-08-11,change_fresh_matter_g,standardized_coefficient,8.398392835186328,8.398392835186328,91,12
+rolling_crop_development_ridge,Rolling crop development linear model,2023-08-11,rolling_mean_2_fruit_number,standardized_coefficient,-0.23635419895102477,0.23635419895102477,91,12
+rolling_crop_development_ridge,Rolling crop development linear model,2023-08-11,rolling_mean_2_fresh_matter_g,standardized_coefficient,-7.430882326022062,7.430882326022062,91,12
+rolling_crop_development_ridge,Rolling crop development linear model,2023-08-11,rolling_mean_3_fruit_number,standardized_coefficient,9.106257449985382,9.106257449985382,91,12
+rolling_crop_development_ridge,Rolling crop development linear model,2023-08-11,rolling_mean_3_fresh_matter_g,standardized_coefficient,11.089703398921246,11.089703398921246,91,12
+rolling_crop_development_ridge,Rolling crop development linear model,2023-08-11,mean_fruit_diameter_mm,standardized_coefficient,2.1998011004551064,2.1998011004551064,91,12
+rolling_crop_development_ridge,Rolling crop development linear model,2023-08-11,mean_individual_fruit_fresh_weight_g,standardized_coefficient,4.489042355350133,4.489042355350133,91,12
+rolling_crop_development_ridge,Rolling crop development linear model,2023-08-11,mean_tagged_fruit_diameter_mm,standardized_coefficient,0.8047192827304698,0.8047192827304698,91,12
+rolling_crop_development_ridge,Rolling crop development linear model,2023-08-11,mean_tagged_fruit_length_mm,standardized_coefficient,0.3301341919905872,0.3301341919905872,91,12
+rolling_crop_development_rf,Rolling crop development random forest,2023-08-11,treatment_n_level,importance,0.0663418892322209,0.0663418892322209,91,12
+rolling_crop_development_rf,Rolling crop development random forest,2023-08-11,forecast_horizon_days,importance,0.01346120273506071,0.01346120273506071,91,12
+rolling_crop_development_rf,Rolling crop development random forest,2023-08-11,day_of_year,importance,0.006521881877085542,0.006521881877085542,91,12
+rolling_crop_development_rf,Rolling crop development random forest,2023-08-11,days_since_weather_start,importance,0.0036124321479235446,0.0036124321479235446,91,12
+rolling_crop_development_rf,Rolling crop development random forest,2023-08-11,tmax_c,importance,0.01363453726627483,0.01363453726627483,91,12
+rolling_crop_development_rf,Rolling crop development random forest,2023-08-11,tmin_c,importance,0.014731159772875459,0.014731159772875459,91,12
+rolling_crop_development_rf,Rolling crop development random forest,2023-08-11,tmean_c,importance,0.01119138685709918,0.01119138685709918,91,12
+rolling_crop_development_rf,Rolling crop development random forest,2023-08-11,rhmean_pct,importance,0.024036641001338403,0.024036641001338403,91,12
+rolling_crop_development_rf,Rolling crop development random forest,2023-08-11,solar_radiation,importance,0.05514690837899644,0.05514690837899644,91,12
+rolling_crop_development_rf,Rolling crop development random forest,2023-08-11,gdd_base_10,importance,0.009375077167074598,0.009375077167074598,91,12
+rolling_crop_development_rf,Rolling crop development random forest,2023-08-11,cumulative_gdd_base_10,importance,0.003834512089449329,0.003834512089449329,91,12
+rolling_crop_development_rf,Rolling crop development random forest,2023-08-11,cumulative_solar_radiation,importance,0.0034363547285581426,0.0034363547285581426,91,12
+rolling_crop_development_rf,Rolling crop development random forest,2023-08-11,tmean_7d,importance,0.004107556367574083,0.004107556367574083,91,12
+rolling_crop_development_rf,Rolling crop development random forest,2023-08-11,solar_radiation_7d,importance,0.03427521915112399,0.03427521915112399,91,12
+rolling_crop_development_rf,Rolling crop development random forest,2023-08-11,rhmean_7d,importance,0.020623550805985203,0.020623550805985203,91,12
+rolling_crop_development_rf,Rolling crop development random forest,2023-08-11,current_fruit_number,importance,0.017799506565879523,0.017799506565879523,91,12
+rolling_crop_development_rf,Rolling crop development random forest,2023-08-11,current_fresh_matter_g,importance,0.24969013629939185,0.24969013629939185,91,12
+rolling_crop_development_rf,Rolling crop development random forest,2023-08-11,current_dry_matter_g,importance,0.017657514542511226,0.017657514542511226,91,12
+rolling_crop_development_rf,Rolling crop development random forest,2023-08-11,previous_fruit_number,importance,0.018548137753747904,0.018548137753747904,91,12
+rolling_crop_development_rf,Rolling crop development random forest,2023-08-11,previous_fresh_matter_g,importance,0.018656307121265585,0.018656307121265585,91,12
+rolling_crop_development_rf,Rolling crop development random forest,2023-08-11,previous_dry_matter_g,importance,0.013514632249566836,0.013514632249566836,91,12
+rolling_crop_development_rf,Rolling crop development random forest,2023-08-11,change_fruit_number,importance,0.0039501010226075375,0.0039501010226075375,91,12
+rolling_crop_development_rf,Rolling crop development random forest,2023-08-11,change_fresh_matter_g,importance,0.025517640022444547,0.025517640022444547,91,12
+rolling_crop_development_rf,Rolling crop development random forest,2023-08-11,rolling_mean_2_fruit_number,importance,0.036567528714198265,0.036567528714198265,91,12
+rolling_crop_development_rf,Rolling crop development random forest,2023-08-11,rolling_mean_2_fresh_matter_g,importance,0.03685615227404532,0.03685615227404532,91,12
+rolling_crop_development_rf,Rolling crop development random forest,2023-08-11,rolling_mean_3_fruit_number,importance,0.05949567959975791,0.05949567959975791,91,12
+rolling_crop_development_rf,Rolling crop development random forest,2023-08-11,rolling_mean_3_fresh_matter_g,importance,0.14579968103719812,0.14579968103719812,91,12
+rolling_crop_development_rf,Rolling crop development random forest,2023-08-11,mean_fruit_diameter_mm,importance,0.014132407927436625,0.014132407927436625,91,12
+rolling_crop_development_rf,Rolling crop development random forest,2023-08-11,mean_individual_fruit_fresh_weight_g,importance,0.045119955759490085,0.045119955759490085,91,12
+rolling_crop_development_rf,Rolling crop development random forest,2023-08-11,mean_tagged_fruit_diameter_mm,importance,0.0034745972114491722,0.0034745972114491722,91,12
+rolling_crop_development_rf,Rolling crop development random forest,2023-08-11,mean_tagged_fruit_length_mm,importance,0.008889712320369149,0.008889712320369149,91,12
+rolling_weather_gdd_ridge,Rolling weather + GDD linear model,2023-08-13,treatment_n_level,standardized_coefficient,12.49712754365351,12.49712754365351,95,16
+rolling_weather_gdd_ridge,Rolling weather + GDD linear model,2023-08-13,forecast_horizon_days,standardized_coefficient,2.166229759634537,2.166229759634537,95,16
+rolling_weather_gdd_ridge,Rolling weather + GDD linear model,2023-08-13,day_of_year,standardized_coefficient,4.813540520836935,4.813540520836935,95,16
+rolling_weather_gdd_ridge,Rolling weather + GDD linear model,2023-08-13,days_since_weather_start,standardized_coefficient,4.1679303435255735,4.1679303435255735,95,16
+rolling_weather_gdd_ridge,Rolling weather + GDD linear model,2023-08-13,tmean_c,standardized_coefficient,-3.121556455832156,3.121556455832156,95,16
+rolling_weather_gdd_ridge,Rolling weather + GDD linear model,2023-08-13,rhmean_pct,standardized_coefficient,11.302953705551392,11.302953705551392,95,16
+rolling_weather_gdd_ridge,Rolling weather + GDD linear model,2023-08-13,solar_radiation,standardized_coefficient,0.9472727481215146,0.9472727481215146,95,16
+rolling_weather_gdd_ridge,Rolling weather + GDD linear model,2023-08-13,gdd_base_10,standardized_coefficient,-3.1215564558322653,3.1215564558322653,95,16
+rolling_weather_gdd_ridge,Rolling weather + GDD linear model,2023-08-13,cumulative_gdd_base_10,standardized_coefficient,5.770679635146252,5.770679635146252,95,16
+rolling_weather_gdd_ridge,Rolling weather + GDD linear model,2023-08-13,cumulative_solar_radiation,standardized_coefficient,-7.145935695210013,7.145935695210013,95,16
+rolling_weather_gdd_ridge,Rolling weather + GDD linear model,2023-08-13,tmean_7d,standardized_coefficient,-3.917619686642532,3.917619686642532,95,16
+rolling_weather_gdd_ridge,Rolling weather + GDD linear model,2023-08-13,solar_radiation_7d,standardized_coefficient,-5.098182580903816,5.098182580903816,95,16
+rolling_weather_gdd_ridge,Rolling weather + GDD linear model,2023-08-13,rhmean_7d,standardized_coefficient,3.2279050049085067,3.2279050049085067,95,16
+rolling_crop_development_ridge,Rolling crop development linear model,2023-08-13,treatment_n_level,standardized_coefficient,4.7891656523287995,4.7891656523287995,95,16
+rolling_crop_development_ridge,Rolling crop development linear model,2023-08-13,forecast_horizon_days,standardized_coefficient,3.508707622096593,3.508707622096593,95,16
+rolling_crop_development_ridge,Rolling crop development linear model,2023-08-13,day_of_year,standardized_coefficient,7.9732707131726706,7.9732707131726706,95,16
+rolling_crop_development_ridge,Rolling crop development linear model,2023-08-13,days_since_weather_start,standardized_coefficient,-1.3891603819291165,1.3891603819291165,95,16
+rolling_crop_development_ridge,Rolling crop development linear model,2023-08-13,cumulative_gdd_base_10,standardized_coefficient,4.75363028080727,4.75363028080727,95,16
+rolling_crop_development_ridge,Rolling crop development linear model,2023-08-13,cumulative_solar_radiation,standardized_coefficient,-15.05248669200715,15.05248669200715,95,16
+rolling_crop_development_ridge,Rolling crop development linear model,2023-08-13,tmean_7d,standardized_coefficient,-7.207472694136739,7.207472694136739,95,16
+rolling_crop_development_ridge,Rolling crop development linear model,2023-08-13,solar_radiation_7d,standardized_coefficient,-4.695478588884382,4.695478588884382,95,16
+rolling_crop_development_ridge,Rolling crop development linear model,2023-08-13,current_fruit_number,standardized_coefficient,11.9966438024597,11.9966438024597,95,16
+rolling_crop_development_ridge,Rolling crop development linear model,2023-08-13,current_fresh_matter_g,standardized_coefficient,10.711528978425894,10.711528978425894,95,16
+rolling_crop_development_ridge,Rolling crop development linear model,2023-08-13,current_dry_matter_g,standardized_coefficient,-7.958317537959896,7.958317537959896,95,16
+rolling_crop_development_ridge,Rolling crop development linear model,2023-08-13,previous_fruit_number,standardized_coefficient,-7.638362604118843,7.638362604118843,95,16
+rolling_crop_development_ridge,Rolling crop development linear model,2023-08-13,previous_fresh_matter_g,standardized_coefficient,5.723021723698943,5.723021723698943,95,16
+rolling_crop_development_ridge,Rolling crop development linear model,2023-08-13,previous_dry_matter_g,standardized_coefficient,-4.395179253697913,4.395179253697913,95,16
+rolling_crop_development_ridge,Rolling crop development linear model,2023-08-13,change_fruit_number,standardized_coefficient,-15.22874301084787,15.22874301084787,95,16
+rolling_crop_development_ridge,Rolling crop development linear model,2023-08-13,change_fresh_matter_g,standardized_coefficient,7.041181428369654,7.041181428369654,95,16
+rolling_crop_development_ridge,Rolling crop development linear model,2023-08-13,rolling_mean_2_fruit_number,standardized_coefficient,-0.2776613566705813,0.2776613566705813,95,16
+rolling_crop_development_ridge,Rolling crop development linear model,2023-08-13,rolling_mean_2_fresh_matter_g,standardized_coefficient,-9.647194771134851,9.647194771134851,95,16
+rolling_crop_development_ridge,Rolling crop development linear model,2023-08-13,rolling_mean_3_fruit_number,standardized_coefficient,4.577533174070825,4.577533174070825,95,16
+rolling_crop_development_ridge,Rolling crop development linear model,2023-08-13,rolling_mean_3_fresh_matter_g,standardized_coefficient,15.89219893523391,15.89219893523391,95,16
+rolling_crop_development_ridge,Rolling crop development linear model,2023-08-13,mean_fruit_diameter_mm,standardized_coefficient,2.8036325743283594,2.8036325743283594,95,16
+rolling_crop_development_ridge,Rolling crop development linear model,2023-08-13,mean_individual_fruit_fresh_weight_g,standardized_coefficient,4.200472417454008,4.200472417454008,95,16
+rolling_crop_development_ridge,Rolling crop development linear model,2023-08-13,mean_tagged_fruit_diameter_mm,standardized_coefficient,2.4590280631547747,2.4590280631547747,95,16
+rolling_crop_development_ridge,Rolling crop development linear model,2023-08-13,mean_tagged_fruit_length_mm,standardized_coefficient,1.895203747285217,1.895203747285217,95,16
+rolling_crop_development_rf,Rolling crop development random forest,2023-08-13,treatment_n_level,importance,0.1098170096711991,0.1098170096711991,95,16
+rolling_crop_development_rf,Rolling crop development random forest,2023-08-13,forecast_horizon_days,importance,0.013129017612450113,0.013129017612450113,95,16
+rolling_crop_development_rf,Rolling crop development random forest,2023-08-13,day_of_year,importance,0.011132223721175054,0.011132223721175054,95,16
+rolling_crop_development_rf,Rolling crop development random forest,2023-08-13,days_since_weather_start,importance,0.003874158700869415,0.003874158700869415,95,16
+rolling_crop_development_rf,Rolling crop development random forest,2023-08-13,tmax_c,importance,0.009942114089404404,0.009942114089404404,95,16
+rolling_crop_development_rf,Rolling crop development random forest,2023-08-13,tmin_c,importance,0.010994928258672834,0.010994928258672834,95,16
+rolling_crop_development_rf,Rolling crop development random forest,2023-08-13,tmean_c,importance,0.010900109850036385,0.010900109850036385,95,16
+rolling_crop_development_rf,Rolling crop development random forest,2023-08-13,rhmean_pct,importance,0.032743301570130987,0.032743301570130987,95,16
+rolling_crop_development_rf,Rolling crop development random forest,2023-08-13,solar_radiation,importance,0.05596288337204072,0.05596288337204072,95,16
+rolling_crop_development_rf,Rolling crop development random forest,2023-08-13,gdd_base_10,importance,0.011851977368479658,0.011851977368479658,95,16
+rolling_crop_development_rf,Rolling crop development random forest,2023-08-13,cumulative_gdd_base_10,importance,0.004035934726945211,0.004035934726945211,95,16
+rolling_crop_development_rf,Rolling crop development random forest,2023-08-13,cumulative_solar_radiation,importance,0.0033097266491532245,0.0033097266491532245,95,16
+rolling_crop_development_rf,Rolling crop development random forest,2023-08-13,tmean_7d,importance,0.005916191176599647,0.005916191176599647,95,16
+rolling_crop_development_rf,Rolling crop development random forest,2023-08-13,solar_radiation_7d,importance,0.03555306051241916,0.03555306051241916,95,16
+rolling_crop_development_rf,Rolling crop development random forest,2023-08-13,rhmean_7d,importance,0.017381064091310888,0.017381064091310888,95,16
+rolling_crop_development_rf,Rolling crop development random forest,2023-08-13,current_fruit_number,importance,0.015589383408999647,0.015589383408999647,95,16
+rolling_crop_development_rf,Rolling crop development random forest,2023-08-13,current_fresh_matter_g,importance,0.20764649702404012,0.20764649702404012,95,16
+rolling_crop_development_rf,Rolling crop development random forest,2023-08-13,current_dry_matter_g,importance,0.014426075046410533,0.014426075046410533,95,16
+rolling_crop_development_rf,Rolling crop development random forest,2023-08-13,previous_fruit_number,importance,0.012486431646902723,0.012486431646902723,95,16
+rolling_crop_development_rf,Rolling crop development random forest,2023-08-13,previous_fresh_matter_g,importance,0.023030358956767027,0.023030358956767027,95,16
+rolling_crop_development_rf,Rolling crop development random forest,2023-08-13,previous_dry_matter_g,importance,0.014011093637827318,0.014011093637827318,95,16
+rolling_crop_development_rf,Rolling crop development random forest,2023-08-13,change_fruit_number,importance,0.005471853063748328,0.005471853063748328,95,16
+rolling_crop_development_rf,Rolling crop development random forest,2023-08-13,change_fresh_matter_g,importance,0.015092443404012995,0.015092443404012995,95,16
+rolling_crop_development_rf,Rolling crop development random forest,2023-08-13,rolling_mean_2_fruit_number,importance,0.040973268834613163,0.040973268834613163,95,16
+rolling_crop_development_rf,Rolling crop development random forest,2023-08-13,rolling_mean_2_fresh_matter_g,importance,0.04391999783717023,0.04391999783717023,95,16
+rolling_crop_development_rf,Rolling crop development random forest,2023-08-13,rolling_mean_3_fruit_number,importance,0.033929747035061665,0.033929747035061665,95,16
+rolling_crop_development_rf,Rolling crop development random forest,2023-08-13,rolling_mean_3_fresh_matter_g,importance,0.1613669375982392,0.1613669375982392,95,16
+rolling_crop_development_rf,Rolling crop development random forest,2023-08-13,mean_fruit_diameter_mm,importance,0.015636329847650114,0.015636329847650114,95,16
+rolling_crop_development_rf,Rolling crop development random forest,2023-08-13,mean_individual_fruit_fresh_weight_g,importance,0.04173101884392657,0.04173101884392657,95,16
+rolling_crop_development_rf,Rolling crop development random forest,2023-08-13,mean_tagged_fruit_diameter_mm,importance,0.004434154471754761,0.004434154471754761,95,16
+rolling_crop_development_rf,Rolling crop development random forest,2023-08-13,mean_tagged_fruit_length_mm,importance,0.013710707971988626,0.013710707971988626,95,16
+rolling_weather_gdd_ridge,Rolling weather + GDD linear model,2023-08-17,treatment_n_level,standardized_coefficient,12.6897936932989,12.6897936932989,99,20
+rolling_weather_gdd_ridge,Rolling weather + GDD linear model,2023-08-17,forecast_horizon_days,standardized_coefficient,2.0530076951073366,2.0530076951073366,99,20
+rolling_weather_gdd_ridge,Rolling weather + GDD linear model,2023-08-17,day_of_year,standardized_coefficient,4.559399407803665,4.559399407803665,99,20
+rolling_weather_gdd_ridge,Rolling weather + GDD linear model,2023-08-17,days_since_weather_start,standardized_coefficient,4.129224170437449,4.129224170437449,99,20
+rolling_weather_gdd_ridge,Rolling weather + GDD linear model,2023-08-17,tmean_c,standardized_coefficient,-2.978412275446493,2.978412275446493,99,20
+rolling_weather_gdd_ridge,Rolling weather + GDD linear model,2023-08-17,rhmean_pct,standardized_coefficient,11.387788413833356,11.387788413833356,99,20
+rolling_weather_gdd_ridge,Rolling weather + GDD linear model,2023-08-17,solar_radiation,standardized_coefficient,0.7301994031660418,0.7301994031660418,99,20
+rolling_weather_gdd_ridge,Rolling weather + GDD linear model,2023-08-17,gdd_base_10,standardized_coefficient,-2.9784122754460656,2.9784122754460656,99,20
+rolling_weather_gdd_ridge,Rolling weather + GDD linear model,2023-08-17,cumulative_gdd_base_10,standardized_coefficient,5.517976262725577,5.517976262725577,99,20
+rolling_weather_gdd_ridge,Rolling weather + GDD linear model,2023-08-17,cumulative_solar_radiation,standardized_coefficient,-6.4850053727175725,6.4850053727175725,99,20
+rolling_weather_gdd_ridge,Rolling weather + GDD linear model,2023-08-17,tmean_7d,standardized_coefficient,-3.687620624267708,3.687620624267708,99,20
+rolling_weather_gdd_ridge,Rolling weather + GDD linear model,2023-08-17,solar_radiation_7d,standardized_coefficient,-5.087016448059664,5.087016448059664,99,20
+rolling_weather_gdd_ridge,Rolling weather + GDD linear model,2023-08-17,rhmean_7d,standardized_coefficient,3.335765494423733,3.335765494423733,99,20
+rolling_crop_development_ridge,Rolling crop development linear model,2023-08-17,treatment_n_level,standardized_coefficient,5.239275289427973,5.239275289427973,99,20
+rolling_crop_development_ridge,Rolling crop development linear model,2023-08-17,forecast_horizon_days,standardized_coefficient,3.6037957110743486,3.6037957110743486,99,20
+rolling_crop_development_ridge,Rolling crop development linear model,2023-08-17,day_of_year,standardized_coefficient,9.663274969618032,9.663274969618032,99,20
+rolling_crop_development_ridge,Rolling crop development linear model,2023-08-17,days_since_weather_start,standardized_coefficient,-2.082126302709684,2.082126302709684,99,20
+rolling_crop_development_ridge,Rolling crop development linear model,2023-08-17,cumulative_gdd_base_10,standardized_coefficient,6.684874949985977,6.684874949985977,99,20
+rolling_crop_development_ridge,Rolling crop development linear model,2023-08-17,cumulative_solar_radiation,standardized_coefficient,-20.376873583946402,20.376873583946402,99,20
+rolling_crop_development_ridge,Rolling crop development linear model,2023-08-17,tmean_7d,standardized_coefficient,-8.440086404316014,8.440086404316014,99,20
+rolling_crop_development_ridge,Rolling crop development linear model,2023-08-17,solar_radiation_7d,standardized_coefficient,-4.2018256859603405,4.2018256859603405,99,20
+rolling_crop_development_ridge,Rolling crop development linear model,2023-08-17,current_fruit_number,standardized_coefficient,10.695164379026519,10.695164379026519,99,20
+rolling_crop_development_ridge,Rolling crop development linear model,2023-08-17,current_fresh_matter_g,standardized_coefficient,9.933897880069539,9.933897880069539,99,20
+rolling_crop_development_ridge,Rolling crop development linear model,2023-08-17,current_dry_matter_g,standardized_coefficient,-5.958979192843161,5.958979192843161,99,20
+rolling_crop_development_ridge,Rolling crop development linear model,2023-08-17,previous_fruit_number,standardized_coefficient,-7.515371479408623,7.515371479408623,99,20
+rolling_crop_development_ridge,Rolling crop development linear model,2023-08-17,previous_fresh_matter_g,standardized_coefficient,6.473936795099115,6.473936795099115,99,20
+rolling_crop_development_ridge,Rolling crop development linear model,2023-08-17,previous_dry_matter_g,standardized_coefficient,-4.4460143147767806,4.4460143147767806,99,20
+rolling_crop_development_ridge,Rolling crop development linear model,2023-08-17,change_fruit_number,standardized_coefficient,-16.895355167566727,16.895355167566727,99,20
+rolling_crop_development_ridge,Rolling crop development linear model,2023-08-17,change_fresh_matter_g,standardized_coefficient,9.077476688052469,9.077476688052469,99,20
+rolling_crop_development_ridge,Rolling crop development linear model,2023-08-17,rolling_mean_2_fruit_number,standardized_coefficient,-1.2798334799285702,1.2798334799285702,99,20
+rolling_crop_development_ridge,Rolling crop development linear model,2023-08-17,rolling_mean_2_fresh_matter_g,standardized_coefficient,-7.937335046755687,7.937335046755687,99,20
+rolling_crop_development_ridge,Rolling crop development linear model,2023-08-17,rolling_mean_3_fruit_number,standardized_coefficient,5.3418187680882845,5.3418187680882845,99,20
+rolling_crop_development_ridge,Rolling crop development linear model,2023-08-17,rolling_mean_3_fresh_matter_g,standardized_coefficient,14.365374382224152,14.365374382224152,99,20
+rolling_crop_development_ridge,Rolling crop development linear model,2023-08-17,mean_fruit_diameter_mm,standardized_coefficient,3.124386713855967,3.124386713855967,99,20
+rolling_crop_development_ridge,Rolling crop development linear model,2023-08-17,mean_individual_fruit_fresh_weight_g,standardized_coefficient,3.149717655600481,3.149717655600481,99,20
+rolling_crop_development_ridge,Rolling crop development linear model,2023-08-17,mean_tagged_fruit_diameter_mm,standardized_coefficient,3.042961276422824,3.042961276422824,99,20
+rolling_crop_development_ridge,Rolling crop development linear model,2023-08-17,mean_tagged_fruit_length_mm,standardized_coefficient,1.5847199070211384,1.5847199070211384,99,20
+rolling_crop_development_rf,Rolling crop development random forest,2023-08-17,treatment_n_level,importance,0.11406540035437797,0.11406540035437797,99,20
+rolling_crop_development_rf,Rolling crop development random forest,2023-08-17,forecast_horizon_days,importance,0.012571408685841048,0.012571408685841048,99,20
+rolling_crop_development_rf,Rolling crop development random forest,2023-08-17,day_of_year,importance,0.009197013512291175,0.009197013512291175,99,20
+rolling_crop_development_rf,Rolling crop development random forest,2023-08-17,days_since_weather_start,importance,0.003880972685916747,0.003880972685916747,99,20
+rolling_crop_development_rf,Rolling crop development random forest,2023-08-17,tmax_c,importance,0.011342014538817766,0.011342014538817766,99,20
+rolling_crop_development_rf,Rolling crop development random forest,2023-08-17,tmin_c,importance,0.009714687764144322,0.009714687764144322,99,20
+rolling_crop_development_rf,Rolling crop development random forest,2023-08-17,tmean_c,importance,0.01344598711143386,0.01344598711143386,99,20
+rolling_crop_development_rf,Rolling crop development random forest,2023-08-17,rhmean_pct,importance,0.04112752149415394,0.04112752149415394,99,20
+rolling_crop_development_rf,Rolling crop development random forest,2023-08-17,solar_radiation,importance,0.06037598357202577,0.06037598357202577,99,20
+rolling_crop_development_rf,Rolling crop development random forest,2023-08-17,gdd_base_10,importance,0.012823612503797798,0.012823612503797798,99,20
+rolling_crop_development_rf,Rolling crop development random forest,2023-08-17,cumulative_gdd_base_10,importance,0.0017101033716486482,0.0017101033716486482,99,20
+rolling_crop_development_rf,Rolling crop development random forest,2023-08-17,cumulative_solar_radiation,importance,0.002942912232263975,0.002942912232263975,99,20
+rolling_crop_development_rf,Rolling crop development random forest,2023-08-17,tmean_7d,importance,0.00842235406270267,0.00842235406270267,99,20
+rolling_crop_development_rf,Rolling crop development random forest,2023-08-17,solar_radiation_7d,importance,0.0265842962811792,0.0265842962811792,99,20
+rolling_crop_development_rf,Rolling crop development random forest,2023-08-17,rhmean_7d,importance,0.019612480052283818,0.019612480052283818,99,20
+rolling_crop_development_rf,Rolling crop development random forest,2023-08-17,current_fruit_number,importance,0.0166373727316018,0.0166373727316018,99,20
+rolling_crop_development_rf,Rolling crop development random forest,2023-08-17,current_fresh_matter_g,importance,0.2318983070255323,0.2318983070255323,99,20
+rolling_crop_development_rf,Rolling crop development random forest,2023-08-17,current_dry_matter_g,importance,0.023567239879581592,0.023567239879581592,99,20
+rolling_crop_development_rf,Rolling crop development random forest,2023-08-17,previous_fruit_number,importance,0.020022772983877286,0.020022772983877286,99,20
+rolling_crop_development_rf,Rolling crop development random forest,2023-08-17,previous_fresh_matter_g,importance,0.016621127225558013,0.016621127225558013,99,20
+rolling_crop_development_rf,Rolling crop development random forest,2023-08-17,previous_dry_matter_g,importance,0.011033854699910646,0.011033854699910646,99,20
+rolling_crop_development_rf,Rolling crop development random forest,2023-08-17,change_fruit_number,importance,0.003400042408529519,0.003400042408529519,99,20
+rolling_crop_development_rf,Rolling crop development random forest,2023-08-17,change_fresh_matter_g,importance,0.016397918207232444,0.016397918207232444,99,20
+rolling_crop_development_rf,Rolling crop development random forest,2023-08-17,rolling_mean_2_fruit_number,importance,0.04212397423407571,0.04212397423407571,99,20
+rolling_crop_development_rf,Rolling crop development random forest,2023-08-17,rolling_mean_2_fresh_matter_g,importance,0.03868070907330672,0.03868070907330672,99,20
+rolling_crop_development_rf,Rolling crop development random forest,2023-08-17,rolling_mean_3_fruit_number,importance,0.028094226477105955,0.028094226477105955,99,20
+rolling_crop_development_rf,Rolling crop development random forest,2023-08-17,rolling_mean_3_fresh_matter_g,importance,0.13599763561843112,0.13599763561843112,99,20
+rolling_crop_development_rf,Rolling crop development random forest,2023-08-17,mean_fruit_diameter_mm,importance,0.012510012933189164,0.012510012933189164,99,20
+rolling_crop_development_rf,Rolling crop development random forest,2023-08-17,mean_individual_fruit_fresh_weight_g,importance,0.03182403708905263,0.03182403708905263,99,20
+rolling_crop_development_rf,Rolling crop development random forest,2023-08-17,mean_tagged_fruit_diameter_mm,importance,0.005254000824745635,0.005254000824745635,99,20
+rolling_crop_development_rf,Rolling crop development random forest,2023-08-17,mean_tagged_fruit_length_mm,importance,0.01812002036539089,0.01812002036539089,99,20
+rolling_weather_gdd_ridge,Rolling weather + GDD linear model,2023-08-21,treatment_n_level,standardized_coefficient,13.011813287455297,13.011813287455297,103,24
+rolling_weather_gdd_ridge,Rolling weather + GDD linear model,2023-08-21,forecast_horizon_days,standardized_coefficient,2.0313981063808946,2.0313981063808946,103,24
+rolling_weather_gdd_ridge,Rolling weather + GDD linear model,2023-08-21,day_of_year,standardized_coefficient,8.0327871440293,8.0327871440293,103,24
+rolling_weather_gdd_ridge,Rolling weather + GDD linear model,2023-08-21,days_since_weather_start,standardized_coefficient,3.4692898901001747,3.4692898901001747,103,24
+rolling_weather_gdd_ridge,Rolling weather + GDD linear model,2023-08-21,tmean_c,standardized_coefficient,-3.093274800691854,3.093274800691854,103,24
+rolling_weather_gdd_ridge,Rolling weather + GDD linear model,2023-08-21,rhmean_pct,standardized_coefficient,10.046937074162878,10.046937074162878,103,24
+rolling_weather_gdd_ridge,Rolling weather + GDD linear model,2023-08-21,solar_radiation,standardized_coefficient,1.4435315944825289,1.4435315944825289,103,24
+rolling_weather_gdd_ridge,Rolling weather + GDD linear model,2023-08-21,gdd_base_10,standardized_coefficient,-3.0932748006919004,3.0932748006919004,103,24
+rolling_weather_gdd_ridge,Rolling weather + GDD linear model,2023-08-21,cumulative_gdd_base_10,standardized_coefficient,7.503682003929419,7.503682003929419,103,24
+rolling_weather_gdd_ridge,Rolling weather + GDD linear model,2023-08-21,cumulative_solar_radiation,standardized_coefficient,-13.396489915829093,13.396489915829093,103,24
+rolling_weather_gdd_ridge,Rolling weather + GDD linear model,2023-08-21,tmean_7d,standardized_coefficient,-5.655765548972494,5.655765548972494,103,24
+rolling_weather_gdd_ridge,Rolling weather + GDD linear model,2023-08-21,solar_radiation_7d,standardized_coefficient,-3.6154394786883546,3.6154394786883546,103,24
+rolling_weather_gdd_ridge,Rolling weather + GDD linear model,2023-08-21,rhmean_7d,standardized_coefficient,6.07488659694225,6.07488659694225,103,24
+rolling_crop_development_ridge,Rolling crop development linear model,2023-08-21,treatment_n_level,standardized_coefficient,5.776828664657402,5.776828664657402,103,24
+rolling_crop_development_ridge,Rolling crop development linear model,2023-08-21,forecast_horizon_days,standardized_coefficient,3.402368052892226,3.402368052892226,103,24
+rolling_crop_development_ridge,Rolling crop development linear model,2023-08-21,day_of_year,standardized_coefficient,10.958649356546445,10.958649356546445,103,24
+rolling_crop_development_ridge,Rolling crop development linear model,2023-08-21,days_since_weather_start,standardized_coefficient,-3.0017115814980353,3.0017115814980353,103,24
+rolling_crop_development_ridge,Rolling crop development linear model,2023-08-21,cumulative_gdd_base_10,standardized_coefficient,8.89036304973163,8.89036304973163,103,24
+rolling_crop_development_ridge,Rolling crop development linear model,2023-08-21,cumulative_solar_radiation,standardized_coefficient,-25.17014939762686,25.17014939762686,103,24
+rolling_crop_development_ridge,Rolling crop development linear model,2023-08-21,tmean_7d,standardized_coefficient,-9.135903289165228,9.135903289165228,103,24
+rolling_crop_development_ridge,Rolling crop development linear model,2023-08-21,solar_radiation_7d,standardized_coefficient,-4.138735685745756,4.138735685745756,103,24
+rolling_crop_development_ridge,Rolling crop development linear model,2023-08-21,current_fruit_number,standardized_coefficient,10.299219009436973,10.299219009436973,103,24
+rolling_crop_development_ridge,Rolling crop development linear model,2023-08-21,current_fresh_matter_g,standardized_coefficient,9.859887901729769,9.859887901729769,103,24
+rolling_crop_development_ridge,Rolling crop development linear model,2023-08-21,current_dry_matter_g,standardized_coefficient,-4.978604913308148,4.978604913308148,103,24
+rolling_crop_development_ridge,Rolling crop development linear model,2023-08-21,previous_fruit_number,standardized_coefficient,-8.650662923041718,8.650662923041718,103,24
+rolling_crop_development_ridge,Rolling crop development linear model,2023-08-21,previous_fresh_matter_g,standardized_coefficient,5.347769661935515,5.347769661935515,103,24
+rolling_crop_development_ridge,Rolling crop development linear model,2023-08-21,previous_dry_matter_g,standardized_coefficient,-2.337228621192018,2.337228621192018,103,24
+rolling_crop_development_ridge,Rolling crop development linear model,2023-08-21,change_fruit_number,standardized_coefficient,-15.441999054690026,15.441999054690026,103,24
+rolling_crop_development_ridge,Rolling crop development linear model,2023-08-21,change_fresh_matter_g,standardized_coefficient,8.041516614974018,8.041516614974018,103,24
+rolling_crop_development_ridge,Rolling crop development linear model,2023-08-21,rolling_mean_2_fruit_number,standardized_coefficient,0.2335630945016838,0.2335630945016838,103,24
+rolling_crop_development_ridge,Rolling crop development linear model,2023-08-21,rolling_mean_2_fresh_matter_g,standardized_coefficient,-7.046070211480514,7.046070211480514,103,24
+rolling_crop_development_ridge,Rolling crop development linear model,2023-08-21,rolling_mean_3_fruit_number,standardized_coefficient,5.208504945914343,5.208504945914343,103,24
+rolling_crop_development_ridge,Rolling crop development linear model,2023-08-21,rolling_mean_3_fresh_matter_g,standardized_coefficient,12.471509328326093,12.471509328326093,103,24
+rolling_crop_development_ridge,Rolling crop development linear model,2023-08-21,mean_fruit_diameter_mm,standardized_coefficient,3.6628661880700335,3.6628661880700335,103,24
+rolling_crop_development_ridge,Rolling crop development linear model,2023-08-21,mean_individual_fruit_fresh_weight_g,standardized_coefficient,2.215125109481459,2.215125109481459,103,24
+rolling_crop_development_ridge,Rolling crop development linear model,2023-08-21,mean_tagged_fruit_diameter_mm,standardized_coefficient,3.199922335652295,3.199922335652295,103,24
+rolling_crop_development_ridge,Rolling crop development linear model,2023-08-21,mean_tagged_fruit_length_mm,standardized_coefficient,-0.34855392348270114,0.34855392348270114,103,24
+rolling_crop_development_rf,Rolling crop development random forest,2023-08-21,treatment_n_level,importance,0.10069720954837548,0.10069720954837548,103,24
+rolling_crop_development_rf,Rolling crop development random forest,2023-08-21,forecast_horizon_days,importance,0.011554522678647736,0.011554522678647736,103,24
+rolling_crop_development_rf,Rolling crop development random forest,2023-08-21,day_of_year,importance,0.00809379845457525,0.00809379845457525,103,24
+rolling_crop_development_rf,Rolling crop development random forest,2023-08-21,days_since_weather_start,importance,0.002875786101471433,0.002875786101471433,103,24
+rolling_crop_development_rf,Rolling crop development random forest,2023-08-21,tmax_c,importance,0.014763386053815613,0.014763386053815613,103,24
+rolling_crop_development_rf,Rolling crop development random forest,2023-08-21,tmin_c,importance,0.010004094429212372,0.010004094429212372,103,24
+rolling_crop_development_rf,Rolling crop development random forest,2023-08-21,tmean_c,importance,0.018406762191585675,0.018406762191585675,103,24
+rolling_crop_development_rf,Rolling crop development random forest,2023-08-21,rhmean_pct,importance,0.03379158683922394,0.03379158683922394,103,24
+rolling_crop_development_rf,Rolling crop development random forest,2023-08-21,solar_radiation,importance,0.0487985098805881,0.0487985098805881,103,24
+rolling_crop_development_rf,Rolling crop development random forest,2023-08-21,gdd_base_10,importance,0.009893614653766812,0.009893614653766812,103,24
+rolling_crop_development_rf,Rolling crop development random forest,2023-08-21,cumulative_gdd_base_10,importance,0.002792802095323266,0.002792802095323266,103,24
+rolling_crop_development_rf,Rolling crop development random forest,2023-08-21,cumulative_solar_radiation,importance,0.005463879593942594,0.005463879593942594,103,24
+rolling_crop_development_rf,Rolling crop development random forest,2023-08-21,tmean_7d,importance,0.0061117184442098065,0.0061117184442098065,103,24
+rolling_crop_development_rf,Rolling crop development random forest,2023-08-21,solar_radiation_7d,importance,0.040435666602999014,0.040435666602999014,103,24
+rolling_crop_development_rf,Rolling crop development random forest,2023-08-21,rhmean_7d,importance,0.019297561540737862,0.019297561540737862,103,24
+rolling_crop_development_rf,Rolling crop development random forest,2023-08-21,current_fruit_number,importance,0.016148422771170356,0.016148422771170356,103,24
+rolling_crop_development_rf,Rolling crop development random forest,2023-08-21,current_fresh_matter_g,importance,0.28136866742894046,0.28136866742894046,103,24
+rolling_crop_development_rf,Rolling crop development random forest,2023-08-21,current_dry_matter_g,importance,0.032432595330076606,0.032432595330076606,103,24
+rolling_crop_development_rf,Rolling crop development random forest,2023-08-21,previous_fruit_number,importance,0.011186119131401722,0.011186119131401722,103,24
+rolling_crop_development_rf,Rolling crop development random forest,2023-08-21,previous_fresh_matter_g,importance,0.016731253172847866,0.016731253172847866,103,24
+rolling_crop_development_rf,Rolling crop development random forest,2023-08-21,previous_dry_matter_g,importance,0.008549309519436027,0.008549309519436027,103,24
+rolling_crop_development_rf,Rolling crop development random forest,2023-08-21,change_fruit_number,importance,0.004812287569939028,0.004812287569939028,103,24
+rolling_crop_development_rf,Rolling crop development random forest,2023-08-21,change_fresh_matter_g,importance,0.016909713815493197,0.016909713815493197,103,24
+rolling_crop_development_rf,Rolling crop development random forest,2023-08-21,rolling_mean_2_fruit_number,importance,0.041728681915017704,0.041728681915017704,103,24
+rolling_crop_development_rf,Rolling crop development random forest,2023-08-21,rolling_mean_2_fresh_matter_g,importance,0.036051394373765984,0.036051394373765984,103,24
+rolling_crop_development_rf,Rolling crop development random forest,2023-08-21,rolling_mean_3_fruit_number,importance,0.03070387128703321,0.03070387128703321,103,24
+rolling_crop_development_rf,Rolling crop development random forest,2023-08-21,rolling_mean_3_fresh_matter_g,importance,0.11900877436777237,0.11900877436777237,103,24
+rolling_crop_development_rf,Rolling crop development random forest,2023-08-21,mean_fruit_diameter_mm,importance,0.014893641501154228,0.014893641501154228,103,24
+rolling_crop_development_rf,Rolling crop development random forest,2023-08-21,mean_individual_fruit_fresh_weight_g,importance,0.01532117866934961,0.01532117866934961,103,24
+rolling_crop_development_rf,Rolling crop development random forest,2023-08-21,mean_tagged_fruit_diameter_mm,importance,0.0056519674564839886,0.0056519674564839886,103,24
+rolling_crop_development_rf,Rolling crop development random forest,2023-08-21,mean_tagged_fruit_length_mm,importance,0.015521222581642681,0.015521222581642681,103,24
+rolling_weather_gdd_ridge,Rolling weather + GDD linear model,2023-08-24,treatment_n_level,standardized_coefficient,13.127838996889814,13.127838996889814,107,28
+rolling_weather_gdd_ridge,Rolling weather + GDD linear model,2023-08-24,forecast_horizon_days,standardized_coefficient,1.7924646502683002,1.7924646502683002,107,28
+rolling_weather_gdd_ridge,Rolling weather + GDD linear model,2023-08-24,day_of_year,standardized_coefficient,4.411407226054141,4.411407226054141,107,28
+rolling_weather_gdd_ridge,Rolling weather + GDD linear model,2023-08-24,days_since_weather_start,standardized_coefficient,3.7397568561966046,3.7397568561966046,107,28
+rolling_weather_gdd_ridge,Rolling weather + GDD linear model,2023-08-24,tmean_c,standardized_coefficient,-2.4945360325922623,2.4945360325922623,107,28
+rolling_weather_gdd_ridge,Rolling weather + GDD linear model,2023-08-24,rhmean_pct,standardized_coefficient,7.262490552375573,7.262490552375573,107,28
+rolling_weather_gdd_ridge,Rolling weather + GDD linear model,2023-08-24,solar_radiation,standardized_coefficient,-0.04720578784098244,0.04720578784098244,107,28
+rolling_weather_gdd_ridge,Rolling weather + GDD linear model,2023-08-24,gdd_base_10,standardized_coefficient,-2.494536032592156,2.494536032592156,107,28
+rolling_weather_gdd_ridge,Rolling weather + GDD linear model,2023-08-24,cumulative_gdd_base_10,standardized_coefficient,4.540015834857241,4.540015834857241,107,28
+rolling_weather_gdd_ridge,Rolling weather + GDD linear model,2023-08-24,cumulative_solar_radiation,standardized_coefficient,-4.864104436319764,4.864104436319764,107,28
+rolling_weather_gdd_ridge,Rolling weather + GDD linear model,2023-08-24,tmean_7d,standardized_coefficient,-3.9436865996616075,3.9436865996616075,107,28
+rolling_weather_gdd_ridge,Rolling weather + GDD linear model,2023-08-24,solar_radiation_7d,standardized_coefficient,-4.815344901957192,4.815344901957192,107,28
+rolling_weather_gdd_ridge,Rolling weather + GDD linear model,2023-08-24,rhmean_7d,standardized_coefficient,6.570789063977964,6.570789063977964,107,28
+rolling_crop_development_ridge,Rolling crop development linear model,2023-08-24,treatment_n_level,standardized_coefficient,6.185649427840115,6.185649427840115,107,28
+rolling_crop_development_ridge,Rolling crop development linear model,2023-08-24,forecast_horizon_days,standardized_coefficient,3.544639921800428,3.544639921800428,107,28
+rolling_crop_development_ridge,Rolling crop development linear model,2023-08-24,day_of_year,standardized_coefficient,7.077815240593248,7.077815240593248,107,28
+rolling_crop_development_ridge,Rolling crop development linear model,2023-08-24,days_since_weather_start,standardized_coefficient,-2.075338802665651,2.075338802665651,107,28
+rolling_crop_development_ridge,Rolling crop development linear model,2023-08-24,cumulative_gdd_base_10,standardized_coefficient,5.459361687993146,5.459361687993146,107,28
+rolling_crop_development_ridge,Rolling crop development linear model,2023-08-24,cumulative_solar_radiation,standardized_coefficient,-16.421941043543566,16.421941043543566,107,28
+rolling_crop_development_ridge,Rolling crop development linear model,2023-08-24,tmean_7d,standardized_coefficient,-8.83738860762196,8.83738860762196,107,28
+rolling_crop_development_ridge,Rolling crop development linear model,2023-08-24,solar_radiation_7d,standardized_coefficient,-4.769383241864302,4.769383241864302,107,28
+rolling_crop_development_ridge,Rolling crop development linear model,2023-08-24,current_fruit_number,standardized_coefficient,9.905211059388813,9.905211059388813,107,28
+rolling_crop_development_ridge,Rolling crop development linear model,2023-08-24,current_fresh_matter_g,standardized_coefficient,9.66311933814114,9.66311933814114,107,28
+rolling_crop_development_ridge,Rolling crop development linear model,2023-08-24,current_dry_matter_g,standardized_coefficient,-5.322102844160011,5.322102844160011,107,28
+rolling_crop_development_ridge,Rolling crop development linear model,2023-08-24,previous_fruit_number,standardized_coefficient,-8.530983696912596,8.530983696912596,107,28
+rolling_crop_development_ridge,Rolling crop development linear model,2023-08-24,previous_fresh_matter_g,standardized_coefficient,6.9354076865431225,6.9354076865431225,107,28
+rolling_crop_development_ridge,Rolling crop development linear model,2023-08-24,previous_dry_matter_g,standardized_coefficient,-3.817824845949556,3.817824845949556,107,28
+rolling_crop_development_ridge,Rolling crop development linear model,2023-08-24,change_fruit_number,standardized_coefficient,-16.221006151788995,16.221006151788995,107,28
+rolling_crop_development_ridge,Rolling crop development linear model,2023-08-24,change_fresh_matter_g,standardized_coefficient,8.900802376970256,8.900802376970256,107,28
+rolling_crop_development_ridge,Rolling crop development linear model,2023-08-24,rolling_mean_2_fruit_number,standardized_coefficient,-1.4498997995000567,1.4498997995000567,107,28
+rolling_crop_development_ridge,Rolling crop development linear model,2023-08-24,rolling_mean_2_fresh_matter_g,standardized_coefficient,-6.211846734327231,6.211846734327231,107,28
+rolling_crop_development_ridge,Rolling crop development linear model,2023-08-24,rolling_mean_3_fruit_number,standardized_coefficient,3.415484237686588,3.415484237686588,107,28
+rolling_crop_development_ridge,Rolling crop development linear model,2023-08-24,rolling_mean_3_fresh_matter_g,standardized_coefficient,13.90679149431762,13.90679149431762,107,28
+rolling_crop_development_ridge,Rolling crop development linear model,2023-08-24,mean_fruit_diameter_mm,standardized_coefficient,2.8581400164641404,2.8581400164641404,107,28
+rolling_crop_development_ridge,Rolling crop development linear model,2023-08-24,mean_individual_fruit_fresh_weight_g,standardized_coefficient,2.853105954761196,2.853105954761196,107,28
+rolling_crop_development_ridge,Rolling crop development linear model,2023-08-24,mean_tagged_fruit_diameter_mm,standardized_coefficient,2.7446990686776362,2.7446990686776362,107,28
+rolling_crop_development_ridge,Rolling crop development linear model,2023-08-24,mean_tagged_fruit_length_mm,standardized_coefficient,2.7910725135116934,2.7910725135116934,107,28
+rolling_crop_development_rf,Rolling crop development random forest,2023-08-24,treatment_n_level,importance,0.12474201861804132,0.12474201861804132,107,28
+rolling_crop_development_rf,Rolling crop development random forest,2023-08-24,forecast_horizon_days,importance,0.024642453684035486,0.024642453684035486,107,28
+rolling_crop_development_rf,Rolling crop development random forest,2023-08-24,day_of_year,importance,0.009363218293018222,0.009363218293018222,107,28
+rolling_crop_development_rf,Rolling crop development random forest,2023-08-24,days_since_weather_start,importance,0.0018925965459015593,0.0018925965459015593,107,28
+rolling_crop_development_rf,Rolling crop development random forest,2023-08-24,tmax_c,importance,0.015987581900820613,0.015987581900820613,107,28
+rolling_crop_development_rf,Rolling crop development random forest,2023-08-24,tmin_c,importance,0.013855780010226113,0.013855780010226113,107,28
+rolling_crop_development_rf,Rolling crop development random forest,2023-08-24,tmean_c,importance,0.013250109797758114,0.013250109797758114,107,28
+rolling_crop_development_rf,Rolling crop development random forest,2023-08-24,rhmean_pct,importance,0.03249528788624196,0.03249528788624196,107,28
+rolling_crop_development_rf,Rolling crop development random forest,2023-08-24,solar_radiation,importance,0.04401374854178292,0.04401374854178292,107,28
+rolling_crop_development_rf,Rolling crop development random forest,2023-08-24,gdd_base_10,importance,0.01013924233204192,0.01013924233204192,107,28
+rolling_crop_development_rf,Rolling crop development random forest,2023-08-24,cumulative_gdd_base_10,importance,0.003670989889858546,0.003670989889858546,107,28
+rolling_crop_development_rf,Rolling crop development random forest,2023-08-24,cumulative_solar_radiation,importance,0.0035788538392189637,0.0035788538392189637,107,28
+rolling_crop_development_rf,Rolling crop development random forest,2023-08-24,tmean_7d,importance,0.01645137113771064,0.01645137113771064,107,28
+rolling_crop_development_rf,Rolling crop development random forest,2023-08-24,solar_radiation_7d,importance,0.04043672867406785,0.04043672867406785,107,28
+rolling_crop_development_rf,Rolling crop development random forest,2023-08-24,rhmean_7d,importance,0.027705861199837915,0.027705861199837915,107,28
+rolling_crop_development_rf,Rolling crop development random forest,2023-08-24,current_fruit_number,importance,0.016845786935322484,0.016845786935322484,107,28
+rolling_crop_development_rf,Rolling crop development random forest,2023-08-24,current_fresh_matter_g,importance,0.20105131301534618,0.20105131301534618,107,28
+rolling_crop_development_rf,Rolling crop development random forest,2023-08-24,current_dry_matter_g,importance,0.02698325463991827,0.02698325463991827,107,28
+rolling_crop_development_rf,Rolling crop development random forest,2023-08-24,previous_fruit_number,importance,0.0065946111939173034,0.0065946111939173034,107,28
+rolling_crop_development_rf,Rolling crop development random forest,2023-08-24,previous_fresh_matter_g,importance,0.018984636135292308,0.018984636135292308,107,28
+rolling_crop_development_rf,Rolling crop development random forest,2023-08-24,previous_dry_matter_g,importance,0.009664217972782255,0.009664217972782255,107,28
+rolling_crop_development_rf,Rolling crop development random forest,2023-08-24,change_fruit_number,importance,0.0065938952316702965,0.0065938952316702965,107,28
+rolling_crop_development_rf,Rolling crop development random forest,2023-08-24,change_fresh_matter_g,importance,0.017045687618014255,0.017045687618014255,107,28
+rolling_crop_development_rf,Rolling crop development random forest,2023-08-24,rolling_mean_2_fruit_number,importance,0.02928296301739884,0.02928296301739884,107,28
+rolling_crop_development_rf,Rolling crop development random forest,2023-08-24,rolling_mean_2_fresh_matter_g,importance,0.034729129661413394,0.034729129661413394,107,28
+rolling_crop_development_rf,Rolling crop development random forest,2023-08-24,rolling_mean_3_fruit_number,importance,0.027864979702946647,0.027864979702946647,107,28
+rolling_crop_development_rf,Rolling crop development random forest,2023-08-24,rolling_mean_3_fresh_matter_g,importance,0.15826262431427773,0.15826262431427773,107,28
+rolling_crop_development_rf,Rolling crop development random forest,2023-08-24,mean_fruit_diameter_mm,importance,0.01956018756124452,0.01956018756124452,107,28
+rolling_crop_development_rf,Rolling crop development random forest,2023-08-24,mean_individual_fruit_fresh_weight_g,importance,0.03128550800693844,0.03128550800693844,107,28
+rolling_crop_development_rf,Rolling crop development random forest,2023-08-24,mean_tagged_fruit_diameter_mm,importance,0.003329535269506098,0.003329535269506098,107,28
+rolling_crop_development_rf,Rolling crop development random forest,2023-08-24,mean_tagged_fruit_length_mm,importance,0.009695827373448878,0.009695827373448878,107,28
+rolling_weather_gdd_ridge,Rolling weather + GDD linear model,2023-08-27,treatment_n_level,standardized_coefficient,13.16804060068953,13.16804060068953,111,32
+rolling_weather_gdd_ridge,Rolling weather + GDD linear model,2023-08-27,forecast_horizon_days,standardized_coefficient,1.5263757367512458,1.5263757367512458,111,32
+rolling_weather_gdd_ridge,Rolling weather + GDD linear model,2023-08-27,day_of_year,standardized_coefficient,2.9111303242707227,2.9111303242707227,111,32
+rolling_weather_gdd_ridge,Rolling weather + GDD linear model,2023-08-27,days_since_weather_start,standardized_coefficient,3.936632210149115,3.936632210149115,111,32
+rolling_weather_gdd_ridge,Rolling weather + GDD linear model,2023-08-27,tmean_c,standardized_coefficient,-2.4390256392602323,2.4390256392602323,111,32
+rolling_weather_gdd_ridge,Rolling weather + GDD linear model,2023-08-27,rhmean_pct,standardized_coefficient,6.589533046512662,6.589533046512662,111,32
+rolling_weather_gdd_ridge,Rolling weather + GDD linear model,2023-08-27,solar_radiation,standardized_coefficient,-0.7449714224975844,0.7449714224975844,111,32
+rolling_weather_gdd_ridge,Rolling weather + GDD linear model,2023-08-27,gdd_base_10,standardized_coefficient,-2.4390256392599765,2.4390256392599765,111,32
+rolling_weather_gdd_ridge,Rolling weather + GDD linear model,2023-08-27,cumulative_gdd_base_10,standardized_coefficient,3.295859856776495,3.295859856776495,111,32
+rolling_weather_gdd_ridge,Rolling weather + GDD linear model,2023-08-27,cumulative_solar_radiation,standardized_coefficient,-2.9598609222288608,2.9598609222288608,111,32
+rolling_weather_gdd_ridge,Rolling weather + GDD linear model,2023-08-27,tmean_7d,standardized_coefficient,-4.518930647309985,4.518930647309985,111,32
+rolling_weather_gdd_ridge,Rolling weather + GDD linear model,2023-08-27,solar_radiation_7d,standardized_coefficient,-4.877978870831264,4.877978870831264,111,32
+rolling_weather_gdd_ridge,Rolling weather + GDD linear model,2023-08-27,rhmean_7d,standardized_coefficient,6.3166484720449505,6.3166484720449505,111,32
+rolling_crop_development_ridge,Rolling crop development linear model,2023-08-27,treatment_n_level,standardized_coefficient,6.171477575984892,6.171477575984892,111,32
+rolling_crop_development_ridge,Rolling crop development linear model,2023-08-27,forecast_horizon_days,standardized_coefficient,3.5194096464823934,3.5194096464823934,111,32
+rolling_crop_development_ridge,Rolling crop development linear model,2023-08-27,day_of_year,standardized_coefficient,7.46855157730214,7.46855157730214,111,32
+rolling_crop_development_ridge,Rolling crop development linear model,2023-08-27,days_since_weather_start,standardized_coefficient,-2.28268269293456,2.28268269293456,111,32
+rolling_crop_development_ridge,Rolling crop development linear model,2023-08-27,cumulative_gdd_base_10,standardized_coefficient,5.9274136299092905,5.9274136299092905,111,32
+rolling_crop_development_ridge,Rolling crop development linear model,2023-08-27,cumulative_solar_radiation,standardized_coefficient,-16.87152811428517,16.87152811428517,111,32
+rolling_crop_development_ridge,Rolling crop development linear model,2023-08-27,tmean_7d,standardized_coefficient,-8.749014415133047,8.749014415133047,111,32
+rolling_crop_development_ridge,Rolling crop development linear model,2023-08-27,solar_radiation_7d,standardized_coefficient,-4.804161970412571,4.804161970412571,111,32
+rolling_crop_development_ridge,Rolling crop development linear model,2023-08-27,current_fruit_number,standardized_coefficient,9.601042256946116,9.601042256946116,111,32
+rolling_crop_development_ridge,Rolling crop development linear model,2023-08-27,current_fresh_matter_g,standardized_coefficient,10.142900008800645,10.142900008800645,111,32
+rolling_crop_development_ridge,Rolling crop development linear model,2023-08-27,current_dry_matter_g,standardized_coefficient,-5.560206910314427,5.560206910314427,111,32
+rolling_crop_development_ridge,Rolling crop development linear model,2023-08-27,previous_fruit_number,standardized_coefficient,-8.48087711387153,8.48087711387153,111,32
+rolling_crop_development_ridge,Rolling crop development linear model,2023-08-27,previous_fresh_matter_g,standardized_coefficient,5.882670258641287,5.882670258641287,111,32
+rolling_crop_development_ridge,Rolling crop development linear model,2023-08-27,previous_dry_matter_g,standardized_coefficient,-3.40871086788441,3.40871086788441,111,32
+rolling_crop_development_ridge,Rolling crop development linear model,2023-08-27,change_fruit_number,standardized_coefficient,-16.225915289581867,16.225915289581867,111,32
+rolling_crop_development_ridge,Rolling crop development linear model,2023-08-27,change_fresh_matter_g,standardized_coefficient,8.439506888659519,8.439506888659519,111,32
+rolling_crop_development_ridge,Rolling crop development linear model,2023-08-27,rolling_mean_2_fruit_number,standardized_coefficient,-0.6152780456809213,0.6152780456809213,111,32
+rolling_crop_development_ridge,Rolling crop development linear model,2023-08-27,rolling_mean_2_fresh_matter_g,standardized_coefficient,-6.2533908394386355,6.2533908394386355,111,32
+rolling_crop_development_ridge,Rolling crop development linear model,2023-08-27,rolling_mean_3_fruit_number,standardized_coefficient,2.9231221809482233,2.9231221809482233,111,32
+rolling_crop_development_ridge,Rolling crop development linear model,2023-08-27,rolling_mean_3_fresh_matter_g,standardized_coefficient,13.934101235385098,13.934101235385098,111,32
+rolling_crop_development_ridge,Rolling crop development linear model,2023-08-27,mean_fruit_diameter_mm,standardized_coefficient,2.8852838535415377,2.8852838535415377,111,32
+rolling_crop_development_ridge,Rolling crop development linear model,2023-08-27,mean_individual_fruit_fresh_weight_g,standardized_coefficient,2.7576758958586507,2.7576758958586507,111,32
+rolling_crop_development_ridge,Rolling crop development linear model,2023-08-27,mean_tagged_fruit_diameter_mm,standardized_coefficient,3.300058939199836,3.300058939199836,111,32
+rolling_crop_development_ridge,Rolling crop development linear model,2023-08-27,mean_tagged_fruit_length_mm,standardized_coefficient,2.282367200104647,2.282367200104647,111,32
+rolling_crop_development_rf,Rolling crop development random forest,2023-08-27,treatment_n_level,importance,0.15724842436966133,0.15724842436966133,111,32
+rolling_crop_development_rf,Rolling crop development random forest,2023-08-27,forecast_horizon_days,importance,0.030726035975129667,0.030726035975129667,111,32
+rolling_crop_development_rf,Rolling crop development random forest,2023-08-27,day_of_year,importance,0.011505491364522575,0.011505491364522575,111,32
+rolling_crop_development_rf,Rolling crop development random forest,2023-08-27,days_since_weather_start,importance,0.003589462990379298,0.003589462990379298,111,32
+rolling_crop_development_rf,Rolling crop development random forest,2023-08-27,tmax_c,importance,0.019622464772431715,0.019622464772431715,111,32
+rolling_crop_development_rf,Rolling crop development random forest,2023-08-27,tmin_c,importance,0.008022683755551215,0.008022683755551215,111,32
+rolling_crop_development_rf,Rolling crop development random forest,2023-08-27,tmean_c,importance,0.011715538498944036,0.011715538498944036,111,32
+rolling_crop_development_rf,Rolling crop development random forest,2023-08-27,rhmean_pct,importance,0.015808283951453013,0.015808283951453013,111,32
+rolling_crop_development_rf,Rolling crop development random forest,2023-08-27,solar_radiation,importance,0.048591494063169094,0.048591494063169094,111,32
+rolling_crop_development_rf,Rolling crop development random forest,2023-08-27,gdd_base_10,importance,0.009983320740309004,0.009983320740309004,111,32
+rolling_crop_development_rf,Rolling crop development random forest,2023-08-27,cumulative_gdd_base_10,importance,0.005286884243702377,0.005286884243702377,111,32
+rolling_crop_development_rf,Rolling crop development random forest,2023-08-27,cumulative_solar_radiation,importance,0.00414235857487821,0.00414235857487821,111,32
+rolling_crop_development_rf,Rolling crop development random forest,2023-08-27,tmean_7d,importance,0.015346591842178637,0.015346591842178637,111,32
+rolling_crop_development_rf,Rolling crop development random forest,2023-08-27,solar_radiation_7d,importance,0.04928714058710283,0.04928714058710283,111,32
+rolling_crop_development_rf,Rolling crop development random forest,2023-08-27,rhmean_7d,importance,0.018756137364829988,0.018756137364829988,111,32
+rolling_crop_development_rf,Rolling crop development random forest,2023-08-27,current_fruit_number,importance,0.015007888075796647,0.015007888075796647,111,32
+rolling_crop_development_rf,Rolling crop development random forest,2023-08-27,current_fresh_matter_g,importance,0.20280291232200126,0.20280291232200126,111,32
+rolling_crop_development_rf,Rolling crop development random forest,2023-08-27,current_dry_matter_g,importance,0.024358244181067863,0.024358244181067863,111,32
+rolling_crop_development_rf,Rolling crop development random forest,2023-08-27,previous_fruit_number,importance,0.005865819467080345,0.005865819467080345,111,32
+rolling_crop_development_rf,Rolling crop development random forest,2023-08-27,previous_fresh_matter_g,importance,0.024394883972745425,0.024394883972745425,111,32
+rolling_crop_development_rf,Rolling crop development random forest,2023-08-27,previous_dry_matter_g,importance,0.011999121531690679,0.011999121531690679,111,32
+rolling_crop_development_rf,Rolling crop development random forest,2023-08-27,change_fruit_number,importance,0.0038450143347416414,0.0038450143347416414,111,32
+rolling_crop_development_rf,Rolling crop development random forest,2023-08-27,change_fresh_matter_g,importance,0.014359059970540836,0.014359059970540836,111,32
+rolling_crop_development_rf,Rolling crop development random forest,2023-08-27,rolling_mean_2_fruit_number,importance,0.020995269843125663,0.020995269843125663,111,32
+rolling_crop_development_rf,Rolling crop development random forest,2023-08-27,rolling_mean_2_fresh_matter_g,importance,0.03732624647763274,0.03732624647763274,111,32
+rolling_crop_development_rf,Rolling crop development random forest,2023-08-27,rolling_mean_3_fruit_number,importance,0.03178050476508778,0.03178050476508778,111,32
+rolling_crop_development_rf,Rolling crop development random forest,2023-08-27,rolling_mean_3_fresh_matter_g,importance,0.13206124775429298,0.13206124775429298,111,32
+rolling_crop_development_rf,Rolling crop development random forest,2023-08-27,mean_fruit_diameter_mm,importance,0.018395163031820858,0.018395163031820858,111,32
+rolling_crop_development_rf,Rolling crop development random forest,2023-08-27,mean_individual_fruit_fresh_weight_g,importance,0.02974213150189103,0.02974213150189103,111,32
+rolling_crop_development_rf,Rolling crop development random forest,2023-08-27,mean_tagged_fruit_diameter_mm,importance,0.004777410860505161,0.004777410860505161,111,32
+rolling_crop_development_rf,Rolling crop development random forest,2023-08-27,mean_tagged_fruit_length_mm,importance,0.012656768815736224,0.012656768815736224,111,32
+rolling_weather_gdd_ridge,Rolling weather + GDD linear model,2023-08-31,treatment_n_level,standardized_coefficient,12.820282670844742,12.820282670844742,115,36
+rolling_weather_gdd_ridge,Rolling weather + GDD linear model,2023-08-31,forecast_horizon_days,standardized_coefficient,1.3649749724552418,1.3649749724552418,115,36
+rolling_weather_gdd_ridge,Rolling weather + GDD linear model,2023-08-31,day_of_year,standardized_coefficient,2.5798408093896064,2.5798408093896064,115,36
+rolling_weather_gdd_ridge,Rolling weather + GDD linear model,2023-08-31,days_since_weather_start,standardized_coefficient,4.0948522780010705,4.0948522780010705,115,36
+rolling_weather_gdd_ridge,Rolling weather + GDD linear model,2023-08-31,tmean_c,standardized_coefficient,-2.1582640558026194,2.1582640558026194,115,36
+rolling_weather_gdd_ridge,Rolling weather + GDD linear model,2023-08-31,rhmean_pct,standardized_coefficient,6.672512396543616,6.672512396543616,115,36
+rolling_weather_gdd_ridge,Rolling weather + GDD linear model,2023-08-31,solar_radiation,standardized_coefficient,-1.0715451794064885,1.0715451794064885,115,36
+rolling_weather_gdd_ridge,Rolling weather + GDD linear model,2023-08-31,gdd_base_10,standardized_coefficient,-2.1582640558029835,2.1582640558029835,115,36
+rolling_weather_gdd_ridge,Rolling weather + GDD linear model,2023-08-31,cumulative_gdd_base_10,standardized_coefficient,2.7397916158223383,2.7397916158223383,115,36
+rolling_weather_gdd_ridge,Rolling weather + GDD linear model,2023-08-31,cumulative_solar_radiation,standardized_coefficient,-2.3293272528534716,2.3293272528534716,115,36
+rolling_weather_gdd_ridge,Rolling weather + GDD linear model,2023-08-31,tmean_7d,standardized_coefficient,-4.975292133078386,4.975292133078386,115,36
+rolling_weather_gdd_ridge,Rolling weather + GDD linear model,2023-08-31,solar_radiation_7d,standardized_coefficient,-4.911405214265364,4.911405214265364,115,36
+rolling_weather_gdd_ridge,Rolling weather + GDD linear model,2023-08-31,rhmean_7d,standardized_coefficient,5.957871669074112,5.957871669074112,115,36
+rolling_crop_development_ridge,Rolling crop development linear model,2023-08-31,treatment_n_level,standardized_coefficient,5.748347628987926,5.748347628987926,115,36
+rolling_crop_development_ridge,Rolling crop development linear model,2023-08-31,forecast_horizon_days,standardized_coefficient,3.5208212963691836,3.5208212963691836,115,36
+rolling_crop_development_ridge,Rolling crop development linear model,2023-08-31,day_of_year,standardized_coefficient,7.106366555361448,7.106366555361448,115,36
+rolling_crop_development_ridge,Rolling crop development linear model,2023-08-31,days_since_weather_start,standardized_coefficient,-2.2725642690630026,2.2725642690630026,115,36
+rolling_crop_development_ridge,Rolling crop development linear model,2023-08-31,cumulative_gdd_base_10,standardized_coefficient,6.209545983870876,6.209545983870876,115,36
+rolling_crop_development_ridge,Rolling crop development linear model,2023-08-31,cumulative_solar_radiation,standardized_coefficient,-16.57287992899097,16.57287992899097,115,36
+rolling_crop_development_ridge,Rolling crop development linear model,2023-08-31,tmean_7d,standardized_coefficient,-8.595039167291093,8.595039167291093,115,36
+rolling_crop_development_ridge,Rolling crop development linear model,2023-08-31,solar_radiation_7d,standardized_coefficient,-4.66563818092489,4.66563818092489,115,36
+rolling_crop_development_ridge,Rolling crop development linear model,2023-08-31,current_fruit_number,standardized_coefficient,10.281951775114132,10.281951775114132,115,36
+rolling_crop_development_ridge,Rolling crop development linear model,2023-08-31,current_fresh_matter_g,standardized_coefficient,9.466120810274122,9.466120810274122,115,36
+rolling_crop_development_ridge,Rolling crop development linear model,2023-08-31,current_dry_matter_g,standardized_coefficient,-5.284359678676641,5.284359678676641,115,36
+rolling_crop_development_ridge,Rolling crop development linear model,2023-08-31,previous_fruit_number,standardized_coefficient,-8.976968904165926,8.976968904165926,115,36
+rolling_crop_development_ridge,Rolling crop development linear model,2023-08-31,previous_fresh_matter_g,standardized_coefficient,6.482908654153916,6.482908654153916,115,36
+rolling_crop_development_ridge,Rolling crop development linear model,2023-08-31,previous_dry_matter_g,standardized_coefficient,-4.276088876094536,4.276088876094536,115,36
+rolling_crop_development_ridge,Rolling crop development linear model,2023-08-31,change_fruit_number,standardized_coefficient,-15.361223961128564,15.361223961128564,115,36
+rolling_crop_development_ridge,Rolling crop development linear model,2023-08-31,change_fresh_matter_g,standardized_coefficient,7.3360043619091995,7.3360043619091995,115,36
+rolling_crop_development_ridge,Rolling crop development linear model,2023-08-31,rolling_mean_2_fruit_number,standardized_coefficient,0.23407606479680124,0.23407606479680124,115,36
+rolling_crop_development_ridge,Rolling crop development linear model,2023-08-31,rolling_mean_2_fresh_matter_g,standardized_coefficient,-6.40542728731551,6.40542728731551,115,36
+rolling_crop_development_ridge,Rolling crop development linear model,2023-08-31,rolling_mean_3_fruit_number,standardized_coefficient,2.084012830816702,2.084012830816702,115,36
+rolling_crop_development_ridge,Rolling crop development linear model,2023-08-31,rolling_mean_3_fresh_matter_g,standardized_coefficient,13.894565080312097,13.894565080312097,115,36
+rolling_crop_development_ridge,Rolling crop development linear model,2023-08-31,mean_fruit_diameter_mm,standardized_coefficient,2.719573997776915,2.719573997776915,115,36
+rolling_crop_development_ridge,Rolling crop development linear model,2023-08-31,mean_individual_fruit_fresh_weight_g,standardized_coefficient,3.0900931557006066,3.0900931557006066,115,36
+rolling_crop_development_ridge,Rolling crop development linear model,2023-08-31,mean_tagged_fruit_diameter_mm,standardized_coefficient,3.0746468712993056,3.0746468712993056,115,36
+rolling_crop_development_ridge,Rolling crop development linear model,2023-08-31,mean_tagged_fruit_length_mm,standardized_coefficient,2.3944353365561106,2.3944353365561106,115,36
+rolling_crop_development_rf,Rolling crop development random forest,2023-08-31,treatment_n_level,importance,0.1537380237412083,0.1537380237412083,115,36
+rolling_crop_development_rf,Rolling crop development random forest,2023-08-31,forecast_horizon_days,importance,0.02589090319521161,0.02589090319521161,115,36
+rolling_crop_development_rf,Rolling crop development random forest,2023-08-31,day_of_year,importance,0.013805475079223131,0.013805475079223131,115,36
+rolling_crop_development_rf,Rolling crop development random forest,2023-08-31,days_since_weather_start,importance,0.00162270238948236,0.00162270238948236,115,36
+rolling_crop_development_rf,Rolling crop development random forest,2023-08-31,tmax_c,importance,0.015002561219605607,0.015002561219605607,115,36
+rolling_crop_development_rf,Rolling crop development random forest,2023-08-31,tmin_c,importance,0.009197516755012387,0.009197516755012387,115,36
+rolling_crop_development_rf,Rolling crop development random forest,2023-08-31,tmean_c,importance,0.011990175517732736,0.011990175517732736,115,36
+rolling_crop_development_rf,Rolling crop development random forest,2023-08-31,rhmean_pct,importance,0.014970065997470586,0.014970065997470586,115,36
+rolling_crop_development_rf,Rolling crop development random forest,2023-08-31,solar_radiation,importance,0.04593427254849518,0.04593427254849518,115,36
+rolling_crop_development_rf,Rolling crop development random forest,2023-08-31,gdd_base_10,importance,0.009873711971781832,0.009873711971781832,115,36
+rolling_crop_development_rf,Rolling crop development random forest,2023-08-31,cumulative_gdd_base_10,importance,0.00367453880270235,0.00367453880270235,115,36
+rolling_crop_development_rf,Rolling crop development random forest,2023-08-31,cumulative_solar_radiation,importance,0.00509130261781045,0.00509130261781045,115,36
+rolling_crop_development_rf,Rolling crop development random forest,2023-08-31,tmean_7d,importance,0.018342929768750783,0.018342929768750783,115,36
+rolling_crop_development_rf,Rolling crop development random forest,2023-08-31,solar_radiation_7d,importance,0.04873658931626102,0.04873658931626102,115,36
+rolling_crop_development_rf,Rolling crop development random forest,2023-08-31,rhmean_7d,importance,0.015468085666291712,0.015468085666291712,115,36
+rolling_crop_development_rf,Rolling crop development random forest,2023-08-31,current_fruit_number,importance,0.016871147185352025,0.016871147185352025,115,36
+rolling_crop_development_rf,Rolling crop development random forest,2023-08-31,current_fresh_matter_g,importance,0.21450152970598965,0.21450152970598965,115,36
+rolling_crop_development_rf,Rolling crop development random forest,2023-08-31,current_dry_matter_g,importance,0.02149800089435936,0.02149800089435936,115,36
+rolling_crop_development_rf,Rolling crop development random forest,2023-08-31,previous_fruit_number,importance,0.006849895314531905,0.006849895314531905,115,36
+rolling_crop_development_rf,Rolling crop development random forest,2023-08-31,previous_fresh_matter_g,importance,0.019302677336960037,0.019302677336960037,115,36
+rolling_crop_development_rf,Rolling crop development random forest,2023-08-31,previous_dry_matter_g,importance,0.007334639505388912,0.007334639505388912,115,36
+rolling_crop_development_rf,Rolling crop development random forest,2023-08-31,change_fruit_number,importance,0.0030941839960567943,0.0030941839960567943,115,36
+rolling_crop_development_rf,Rolling crop development random forest,2023-08-31,change_fresh_matter_g,importance,0.01470442193265838,0.01470442193265838,115,36
+rolling_crop_development_rf,Rolling crop development random forest,2023-08-31,rolling_mean_2_fruit_number,importance,0.024455795801340222,0.024455795801340222,115,36
+rolling_crop_development_rf,Rolling crop development random forest,2023-08-31,rolling_mean_2_fresh_matter_g,importance,0.040253735003924485,0.040253735003924485,115,36
+rolling_crop_development_rf,Rolling crop development random forest,2023-08-31,rolling_mean_3_fruit_number,importance,0.038521962788730095,0.038521962788730095,115,36
+rolling_crop_development_rf,Rolling crop development random forest,2023-08-31,rolling_mean_3_fresh_matter_g,importance,0.13698680679600822,0.13698680679600822,115,36
+rolling_crop_development_rf,Rolling crop development random forest,2023-08-31,mean_fruit_diameter_mm,importance,0.02077833489187449,0.02077833489187449,115,36
+rolling_crop_development_rf,Rolling crop development random forest,2023-08-31,mean_individual_fruit_fresh_weight_g,importance,0.02944532169208985,0.02944532169208985,115,36
+rolling_crop_development_rf,Rolling crop development random forest,2023-08-31,mean_tagged_fruit_diameter_mm,importance,0.0031664201232070297,0.0031664201232070297,115,36
+rolling_crop_development_rf,Rolling crop development random forest,2023-08-31,mean_tagged_fruit_length_mm,importance,0.008896272444488566,0.008896272444488566,115,36
+rolling_weather_gdd_ridge,Rolling weather + GDD linear model,2023-09-05,treatment_n_level,standardized_coefficient,12.366212083685653,12.366212083685653,119,40
+rolling_weather_gdd_ridge,Rolling weather + GDD linear model,2023-09-05,forecast_horizon_days,standardized_coefficient,1.3091416520545525,1.3091416520545525,119,40
+rolling_weather_gdd_ridge,Rolling weather + GDD linear model,2023-09-05,day_of_year,standardized_coefficient,2.41913167807869,2.41913167807869,119,40
+rolling_weather_gdd_ridge,Rolling weather + GDD linear model,2023-09-05,days_since_weather_start,standardized_coefficient,4.121484727763575,4.121484727763575,119,40
+rolling_weather_gdd_ridge,Rolling weather + GDD linear model,2023-09-05,tmean_c,standardized_coefficient,-2.1292702493425977,2.1292702493425977,119,40
+rolling_weather_gdd_ridge,Rolling weather + GDD linear model,2023-09-05,rhmean_pct,standardized_coefficient,6.672149723995468,6.672149723995468,119,40
+rolling_weather_gdd_ridge,Rolling weather + GDD linear model,2023-09-05,solar_radiation,standardized_coefficient,-1.0167774133975138,1.0167774133975138,119,40
+rolling_weather_gdd_ridge,Rolling weather + GDD linear model,2023-09-05,gdd_base_10,standardized_coefficient,-2.129270249342214,2.129270249342214,119,40
+rolling_weather_gdd_ridge,Rolling weather + GDD linear model,2023-09-05,cumulative_gdd_base_10,standardized_coefficient,2.7494485899092367,2.7494485899092367,119,40
+rolling_weather_gdd_ridge,Rolling weather + GDD linear model,2023-09-05,cumulative_solar_radiation,standardized_coefficient,-2.2683703876297114,2.2683703876297114,119,40
+rolling_weather_gdd_ridge,Rolling weather + GDD linear model,2023-09-05,tmean_7d,standardized_coefficient,-4.932815214332178,4.932815214332178,119,40
+rolling_weather_gdd_ridge,Rolling weather + GDD linear model,2023-09-05,solar_radiation_7d,standardized_coefficient,-4.852586884174888,4.852586884174888,119,40
+rolling_weather_gdd_ridge,Rolling weather + GDD linear model,2023-09-05,rhmean_7d,standardized_coefficient,5.8927025966869255,5.8927025966869255,119,40
+rolling_crop_development_ridge,Rolling crop development linear model,2023-09-05,treatment_n_level,standardized_coefficient,4.956063225889045,4.956063225889045,119,40
+rolling_crop_development_ridge,Rolling crop development linear model,2023-09-05,forecast_horizon_days,standardized_coefficient,2.662758014691334,2.662758014691334,119,40
+rolling_crop_development_ridge,Rolling crop development linear model,2023-09-05,day_of_year,standardized_coefficient,4.12195437521371,4.12195437521371,119,40
+rolling_crop_development_ridge,Rolling crop development linear model,2023-09-05,days_since_weather_start,standardized_coefficient,-1.1893062141966455,1.1893062141966455,119,40
+rolling_crop_development_ridge,Rolling crop development linear model,2023-09-05,cumulative_gdd_base_10,standardized_coefficient,3.493866458888418,3.493866458888418,119,40
+rolling_crop_development_ridge,Rolling crop development linear model,2023-09-05,cumulative_solar_radiation,standardized_coefficient,-9.877263324031743,9.877263324031743,119,40
+rolling_crop_development_ridge,Rolling crop development linear model,2023-09-05,tmean_7d,standardized_coefficient,-7.1712831096764695,7.1712831096764695,119,40
+rolling_crop_development_ridge,Rolling crop development linear model,2023-09-05,solar_radiation_7d,standardized_coefficient,-5.208489236957112,5.208489236957112,119,40
+rolling_crop_development_ridge,Rolling crop development linear model,2023-09-05,current_fruit_number,standardized_coefficient,11.45610808971831,11.45610808971831,119,40
+rolling_crop_development_ridge,Rolling crop development linear model,2023-09-05,current_fresh_matter_g,standardized_coefficient,9.913769613487133,9.913769613487133,119,40
+rolling_crop_development_ridge,Rolling crop development linear model,2023-09-05,current_dry_matter_g,standardized_coefficient,-5.075493755860275,5.075493755860275,119,40
+rolling_crop_development_ridge,Rolling crop development linear model,2023-09-05,previous_fruit_number,standardized_coefficient,-7.672698014159148,7.672698014159148,119,40
+rolling_crop_development_ridge,Rolling crop development linear model,2023-09-05,previous_fresh_matter_g,standardized_coefficient,2.085256812829128,2.085256812829128,119,40
+rolling_crop_development_ridge,Rolling crop development linear model,2023-09-05,previous_dry_matter_g,standardized_coefficient,-2.2137384134207396,2.2137384134207396,119,40
+rolling_crop_development_ridge,Rolling crop development linear model,2023-09-05,change_fruit_number,standardized_coefficient,-14.91012315117396,14.91012315117396,119,40
+rolling_crop_development_ridge,Rolling crop development linear model,2023-09-05,change_fresh_matter_g,standardized_coefficient,5.788365303186512,5.788365303186512,119,40
+rolling_crop_development_ridge,Rolling crop development linear model,2023-09-05,rolling_mean_2_fruit_number,standardized_coefficient,-1.3814159384844742,1.3814159384844742,119,40
+rolling_crop_development_ridge,Rolling crop development linear model,2023-09-05,rolling_mean_2_fresh_matter_g,standardized_coefficient,-4.486758799432902,4.486758799432902,119,40
+rolling_crop_development_ridge,Rolling crop development linear model,2023-09-05,rolling_mean_3_fruit_number,standardized_coefficient,-0.2238231350312401,0.2238231350312401,119,40
+rolling_crop_development_ridge,Rolling crop development linear model,2023-09-05,rolling_mean_3_fresh_matter_g,standardized_coefficient,15.057071690302879,15.057071690302879,119,40
+rolling_crop_development_ridge,Rolling crop development linear model,2023-09-05,mean_fruit_diameter_mm,standardized_coefficient,2.3345173083006485,2.3345173083006485,119,40
+rolling_crop_development_ridge,Rolling crop development linear model,2023-09-05,mean_individual_fruit_fresh_weight_g,standardized_coefficient,3.6362509547522284,3.6362509547522284,119,40
+rolling_crop_development_ridge,Rolling crop development linear model,2023-09-05,mean_tagged_fruit_diameter_mm,standardized_coefficient,1.177301718825646,1.177301718825646,119,40
+rolling_crop_development_ridge,Rolling crop development linear model,2023-09-05,mean_tagged_fruit_length_mm,standardized_coefficient,3.98008484686664,3.98008484686664,119,40
+rolling_crop_development_rf,Rolling crop development random forest,2023-09-05,treatment_n_level,importance,0.15261081884941413,0.15261081884941413,119,40
+rolling_crop_development_rf,Rolling crop development random forest,2023-09-05,forecast_horizon_days,importance,0.030282142238116143,0.030282142238116143,119,40
+rolling_crop_development_rf,Rolling crop development random forest,2023-09-05,day_of_year,importance,0.011369092879290239,0.011369092879290239,119,40
+rolling_crop_development_rf,Rolling crop development random forest,2023-09-05,days_since_weather_start,importance,0.0026756771441238834,0.0026756771441238834,119,40
+rolling_crop_development_rf,Rolling crop development random forest,2023-09-05,tmax_c,importance,0.016757307889360112,0.016757307889360112,119,40
+rolling_crop_development_rf,Rolling crop development random forest,2023-09-05,tmin_c,importance,0.008955578705188785,0.008955578705188785,119,40
+rolling_crop_development_rf,Rolling crop development random forest,2023-09-05,tmean_c,importance,0.01085064865586259,0.01085064865586259,119,40
+rolling_crop_development_rf,Rolling crop development random forest,2023-09-05,rhmean_pct,importance,0.017952291566507312,0.017952291566507312,119,40
+rolling_crop_development_rf,Rolling crop development random forest,2023-09-05,solar_radiation,importance,0.045320602220278325,0.045320602220278325,119,40
+rolling_crop_development_rf,Rolling crop development random forest,2023-09-05,gdd_base_10,importance,0.010925574393631133,0.010925574393631133,119,40
+rolling_crop_development_rf,Rolling crop development random forest,2023-09-05,cumulative_gdd_base_10,importance,0.004437043285411192,0.004437043285411192,119,40
+rolling_crop_development_rf,Rolling crop development random forest,2023-09-05,cumulative_solar_radiation,importance,0.004222034160345272,0.004222034160345272,119,40
+rolling_crop_development_rf,Rolling crop development random forest,2023-09-05,tmean_7d,importance,0.019338746021923814,0.019338746021923814,119,40
+rolling_crop_development_rf,Rolling crop development random forest,2023-09-05,solar_radiation_7d,importance,0.04202860166806488,0.04202860166806488,119,40
+rolling_crop_development_rf,Rolling crop development random forest,2023-09-05,rhmean_7d,importance,0.012778711270724706,0.012778711270724706,119,40
+rolling_crop_development_rf,Rolling crop development random forest,2023-09-05,current_fruit_number,importance,0.01908386763415835,0.01908386763415835,119,40
+rolling_crop_development_rf,Rolling crop development random forest,2023-09-05,current_fresh_matter_g,importance,0.23120274336784505,0.23120274336784505,119,40
+rolling_crop_development_rf,Rolling crop development random forest,2023-09-05,current_dry_matter_g,importance,0.02174092459481643,0.02174092459481643,119,40
+rolling_crop_development_rf,Rolling crop development random forest,2023-09-05,previous_fruit_number,importance,0.005832742256968747,0.005832742256968747,119,40
+rolling_crop_development_rf,Rolling crop development random forest,2023-09-05,previous_fresh_matter_g,importance,0.02127355258350919,0.02127355258350919,119,40
+rolling_crop_development_rf,Rolling crop development random forest,2023-09-05,previous_dry_matter_g,importance,0.010881775914376534,0.010881775914376534,119,40
+rolling_crop_development_rf,Rolling crop development random forest,2023-09-05,change_fruit_number,importance,0.0027979858993247156,0.0027979858993247156,119,40
+rolling_crop_development_rf,Rolling crop development random forest,2023-09-05,change_fresh_matter_g,importance,0.015160739767776163,0.015160739767776163,119,40
+rolling_crop_development_rf,Rolling crop development random forest,2023-09-05,rolling_mean_2_fruit_number,importance,0.0195901799644316,0.0195901799644316,119,40
+rolling_crop_development_rf,Rolling crop development random forest,2023-09-05,rolling_mean_2_fresh_matter_g,importance,0.03598447884322769,0.03598447884322769,119,40
+rolling_crop_development_rf,Rolling crop development random forest,2023-09-05,rolling_mean_3_fruit_number,importance,0.03265700699630238,0.03265700699630238,119,40
+rolling_crop_development_rf,Rolling crop development random forest,2023-09-05,rolling_mean_3_fresh_matter_g,importance,0.13699845249153877,0.13699845249153877,119,40
+rolling_crop_development_rf,Rolling crop development random forest,2023-09-05,mean_fruit_diameter_mm,importance,0.01913112654381658,0.01913112654381658,119,40
+rolling_crop_development_rf,Rolling crop development random forest,2023-09-05,mean_individual_fruit_fresh_weight_g,importance,0.022622439624155825,0.022622439624155825,119,40
+rolling_crop_development_rf,Rolling crop development random forest,2023-09-05,mean_tagged_fruit_diameter_mm,importance,0.005541277802634317,0.005541277802634317,119,40
+rolling_crop_development_rf,Rolling crop development random forest,2023-09-05,mean_tagged_fruit_length_mm,importance,0.008995834766875212,0.008995834766875212,119,40
+rolling_weather_gdd_ridge,Rolling weather + GDD linear model,2023-09-09,treatment_n_level,standardized_coefficient,12.30446370815234,12.30446370815234,123,44
+rolling_weather_gdd_ridge,Rolling weather + GDD linear model,2023-09-09,forecast_horizon_days,standardized_coefficient,1.0932905291121164,1.0932905291121164,123,44
+rolling_weather_gdd_ridge,Rolling weather + GDD linear model,2023-09-09,day_of_year,standardized_coefficient,3.6628430329800605,3.6628430329800605,123,44
+rolling_weather_gdd_ridge,Rolling weather + GDD linear model,2023-09-09,days_since_weather_start,standardized_coefficient,4.734700438618427,4.734700438618427,123,44
+rolling_weather_gdd_ridge,Rolling weather + GDD linear model,2023-09-09,tmean_c,standardized_coefficient,-2.7133612152477795,2.7133612152477795,123,44
+rolling_weather_gdd_ridge,Rolling weather + GDD linear model,2023-09-09,rhmean_pct,standardized_coefficient,6.936105789455388,6.936105789455388,123,44
+rolling_weather_gdd_ridge,Rolling weather + GDD linear model,2023-09-09,solar_radiation,standardized_coefficient,-0.1576424192676176,0.1576424192676176,123,44
+rolling_weather_gdd_ridge,Rolling weather + GDD linear model,2023-09-09,gdd_base_10,standardized_coefficient,-2.713361215247852,2.713361215247852,123,44
+rolling_weather_gdd_ridge,Rolling weather + GDD linear model,2023-09-09,cumulative_gdd_base_10,standardized_coefficient,-0.30890858587786885,0.30890858587786885,123,44
+rolling_weather_gdd_ridge,Rolling weather + GDD linear model,2023-09-09,cumulative_solar_radiation,standardized_coefficient,-1.9701189397341803,1.9701189397341803,123,44
+rolling_weather_gdd_ridge,Rolling weather + GDD linear model,2023-09-09,tmean_7d,standardized_coefficient,-6.590888017525073,6.590888017525073,123,44
+rolling_weather_gdd_ridge,Rolling weather + GDD linear model,2023-09-09,solar_radiation_7d,standardized_coefficient,-4.132928379021471,4.132928379021471,123,44
+rolling_weather_gdd_ridge,Rolling weather + GDD linear model,2023-09-09,rhmean_7d,standardized_coefficient,6.945659073520852,6.945659073520852,123,44
+rolling_crop_development_ridge,Rolling crop development linear model,2023-09-09,treatment_n_level,standardized_coefficient,4.973595153145019,4.973595153145019,123,44
+rolling_crop_development_ridge,Rolling crop development linear model,2023-09-09,forecast_horizon_days,standardized_coefficient,2.2773747935800484,2.2773747935800484,123,44
+rolling_crop_development_ridge,Rolling crop development linear model,2023-09-09,day_of_year,standardized_coefficient,3.1204932421288323,3.1204932421288323,123,44
+rolling_crop_development_ridge,Rolling crop development linear model,2023-09-09,days_since_weather_start,standardized_coefficient,-0.537380255908833,0.537380255908833,123,44
+rolling_crop_development_ridge,Rolling crop development linear model,2023-09-09,cumulative_gdd_base_10,standardized_coefficient,-0.033814590744539186,0.033814590744539186,123,44
+rolling_crop_development_ridge,Rolling crop development linear model,2023-09-09,cumulative_solar_radiation,standardized_coefficient,-9.24810850393031,9.24810850393031,123,44
+rolling_crop_development_ridge,Rolling crop development linear model,2023-09-09,tmean_7d,standardized_coefficient,-10.857977637333013,10.857977637333013,123,44
+rolling_crop_development_ridge,Rolling crop development linear model,2023-09-09,solar_radiation_7d,standardized_coefficient,-4.004528818831925,4.004528818831925,123,44
+rolling_crop_development_ridge,Rolling crop development linear model,2023-09-09,current_fruit_number,standardized_coefficient,12.772520167347261,12.772520167347261,123,44
+rolling_crop_development_ridge,Rolling crop development linear model,2023-09-09,current_fresh_matter_g,standardized_coefficient,11.282240600879716,11.282240600879716,123,44
+rolling_crop_development_ridge,Rolling crop development linear model,2023-09-09,current_dry_matter_g,standardized_coefficient,-7.557167424673149,7.557167424673149,123,44
+rolling_crop_development_ridge,Rolling crop development linear model,2023-09-09,previous_fruit_number,standardized_coefficient,-9.403945086190875,9.403945086190875,123,44
+rolling_crop_development_ridge,Rolling crop development linear model,2023-09-09,previous_fresh_matter_g,standardized_coefficient,2.5868062779371606,2.5868062779371606,123,44
+rolling_crop_development_ridge,Rolling crop development linear model,2023-09-09,previous_dry_matter_g,standardized_coefficient,-1.721157625941642,1.721157625941642,123,44
+rolling_crop_development_ridge,Rolling crop development linear model,2023-09-09,change_fruit_number,standardized_coefficient,-15.628254061646796,15.628254061646796,123,44
+rolling_crop_development_ridge,Rolling crop development linear model,2023-09-09,change_fresh_matter_g,standardized_coefficient,5.752052409894258,5.752052409894258,123,44
+rolling_crop_development_ridge,Rolling crop development linear model,2023-09-09,rolling_mean_2_fruit_number,standardized_coefficient,-0.8499417343816523,0.8499417343816523,123,44
+rolling_crop_development_ridge,Rolling crop development linear model,2023-09-09,rolling_mean_2_fresh_matter_g,standardized_coefficient,-5.353757992519102,5.353757992519102,123,44
+rolling_crop_development_ridge,Rolling crop development linear model,2023-09-09,rolling_mean_3_fruit_number,standardized_coefficient,-0.2835931030521337,0.2835931030521337,123,44
+rolling_crop_development_ridge,Rolling crop development linear model,2023-09-09,rolling_mean_3_fresh_matter_g,standardized_coefficient,15.842973977461277,15.842973977461277,123,44
+rolling_crop_development_ridge,Rolling crop development linear model,2023-09-09,mean_fruit_diameter_mm,standardized_coefficient,2.0828683372723313,2.0828683372723313,123,44
+rolling_crop_development_ridge,Rolling crop development linear model,2023-09-09,mean_individual_fruit_fresh_weight_g,standardized_coefficient,3.6597319512536663,3.6597319512536663,123,44
+rolling_crop_development_ridge,Rolling crop development linear model,2023-09-09,mean_tagged_fruit_diameter_mm,standardized_coefficient,-1.1400233160945537,1.1400233160945537,123,44
+rolling_crop_development_ridge,Rolling crop development linear model,2023-09-09,mean_tagged_fruit_length_mm,standardized_coefficient,5.890527669641646,5.890527669641646,123,44
+rolling_crop_development_rf,Rolling crop development random forest,2023-09-09,treatment_n_level,importance,0.15557838879474156,0.15557838879474156,123,44
+rolling_crop_development_rf,Rolling crop development random forest,2023-09-09,forecast_horizon_days,importance,0.01344462445159082,0.01344462445159082,123,44
+rolling_crop_development_rf,Rolling crop development random forest,2023-09-09,day_of_year,importance,0.007192125755858518,0.007192125755858518,123,44
+rolling_crop_development_rf,Rolling crop development random forest,2023-09-09,days_since_weather_start,importance,0.004342714545050481,0.004342714545050481,123,44
+rolling_crop_development_rf,Rolling crop development random forest,2023-09-09,tmax_c,importance,0.018325446524692784,0.018325446524692784,123,44
+rolling_crop_development_rf,Rolling crop development random forest,2023-09-09,tmin_c,importance,0.01092814691200391,0.01092814691200391,123,44
+rolling_crop_development_rf,Rolling crop development random forest,2023-09-09,tmean_c,importance,0.022365667876107588,0.022365667876107588,123,44
+rolling_crop_development_rf,Rolling crop development random forest,2023-09-09,rhmean_pct,importance,0.021231490580737117,0.021231490580737117,123,44
+rolling_crop_development_rf,Rolling crop development random forest,2023-09-09,solar_radiation,importance,0.038415884214902545,0.038415884214902545,123,44
+rolling_crop_development_rf,Rolling crop development random forest,2023-09-09,gdd_base_10,importance,0.019546871923151875,0.019546871923151875,123,44
+rolling_crop_development_rf,Rolling crop development random forest,2023-09-09,cumulative_gdd_base_10,importance,0.004223555961393668,0.004223555961393668,123,44
+rolling_crop_development_rf,Rolling crop development random forest,2023-09-09,cumulative_solar_radiation,importance,0.004473805002964388,0.004473805002964388,123,44
+rolling_crop_development_rf,Rolling crop development random forest,2023-09-09,tmean_7d,importance,0.033285399831831895,0.033285399831831895,123,44
+rolling_crop_development_rf,Rolling crop development random forest,2023-09-09,solar_radiation_7d,importance,0.04149787225919697,0.04149787225919697,123,44
+rolling_crop_development_rf,Rolling crop development random forest,2023-09-09,rhmean_7d,importance,0.02644223417286255,0.02644223417286255,123,44
+rolling_crop_development_rf,Rolling crop development random forest,2023-09-09,current_fruit_number,importance,0.01761708361087876,0.01761708361087876,123,44
+rolling_crop_development_rf,Rolling crop development random forest,2023-09-09,current_fresh_matter_g,importance,0.18841856658516376,0.18841856658516376,123,44
+rolling_crop_development_rf,Rolling crop development random forest,2023-09-09,current_dry_matter_g,importance,0.016092399462255737,0.016092399462255737,123,44
+rolling_crop_development_rf,Rolling crop development random forest,2023-09-09,previous_fruit_number,importance,0.0027062263424644994,0.0027062263424644994,123,44
+rolling_crop_development_rf,Rolling crop development random forest,2023-09-09,previous_fresh_matter_g,importance,0.01922757862626961,0.01922757862626961,123,44
+rolling_crop_development_rf,Rolling crop development random forest,2023-09-09,previous_dry_matter_g,importance,0.012372021568362451,0.012372021568362451,123,44
+rolling_crop_development_rf,Rolling crop development random forest,2023-09-09,change_fruit_number,importance,0.00358442067396654,0.00358442067396654,123,44
+rolling_crop_development_rf,Rolling crop development random forest,2023-09-09,change_fresh_matter_g,importance,0.013559372106776234,0.013559372106776234,123,44
+rolling_crop_development_rf,Rolling crop development random forest,2023-09-09,rolling_mean_2_fruit_number,importance,0.018254494028093007,0.018254494028093007,123,44
+rolling_crop_development_rf,Rolling crop development random forest,2023-09-09,rolling_mean_2_fresh_matter_g,importance,0.03019475841232785,0.03019475841232785,123,44
+rolling_crop_development_rf,Rolling crop development random forest,2023-09-09,rolling_mean_3_fruit_number,importance,0.03159838769496469,0.03159838769496469,123,44
+rolling_crop_development_rf,Rolling crop development random forest,2023-09-09,rolling_mean_3_fresh_matter_g,importance,0.16093573746721448,0.16093573746721448,123,44
+rolling_crop_development_rf,Rolling crop development random forest,2023-09-09,mean_fruit_diameter_mm,importance,0.019121334685645464,0.019121334685645464,123,44
+rolling_crop_development_rf,Rolling crop development random forest,2023-09-09,mean_individual_fruit_fresh_weight_g,importance,0.027884389055628844,0.027884389055628844,123,44
+rolling_crop_development_rf,Rolling crop development random forest,2023-09-09,mean_tagged_fruit_diameter_mm,importance,0.005176157030760697,0.005176157030760697,123,44
+rolling_crop_development_rf,Rolling crop development random forest,2023-09-09,mean_tagged_fruit_length_mm,importance,0.011962843842140598,0.011962843842140598,123,44
+rolling_weather_gdd_ridge,Rolling weather + GDD linear model,2023-09-13,treatment_n_level,standardized_coefficient,12.052657600547933,12.052657600547933,127,48
+rolling_weather_gdd_ridge,Rolling weather + GDD linear model,2023-09-13,forecast_horizon_days,standardized_coefficient,0.36240536850477184,0.36240536850477184,127,48
+rolling_weather_gdd_ridge,Rolling weather + GDD linear model,2023-09-13,day_of_year,standardized_coefficient,8.381130532286361,8.381130532286361,127,48
+rolling_weather_gdd_ridge,Rolling weather + GDD linear model,2023-09-13,days_since_weather_start,standardized_coefficient,6.62624121989919,6.62624121989919,127,48
+rolling_weather_gdd_ridge,Rolling weather + GDD linear model,2023-09-13,tmean_c,standardized_coefficient,-0.6036772353698968,0.6036772353698968,127,48
+rolling_weather_gdd_ridge,Rolling weather + GDD linear model,2023-09-13,rhmean_pct,standardized_coefficient,4.630750544427028,4.630750544427028,127,48
+rolling_weather_gdd_ridge,Rolling weather + GDD linear model,2023-09-13,solar_radiation,standardized_coefficient,-2.8646536646982916,2.8646536646982916,127,48
+rolling_weather_gdd_ridge,Rolling weather + GDD linear model,2023-09-13,gdd_base_10,standardized_coefficient,-0.6036772353701516,0.6036772353701516,127,48
+rolling_weather_gdd_ridge,Rolling weather + GDD linear model,2023-09-13,cumulative_gdd_base_10,standardized_coefficient,-8.067535106802298,8.067535106802298,127,48
+rolling_weather_gdd_ridge,Rolling weather + GDD linear model,2023-09-13,cumulative_solar_radiation,standardized_coefficient,-1.2847086508544279,1.2847086508544279,127,48
+rolling_weather_gdd_ridge,Rolling weather + GDD linear model,2023-09-13,tmean_7d,standardized_coefficient,-10.488589140875861,10.488589140875861,127,48
+rolling_weather_gdd_ridge,Rolling weather + GDD linear model,2023-09-13,solar_radiation_7d,standardized_coefficient,0.11161176933419868,0.11161176933419868,127,48
+rolling_weather_gdd_ridge,Rolling weather + GDD linear model,2023-09-13,rhmean_7d,standardized_coefficient,11.460335815401415,11.460335815401415,127,48
+rolling_crop_development_ridge,Rolling crop development linear model,2023-09-13,treatment_n_level,standardized_coefficient,4.426590528236044,4.426590528236044,127,48
+rolling_crop_development_ridge,Rolling crop development linear model,2023-09-13,forecast_horizon_days,standardized_coefficient,2.3541254834478935,2.3541254834478935,127,48
+rolling_crop_development_ridge,Rolling crop development linear model,2023-09-13,day_of_year,standardized_coefficient,1.9204915475970235,1.9204915475970235,127,48
+rolling_crop_development_ridge,Rolling crop development linear model,2023-09-13,days_since_weather_start,standardized_coefficient,-0.23402142411541954,0.23402142411541954,127,48
+rolling_crop_development_ridge,Rolling crop development linear model,2023-09-13,cumulative_gdd_base_10,standardized_coefficient,-3.0534567600278555,3.0534567600278555,127,48
+rolling_crop_development_ridge,Rolling crop development linear model,2023-09-13,cumulative_solar_radiation,standardized_coefficient,-6.451056961461479,6.451056961461479,127,48
+rolling_crop_development_ridge,Rolling crop development linear model,2023-09-13,tmean_7d,standardized_coefficient,-10.864724122723816,10.864724122723816,127,48
+rolling_crop_development_ridge,Rolling crop development linear model,2023-09-13,solar_radiation_7d,standardized_coefficient,-2.6943182572070605,2.6943182572070605,127,48
+rolling_crop_development_ridge,Rolling crop development linear model,2023-09-13,current_fruit_number,standardized_coefficient,13.346255618591714,13.346255618591714,127,48
+rolling_crop_development_ridge,Rolling crop development linear model,2023-09-13,current_fresh_matter_g,standardized_coefficient,12.130929470582373,12.130929470582373,127,48
+rolling_crop_development_ridge,Rolling crop development linear model,2023-09-13,current_dry_matter_g,standardized_coefficient,-7.384322936688054,7.384322936688054,127,48
+rolling_crop_development_ridge,Rolling crop development linear model,2023-09-13,previous_fruit_number,standardized_coefficient,-9.318473082648131,9.318473082648131,127,48
+rolling_crop_development_ridge,Rolling crop development linear model,2023-09-13,previous_fresh_matter_g,standardized_coefficient,2.9401118748279638,2.9401118748279638,127,48
+rolling_crop_development_ridge,Rolling crop development linear model,2023-09-13,previous_dry_matter_g,standardized_coefficient,-2.2690636033486427,2.2690636033486427,127,48
+rolling_crop_development_ridge,Rolling crop development linear model,2023-09-13,change_fruit_number,standardized_coefficient,-15.743498269038948,15.743498269038948,127,48
+rolling_crop_development_ridge,Rolling crop development linear model,2023-09-13,change_fresh_matter_g,standardized_coefficient,5.114939330732845,5.114939330732845,127,48
+rolling_crop_development_ridge,Rolling crop development linear model,2023-09-13,rolling_mean_2_fruit_number,standardized_coefficient,0.5060581247995896,0.5060581247995896,127,48
+rolling_crop_development_ridge,Rolling crop development linear model,2023-09-13,rolling_mean_2_fresh_matter_g,standardized_coefficient,-6.310387275706812,6.310387275706812,127,48
+rolling_crop_development_ridge,Rolling crop development linear model,2023-09-13,rolling_mean_3_fruit_number,standardized_coefficient,-1.588276977724305,1.588276977724305,127,48
+rolling_crop_development_ridge,Rolling crop development linear model,2023-09-13,rolling_mean_3_fresh_matter_g,standardized_coefficient,16.40431911550715,16.40431911550715,127,48
+rolling_crop_development_ridge,Rolling crop development linear model,2023-09-13,mean_fruit_diameter_mm,standardized_coefficient,1.7112031639274266,1.7112031639274266,127,48
+rolling_crop_development_ridge,Rolling crop development linear model,2023-09-13,mean_individual_fruit_fresh_weight_g,standardized_coefficient,3.5873094558653045,3.5873094558653045,127,48
+rolling_crop_development_ridge,Rolling crop development linear model,2023-09-13,mean_tagged_fruit_diameter_mm,standardized_coefficient,-2.899555406721316,2.899555406721316,127,48
+rolling_crop_development_ridge,Rolling crop development linear model,2023-09-13,mean_tagged_fruit_length_mm,standardized_coefficient,7.624878622216622,7.624878622216622,127,48
+rolling_crop_development_rf,Rolling crop development random forest,2023-09-13,treatment_n_level,importance,0.148859722490849,0.148859722490849,127,48
+rolling_crop_development_rf,Rolling crop development random forest,2023-09-13,forecast_horizon_days,importance,0.0133078392825658,0.0133078392825658,127,48
+rolling_crop_development_rf,Rolling crop development random forest,2023-09-13,day_of_year,importance,0.007238493415798503,0.007238493415798503,127,48
+rolling_crop_development_rf,Rolling crop development random forest,2023-09-13,days_since_weather_start,importance,0.0036593949275220473,0.0036593949275220473,127,48
+rolling_crop_development_rf,Rolling crop development random forest,2023-09-13,tmax_c,importance,0.017439979088070122,0.017439979088070122,127,48
+rolling_crop_development_rf,Rolling crop development random forest,2023-09-13,tmin_c,importance,0.00994253354631991,0.00994253354631991,127,48
+rolling_crop_development_rf,Rolling crop development random forest,2023-09-13,tmean_c,importance,0.011016102499101893,0.011016102499101893,127,48
+rolling_crop_development_rf,Rolling crop development random forest,2023-09-13,rhmean_pct,importance,0.020847693200547742,0.020847693200547742,127,48
+rolling_crop_development_rf,Rolling crop development random forest,2023-09-13,solar_radiation,importance,0.04764497685183988,0.04764497685183988,127,48
+rolling_crop_development_rf,Rolling crop development random forest,2023-09-13,gdd_base_10,importance,0.014134148721397972,0.014134148721397972,127,48
+rolling_crop_development_rf,Rolling crop development random forest,2023-09-13,cumulative_gdd_base_10,importance,0.0066910785275055016,0.0066910785275055016,127,48
+rolling_crop_development_rf,Rolling crop development random forest,2023-09-13,cumulative_solar_radiation,importance,0.004833890557880927,0.004833890557880927,127,48
+rolling_crop_development_rf,Rolling crop development random forest,2023-09-13,tmean_7d,importance,0.045984535712056435,0.045984535712056435,127,48
+rolling_crop_development_rf,Rolling crop development random forest,2023-09-13,solar_radiation_7d,importance,0.01830552419680395,0.01830552419680395,127,48
+rolling_crop_development_rf,Rolling crop development random forest,2023-09-13,rhmean_7d,importance,0.04444996069590581,0.04444996069590581,127,48
+rolling_crop_development_rf,Rolling crop development random forest,2023-09-13,current_fruit_number,importance,0.014395502011243254,0.014395502011243254,127,48
+rolling_crop_development_rf,Rolling crop development random forest,2023-09-13,current_fresh_matter_g,importance,0.19666430592258494,0.19666430592258494,127,48
+rolling_crop_development_rf,Rolling crop development random forest,2023-09-13,current_dry_matter_g,importance,0.020747458529380744,0.020747458529380744,127,48
+rolling_crop_development_rf,Rolling crop development random forest,2023-09-13,previous_fruit_number,importance,0.005513544172439862,0.005513544172439862,127,48
+rolling_crop_development_rf,Rolling crop development random forest,2023-09-13,previous_fresh_matter_g,importance,0.015981774242010843,0.015981774242010843,127,48
+rolling_crop_development_rf,Rolling crop development random forest,2023-09-13,previous_dry_matter_g,importance,0.008412240215827939,0.008412240215827939,127,48
+rolling_crop_development_rf,Rolling crop development random forest,2023-09-13,change_fruit_number,importance,0.0035778762485007736,0.0035778762485007736,127,48
+rolling_crop_development_rf,Rolling crop development random forest,2023-09-13,change_fresh_matter_g,importance,0.012934957352711524,0.012934957352711524,127,48
+rolling_crop_development_rf,Rolling crop development random forest,2023-09-13,rolling_mean_2_fruit_number,importance,0.018681590202792336,0.018681590202792336,127,48
+rolling_crop_development_rf,Rolling crop development random forest,2023-09-13,rolling_mean_2_fresh_matter_g,importance,0.0369528604896306,0.0369528604896306,127,48
+rolling_crop_development_rf,Rolling crop development random forest,2023-09-13,rolling_mean_3_fruit_number,importance,0.03603407363364113,0.03603407363364113,127,48
+rolling_crop_development_rf,Rolling crop development random forest,2023-09-13,rolling_mean_3_fresh_matter_g,importance,0.1470044037678527,0.1470044037678527,127,48
+rolling_crop_development_rf,Rolling crop development random forest,2023-09-13,mean_fruit_diameter_mm,importance,0.016178191139420692,0.016178191139420692,127,48
+rolling_crop_development_rf,Rolling crop development random forest,2023-09-13,mean_individual_fruit_fresh_weight_g,importance,0.03372742268637649,0.03372742268637649,127,48
+rolling_crop_development_rf,Rolling crop development random forest,2023-09-13,mean_tagged_fruit_diameter_mm,importance,0.007372948882479883,0.007372948882479883,127,48
+rolling_crop_development_rf,Rolling crop development random forest,2023-09-13,mean_tagged_fruit_length_mm,importance,0.01146497678894111,0.01146497678894111,127,48
+rolling_weather_gdd_ridge,Rolling weather + GDD linear model,2023-09-17,treatment_n_level,standardized_coefficient,12.116162862061802,12.116162862061802,131,52
+rolling_weather_gdd_ridge,Rolling weather + GDD linear model,2023-09-17,forecast_horizon_days,standardized_coefficient,0.9636515881602026,0.9636515881602026,131,52
+rolling_weather_gdd_ridge,Rolling weather + GDD linear model,2023-09-17,day_of_year,standardized_coefficient,6.419774921314671,6.419774921314671,131,52
+rolling_weather_gdd_ridge,Rolling weather + GDD linear model,2023-09-17,days_since_weather_start,standardized_coefficient,10.087427374556604,10.087427374556604,131,52
+rolling_weather_gdd_ridge,Rolling weather + GDD linear model,2023-09-17,tmean_c,standardized_coefficient,-1.4179145395002044,1.4179145395002044,131,52
+rolling_weather_gdd_ridge,Rolling weather + GDD linear model,2023-09-17,rhmean_pct,standardized_coefficient,4.944583006633227,4.944583006633227,131,52
+rolling_weather_gdd_ridge,Rolling weather + GDD linear model,2023-09-17,solar_radiation,standardized_coefficient,-3.372497996588555,3.372497996588555,131,52
+rolling_weather_gdd_ridge,Rolling weather + GDD linear model,2023-09-17,gdd_base_10,standardized_coefficient,-1.4179145395005066,1.4179145395005066,131,52
+rolling_weather_gdd_ridge,Rolling weather + GDD linear model,2023-09-17,cumulative_gdd_base_10,standardized_coefficient,-20.53837439240168,20.53837439240168,131,52
+rolling_weather_gdd_ridge,Rolling weather + GDD linear model,2023-09-17,cumulative_solar_radiation,standardized_coefficient,13.956395224719358,13.956395224719358,131,52
+rolling_weather_gdd_ridge,Rolling weather + GDD linear model,2023-09-17,tmean_7d,standardized_coefficient,-1.7629619493245459,1.7629619493245459,131,52
+rolling_weather_gdd_ridge,Rolling weather + GDD linear model,2023-09-17,solar_radiation_7d,standardized_coefficient,-2.1765809921241868,2.1765809921241868,131,52
+rolling_weather_gdd_ridge,Rolling weather + GDD linear model,2023-09-17,rhmean_7d,standardized_coefficient,7.874066141569469,7.874066141569469,131,52
+rolling_crop_development_ridge,Rolling crop development linear model,2023-09-17,treatment_n_level,standardized_coefficient,4.029339667523241,4.029339667523241,131,52
+rolling_crop_development_ridge,Rolling crop development linear model,2023-09-17,forecast_horizon_days,standardized_coefficient,2.615603285437595,2.615603285437595,131,52
+rolling_crop_development_ridge,Rolling crop development linear model,2023-09-17,day_of_year,standardized_coefficient,0.13350028706357955,0.13350028706357955,131,52
+rolling_crop_development_ridge,Rolling crop development linear model,2023-09-17,days_since_weather_start,standardized_coefficient,1.4771608350797614,1.4771608350797614,131,52
+rolling_crop_development_ridge,Rolling crop development linear model,2023-09-17,cumulative_gdd_base_10,standardized_coefficient,-11.316005706904898,11.316005706904898,131,52
+rolling_crop_development_ridge,Rolling crop development linear model,2023-09-17,cumulative_solar_radiation,standardized_coefficient,5.997246318427442,5.997246318427442,131,52
+rolling_crop_development_ridge,Rolling crop development linear model,2023-09-17,tmean_7d,standardized_coefficient,-5.076038677090561,5.076038677090561,131,52
+rolling_crop_development_ridge,Rolling crop development linear model,2023-09-17,solar_radiation_7d,standardized_coefficient,-3.5466270690903636,3.5466270690903636,131,52
+rolling_crop_development_ridge,Rolling crop development linear model,2023-09-17,current_fruit_number,standardized_coefficient,13.158707329879986,13.158707329879986,131,52
+rolling_crop_development_ridge,Rolling crop development linear model,2023-09-17,current_fresh_matter_g,standardized_coefficient,12.583163497332551,12.583163497332551,131,52
+rolling_crop_development_ridge,Rolling crop development linear model,2023-09-17,current_dry_matter_g,standardized_coefficient,-5.805823244445782,5.805823244445782,131,52
+rolling_crop_development_ridge,Rolling crop development linear model,2023-09-17,previous_fruit_number,standardized_coefficient,-8.36824087118539,8.36824087118539,131,52
+rolling_crop_development_ridge,Rolling crop development linear model,2023-09-17,previous_fresh_matter_g,standardized_coefficient,1.4459417259853822,1.4459417259853822,131,52
+rolling_crop_development_ridge,Rolling crop development linear model,2023-09-17,previous_dry_matter_g,standardized_coefficient,-0.5161919795701623,0.5161919795701623,131,52
+rolling_crop_development_ridge,Rolling crop development linear model,2023-09-17,change_fruit_number,standardized_coefficient,-13.343153822745862,13.343153822745862,131,52
+rolling_crop_development_ridge,Rolling crop development linear model,2023-09-17,change_fresh_matter_g,standardized_coefficient,2.0207369316172588,2.0207369316172588,131,52
+rolling_crop_development_ridge,Rolling crop development linear model,2023-09-17,rolling_mean_2_fruit_number,standardized_coefficient,0.6597706977970366,0.6597706977970366,131,52
+rolling_crop_development_ridge,Rolling crop development linear model,2023-09-17,rolling_mean_2_fresh_matter_g,standardized_coefficient,-8.455375474468457,8.455375474468457,131,52
+rolling_crop_development_ridge,Rolling crop development linear model,2023-09-17,rolling_mean_3_fruit_number,standardized_coefficient,-2.398294879866126,2.398294879866126,131,52
+rolling_crop_development_ridge,Rolling crop development linear model,2023-09-17,rolling_mean_3_fresh_matter_g,standardized_coefficient,17.512280951734482,17.512280951734482,131,52
+rolling_crop_development_ridge,Rolling crop development linear model,2023-09-17,mean_fruit_diameter_mm,standardized_coefficient,0.15991963385974547,0.15991963385974547,131,52
+rolling_crop_development_ridge,Rolling crop development linear model,2023-09-17,mean_individual_fruit_fresh_weight_g,standardized_coefficient,4.65354123658177,4.65354123658177,131,52
+rolling_crop_development_ridge,Rolling crop development linear model,2023-09-17,mean_tagged_fruit_diameter_mm,standardized_coefficient,-4.392916679417872,4.392916679417872,131,52
+rolling_crop_development_ridge,Rolling crop development linear model,2023-09-17,mean_tagged_fruit_length_mm,standardized_coefficient,8.956924836611046,8.956924836611046,131,52
+rolling_crop_development_rf,Rolling crop development random forest,2023-09-17,treatment_n_level,importance,0.11689127195899332,0.11689127195899332,131,52
+rolling_crop_development_rf,Rolling crop development random forest,2023-09-17,forecast_horizon_days,importance,0.01838455714493107,0.01838455714493107,131,52
+rolling_crop_development_rf,Rolling crop development random forest,2023-09-17,day_of_year,importance,0.005997874616412833,0.005997874616412833,131,52
+rolling_crop_development_rf,Rolling crop development random forest,2023-09-17,days_since_weather_start,importance,0.004234869531012216,0.004234869531012216,131,52
+rolling_crop_development_rf,Rolling crop development random forest,2023-09-17,tmax_c,importance,0.014247801074686714,0.014247801074686714,131,52
+rolling_crop_development_rf,Rolling crop development random forest,2023-09-17,tmin_c,importance,0.008233546951016241,0.008233546951016241,131,52
+rolling_crop_development_rf,Rolling crop development random forest,2023-09-17,tmean_c,importance,0.007671467989500891,0.007671467989500891,131,52
+rolling_crop_development_rf,Rolling crop development random forest,2023-09-17,rhmean_pct,importance,0.021566939211898166,0.021566939211898166,131,52
+rolling_crop_development_rf,Rolling crop development random forest,2023-09-17,solar_radiation,importance,0.05142565509888467,0.05142565509888467,131,52
+rolling_crop_development_rf,Rolling crop development random forest,2023-09-17,gdd_base_10,importance,0.010950445357274461,0.010950445357274461,131,52
+rolling_crop_development_rf,Rolling crop development random forest,2023-09-17,cumulative_gdd_base_10,importance,0.00424509016394625,0.00424509016394625,131,52
+rolling_crop_development_rf,Rolling crop development random forest,2023-09-17,cumulative_solar_radiation,importance,0.00881193234555422,0.00881193234555422,131,52
+rolling_crop_development_rf,Rolling crop development random forest,2023-09-17,tmean_7d,importance,0.03714327701752308,0.03714327701752308,131,52
+rolling_crop_development_rf,Rolling crop development random forest,2023-09-17,solar_radiation_7d,importance,0.01749737911532383,0.01749737911532383,131,52
+rolling_crop_development_rf,Rolling crop development random forest,2023-09-17,rhmean_7d,importance,0.039534417591151776,0.039534417591151776,131,52
+rolling_crop_development_rf,Rolling crop development random forest,2023-09-17,current_fruit_number,importance,0.028330543386643748,0.028330543386643748,131,52
+rolling_crop_development_rf,Rolling crop development random forest,2023-09-17,current_fresh_matter_g,importance,0.2287279225397944,0.2287279225397944,131,52
+rolling_crop_development_rf,Rolling crop development random forest,2023-09-17,current_dry_matter_g,importance,0.02752822130001108,0.02752822130001108,131,52
+rolling_crop_development_rf,Rolling crop development random forest,2023-09-17,previous_fruit_number,importance,0.006550288034446065,0.006550288034446065,131,52
+rolling_crop_development_rf,Rolling crop development random forest,2023-09-17,previous_fresh_matter_g,importance,0.014130668356750463,0.014130668356750463,131,52
+rolling_crop_development_rf,Rolling crop development random forest,2023-09-17,previous_dry_matter_g,importance,0.009792904890521545,0.009792904890521545,131,52
+rolling_crop_development_rf,Rolling crop development random forest,2023-09-17,change_fruit_number,importance,0.004131272693830325,0.004131272693830325,131,52
+rolling_crop_development_rf,Rolling crop development random forest,2023-09-17,change_fresh_matter_g,importance,0.011521419579102401,0.011521419579102401,131,52
+rolling_crop_development_rf,Rolling crop development random forest,2023-09-17,rolling_mean_2_fruit_number,importance,0.019006342210172417,0.019006342210172417,131,52
+rolling_crop_development_rf,Rolling crop development random forest,2023-09-17,rolling_mean_2_fresh_matter_g,importance,0.043218627879275516,0.043218627879275516,131,52
+rolling_crop_development_rf,Rolling crop development random forest,2023-09-17,rolling_mean_3_fruit_number,importance,0.026445609341416418,0.026445609341416418,131,52
+rolling_crop_development_rf,Rolling crop development random forest,2023-09-17,rolling_mean_3_fresh_matter_g,importance,0.13385213313427965,0.13385213313427965,131,52
+rolling_crop_development_rf,Rolling crop development random forest,2023-09-17,mean_fruit_diameter_mm,importance,0.019962667312988628,0.019962667312988628,131,52
+rolling_crop_development_rf,Rolling crop development random forest,2023-09-17,mean_individual_fruit_fresh_weight_g,importance,0.03580431344439242,0.03580431344439242,131,52
+rolling_crop_development_rf,Rolling crop development random forest,2023-09-17,mean_tagged_fruit_diameter_mm,importance,0.007725395678355186,0.007725395678355186,131,52
+rolling_crop_development_rf,Rolling crop development random forest,2023-09-17,mean_tagged_fruit_length_mm,importance,0.016435145049910095,0.016435145049910095,131,52
+rolling_weather_gdd_ridge,Rolling weather + GDD linear model,2023-09-21,treatment_n_level,standardized_coefficient,12.164469473882049,12.164469473882049,135,56
+rolling_weather_gdd_ridge,Rolling weather + GDD linear model,2023-09-21,forecast_horizon_days,standardized_coefficient,1.1123398613824134,1.1123398613824134,135,56
+rolling_weather_gdd_ridge,Rolling weather + GDD linear model,2023-09-21,day_of_year,standardized_coefficient,4.799589121984742,4.799589121984742,135,56
+rolling_weather_gdd_ridge,Rolling weather + GDD linear model,2023-09-21,days_since_weather_start,standardized_coefficient,10.003052084885192,10.003052084885192,135,56
+rolling_weather_gdd_ridge,Rolling weather + GDD linear model,2023-09-21,tmean_c,standardized_coefficient,-2.077864778048636,2.077864778048636,135,56
+rolling_weather_gdd_ridge,Rolling weather + GDD linear model,2023-09-21,rhmean_pct,standardized_coefficient,4.125874055601505,4.125874055601505,135,56
+rolling_weather_gdd_ridge,Rolling weather + GDD linear model,2023-09-21,solar_radiation,standardized_coefficient,-3.30298603227475,3.30298603227475,135,56
+rolling_weather_gdd_ridge,Rolling weather + GDD linear model,2023-09-21,gdd_base_10,standardized_coefficient,-2.0778647780488435,2.0778647780488435,135,56
+rolling_weather_gdd_ridge,Rolling weather + GDD linear model,2023-09-21,cumulative_gdd_base_10,standardized_coefficient,-23.304010272677196,23.304010272677196,135,56
+rolling_weather_gdd_ridge,Rolling weather + GDD linear model,2023-09-21,cumulative_solar_radiation,standardized_coefficient,19.55243784780875,19.55243784780875,135,56
+rolling_weather_gdd_ridge,Rolling weather + GDD linear model,2023-09-21,tmean_7d,standardized_coefficient,2.13939211785254,2.13939211785254,135,56
+rolling_weather_gdd_ridge,Rolling weather + GDD linear model,2023-09-21,solar_radiation_7d,standardized_coefficient,-2.794647283389925,2.794647283389925,135,56
+rolling_weather_gdd_ridge,Rolling weather + GDD linear model,2023-09-21,rhmean_7d,standardized_coefficient,7.146487410401949,7.146487410401949,135,56
+rolling_crop_development_ridge,Rolling crop development linear model,2023-09-21,treatment_n_level,standardized_coefficient,4.032837783187056,4.032837783187056,135,56
+rolling_crop_development_ridge,Rolling crop development linear model,2023-09-21,forecast_horizon_days,standardized_coefficient,2.68269502102799,2.68269502102799,135,56
+rolling_crop_development_ridge,Rolling crop development linear model,2023-09-21,day_of_year,standardized_coefficient,-0.9824277347251383,0.9824277347251383,135,56
+rolling_crop_development_ridge,Rolling crop development linear model,2023-09-21,days_since_weather_start,standardized_coefficient,1.1309874364349717,1.1309874364349717,135,56
+rolling_crop_development_ridge,Rolling crop development linear model,2023-09-21,cumulative_gdd_base_10,standardized_coefficient,-11.96635284954295,11.96635284954295,135,56
+rolling_crop_development_ridge,Rolling crop development linear model,2023-09-21,cumulative_solar_radiation,standardized_coefficient,8.152459882988783,8.152459882988783,135,56
+rolling_crop_development_ridge,Rolling crop development linear model,2023-09-21,tmean_7d,standardized_coefficient,-4.477477484767373,4.477477484767373,135,56
+rolling_crop_development_ridge,Rolling crop development linear model,2023-09-21,solar_radiation_7d,standardized_coefficient,-3.4502721728246013,3.4502721728246013,135,56
+rolling_crop_development_ridge,Rolling crop development linear model,2023-09-21,current_fruit_number,standardized_coefficient,12.743249225626586,12.743249225626586,135,56
+rolling_crop_development_ridge,Rolling crop development linear model,2023-09-21,current_fresh_matter_g,standardized_coefficient,12.530391700748659,12.530391700748659,135,56
+rolling_crop_development_ridge,Rolling crop development linear model,2023-09-21,current_dry_matter_g,standardized_coefficient,-5.167147371652173,5.167147371652173,135,56
+rolling_crop_development_ridge,Rolling crop development linear model,2023-09-21,previous_fruit_number,standardized_coefficient,-8.793625808474083,8.793625808474083,135,56
+rolling_crop_development_ridge,Rolling crop development linear model,2023-09-21,previous_fresh_matter_g,standardized_coefficient,1.3226586753461795,1.3226586753461795,135,56
+rolling_crop_development_ridge,Rolling crop development linear model,2023-09-21,previous_dry_matter_g,standardized_coefficient,-0.35927836524179124,0.35927836524179124,135,56
+rolling_crop_development_ridge,Rolling crop development linear model,2023-09-21,change_fruit_number,standardized_coefficient,-13.218668198332786,13.218668198332786,135,56
+rolling_crop_development_ridge,Rolling crop development linear model,2023-09-21,change_fresh_matter_g,standardized_coefficient,1.9210305044525198,1.9210305044525198,135,56
+rolling_crop_development_ridge,Rolling crop development linear model,2023-09-21,rolling_mean_2_fruit_number,standardized_coefficient,0.35306219856482796,0.35306219856482796,135,56
+rolling_crop_development_ridge,Rolling crop development linear model,2023-09-21,rolling_mean_2_fresh_matter_g,standardized_coefficient,-7.876984830627318,7.876984830627318,135,56
+rolling_crop_development_ridge,Rolling crop development linear model,2023-09-21,rolling_mean_3_fruit_number,standardized_coefficient,-1.3654505470728937,1.3654505470728937,135,56
+rolling_crop_development_ridge,Rolling crop development linear model,2023-09-21,rolling_mean_3_fresh_matter_g,standardized_coefficient,16.930212956295286,16.930212956295286,135,56
+rolling_crop_development_ridge,Rolling crop development linear model,2023-09-21,mean_fruit_diameter_mm,standardized_coefficient,0.15412296931999564,0.15412296931999564,135,56
+rolling_crop_development_ridge,Rolling crop development linear model,2023-09-21,mean_individual_fruit_fresh_weight_g,standardized_coefficient,4.4584869604586235,4.4584869604586235,135,56
+rolling_crop_development_ridge,Rolling crop development linear model,2023-09-21,mean_tagged_fruit_diameter_mm,standardized_coefficient,-4.992292169999678,4.992292169999678,135,56
+rolling_crop_development_ridge,Rolling crop development linear model,2023-09-21,mean_tagged_fruit_length_mm,standardized_coefficient,9.753158981646472,9.753158981646472,135,56
+rolling_crop_development_rf,Rolling crop development random forest,2023-09-21,treatment_n_level,importance,0.11322882024235319,0.11322882024235319,135,56
+rolling_crop_development_rf,Rolling crop development random forest,2023-09-21,forecast_horizon_days,importance,0.015812026728218995,0.015812026728218995,135,56
+rolling_crop_development_rf,Rolling crop development random forest,2023-09-21,day_of_year,importance,0.005741696596480667,0.005741696596480667,135,56
+rolling_crop_development_rf,Rolling crop development random forest,2023-09-21,days_since_weather_start,importance,0.0044588603764999695,0.0044588603764999695,135,56
+rolling_crop_development_rf,Rolling crop development random forest,2023-09-21,tmax_c,importance,0.012273754044428448,0.012273754044428448,135,56
+rolling_crop_development_rf,Rolling crop development random forest,2023-09-21,tmin_c,importance,0.007354041973151116,0.007354041973151116,135,56
+rolling_crop_development_rf,Rolling crop development random forest,2023-09-21,tmean_c,importance,0.007996685045881136,0.007996685045881136,135,56
+rolling_crop_development_rf,Rolling crop development random forest,2023-09-21,rhmean_pct,importance,0.02515254644352963,0.02515254644352963,135,56
+rolling_crop_development_rf,Rolling crop development random forest,2023-09-21,solar_radiation,importance,0.05535353260324197,0.05535353260324197,135,56
+rolling_crop_development_rf,Rolling crop development random forest,2023-09-21,gdd_base_10,importance,0.010410932983076115,0.010410932983076115,135,56
+rolling_crop_development_rf,Rolling crop development random forest,2023-09-21,cumulative_gdd_base_10,importance,0.004113704707877337,0.004113704707877337,135,56
+rolling_crop_development_rf,Rolling crop development random forest,2023-09-21,cumulative_solar_radiation,importance,0.00789878655561203,0.00789878655561203,135,56
+rolling_crop_development_rf,Rolling crop development random forest,2023-09-21,tmean_7d,importance,0.0326235386839499,0.0326235386839499,135,56
+rolling_crop_development_rf,Rolling crop development random forest,2023-09-21,solar_radiation_7d,importance,0.011484625442061304,0.011484625442061304,135,56
+rolling_crop_development_rf,Rolling crop development random forest,2023-09-21,rhmean_7d,importance,0.045858552579716126,0.045858552579716126,135,56
+rolling_crop_development_rf,Rolling crop development random forest,2023-09-21,current_fruit_number,importance,0.031631964985365774,0.031631964985365774,135,56
+rolling_crop_development_rf,Rolling crop development random forest,2023-09-21,current_fresh_matter_g,importance,0.24339419696371217,0.24339419696371217,135,56
+rolling_crop_development_rf,Rolling crop development random forest,2023-09-21,current_dry_matter_g,importance,0.026550330686470332,0.026550330686470332,135,56
+rolling_crop_development_rf,Rolling crop development random forest,2023-09-21,previous_fruit_number,importance,0.00559238251482725,0.00559238251482725,135,56
+rolling_crop_development_rf,Rolling crop development random forest,2023-09-21,previous_fresh_matter_g,importance,0.015572958865790366,0.015572958865790366,135,56
+rolling_crop_development_rf,Rolling crop development random forest,2023-09-21,previous_dry_matter_g,importance,0.008252235154154903,0.008252235154154903,135,56
+rolling_crop_development_rf,Rolling crop development random forest,2023-09-21,change_fruit_number,importance,0.0034381134759994417,0.0034381134759994417,135,56
+rolling_crop_development_rf,Rolling crop development random forest,2023-09-21,change_fresh_matter_g,importance,0.01801357748847371,0.01801357748847371,135,56
+rolling_crop_development_rf,Rolling crop development random forest,2023-09-21,rolling_mean_2_fruit_number,importance,0.02002666636026642,0.02002666636026642,135,56
+rolling_crop_development_rf,Rolling crop development random forest,2023-09-21,rolling_mean_2_fresh_matter_g,importance,0.03469000633425378,0.03469000633425378,135,56
+rolling_crop_development_rf,Rolling crop development random forest,2023-09-21,rolling_mean_3_fruit_number,importance,0.01886897305527816,0.01886897305527816,135,56
+rolling_crop_development_rf,Rolling crop development random forest,2023-09-21,rolling_mean_3_fresh_matter_g,importance,0.1448377895214658,0.1448377895214658,135,56
+rolling_crop_development_rf,Rolling crop development random forest,2023-09-21,mean_fruit_diameter_mm,importance,0.018590070065697236,0.018590070065697236,135,56
+rolling_crop_development_rf,Rolling crop development random forest,2023-09-21,mean_individual_fruit_fresh_weight_g,importance,0.03492365681942564,0.03492365681942564,135,56
+rolling_crop_development_rf,Rolling crop development random forest,2023-09-21,mean_tagged_fruit_diameter_mm,importance,0.005468232799905363,0.005468232799905363,135,56
+rolling_crop_development_rf,Rolling crop development random forest,2023-09-21,mean_tagged_fruit_length_mm,importance,0.010386739902835647,0.010386739902835647,135,56
+rolling_weather_gdd_ridge,Rolling weather + GDD linear model,2023-09-24,treatment_n_level,standardized_coefficient,12.109140786753313,12.109140786753313,139,60
+rolling_weather_gdd_ridge,Rolling weather + GDD linear model,2023-09-24,forecast_horizon_days,standardized_coefficient,1.784259009445518,1.784259009445518,139,60
+rolling_weather_gdd_ridge,Rolling weather + GDD linear model,2023-09-24,day_of_year,standardized_coefficient,2.240218670813304,2.240218670813304,139,60
+rolling_weather_gdd_ridge,Rolling weather + GDD linear model,2023-09-24,days_since_weather_start,standardized_coefficient,9.087372591974702,9.087372591974702,139,60
+rolling_weather_gdd_ridge,Rolling weather + GDD linear model,2023-09-24,tmean_c,standardized_coefficient,-3.341709545629771,3.341709545629771,139,60
+rolling_weather_gdd_ridge,Rolling weather + GDD linear model,2023-09-24,rhmean_pct,standardized_coefficient,4.985094775597334,4.985094775597334,139,60
+rolling_weather_gdd_ridge,Rolling weather + GDD linear model,2023-09-24,solar_radiation,standardized_coefficient,-1.913269173321681,1.913269173321681,139,60
+rolling_weather_gdd_ridge,Rolling weather + GDD linear model,2023-09-24,gdd_base_10,standardized_coefficient,-3.34170954562976,3.34170954562976,139,60
+rolling_weather_gdd_ridge,Rolling weather + GDD linear model,2023-09-24,cumulative_gdd_base_10,standardized_coefficient,-23.502415827713897,23.502415827713897,139,60
+rolling_weather_gdd_ridge,Rolling weather + GDD linear model,2023-09-24,cumulative_solar_radiation,standardized_coefficient,22.358012184926785,22.358012184926785,139,60
+rolling_weather_gdd_ridge,Rolling weather + GDD linear model,2023-09-24,tmean_7d,standardized_coefficient,4.340331464551659,4.340331464551659,139,60
+rolling_weather_gdd_ridge,Rolling weather + GDD linear model,2023-09-24,solar_radiation_7d,standardized_coefficient,-3.331638252523576,3.331638252523576,139,60
+rolling_weather_gdd_ridge,Rolling weather + GDD linear model,2023-09-24,rhmean_7d,standardized_coefficient,5.402874168995261,5.402874168995261,139,60
+rolling_crop_development_ridge,Rolling crop development linear model,2023-09-24,treatment_n_level,standardized_coefficient,3.879696550241098,3.879696550241098,139,60
+rolling_crop_development_ridge,Rolling crop development linear model,2023-09-24,forecast_horizon_days,standardized_coefficient,2.6738036844468893,2.6738036844468893,139,60
+rolling_crop_development_ridge,Rolling crop development linear model,2023-09-24,day_of_year,standardized_coefficient,-1.0713091563227484,1.0713091563227484,139,60
+rolling_crop_development_ridge,Rolling crop development linear model,2023-09-24,days_since_weather_start,standardized_coefficient,1.0658074030808415,1.0658074030808415,139,60
+rolling_crop_development_ridge,Rolling crop development linear model,2023-09-24,cumulative_gdd_base_10,standardized_coefficient,-11.881114065615536,11.881114065615536,139,60
+rolling_crop_development_ridge,Rolling crop development linear model,2023-09-24,cumulative_solar_radiation,standardized_coefficient,8.17687030744109,8.17687030744109,139,60
+rolling_crop_development_ridge,Rolling crop development linear model,2023-09-24,tmean_7d,standardized_coefficient,-4.451687177864206,4.451687177864206,139,60
+rolling_crop_development_ridge,Rolling crop development linear model,2023-09-24,solar_radiation_7d,standardized_coefficient,-3.4672123816434386,3.4672123816434386,139,60
+rolling_crop_development_ridge,Rolling crop development linear model,2023-09-24,current_fruit_number,standardized_coefficient,12.77280540733623,12.77280540733623,139,60
+rolling_crop_development_ridge,Rolling crop development linear model,2023-09-24,current_fresh_matter_g,standardized_coefficient,12.47156337182054,12.47156337182054,139,60
+rolling_crop_development_ridge,Rolling crop development linear model,2023-09-24,current_dry_matter_g,standardized_coefficient,-5.054076658914865,5.054076658914865,139,60
+rolling_crop_development_ridge,Rolling crop development linear model,2023-09-24,previous_fruit_number,standardized_coefficient,-8.775429509877204,8.775429509877204,139,60
+rolling_crop_development_ridge,Rolling crop development linear model,2023-09-24,previous_fresh_matter_g,standardized_coefficient,1.0099917009808832,1.0099917009808832,139,60
+rolling_crop_development_ridge,Rolling crop development linear model,2023-09-24,previous_dry_matter_g,standardized_coefficient,-0.23005633859163704,0.23005633859163704,139,60
+rolling_crop_development_ridge,Rolling crop development linear model,2023-09-24,change_fruit_number,standardized_coefficient,-13.32894024781056,13.32894024781056,139,60
+rolling_crop_development_ridge,Rolling crop development linear model,2023-09-24,change_fresh_matter_g,standardized_coefficient,1.9785133749331798,1.9785133749331798,139,60
+rolling_crop_development_ridge,Rolling crop development linear model,2023-09-24,rolling_mean_2_fruit_number,standardized_coefficient,0.2153075648789024,0.2153075648789024,139,60
+rolling_crop_development_ridge,Rolling crop development linear model,2023-09-24,rolling_mean_2_fresh_matter_g,standardized_coefficient,-7.855850432741096,7.855850432741096,139,60
+rolling_crop_development_ridge,Rolling crop development linear model,2023-09-24,rolling_mean_3_fruit_number,standardized_coefficient,-1.6468468222896966,1.6468468222896966,139,60
+rolling_crop_development_ridge,Rolling crop development linear model,2023-09-24,rolling_mean_3_fresh_matter_g,standardized_coefficient,17.46612795146799,17.46612795146799,139,60
+rolling_crop_development_ridge,Rolling crop development linear model,2023-09-24,mean_fruit_diameter_mm,standardized_coefficient,0.03966341635218169,0.03966341635218169,139,60
+rolling_crop_development_ridge,Rolling crop development linear model,2023-09-24,mean_individual_fruit_fresh_weight_g,standardized_coefficient,4.528226142700652,4.528226142700652,139,60
+rolling_crop_development_ridge,Rolling crop development linear model,2023-09-24,mean_tagged_fruit_diameter_mm,standardized_coefficient,-5.059304239935293,5.059304239935293,139,60
+rolling_crop_development_ridge,Rolling crop development linear model,2023-09-24,mean_tagged_fruit_length_mm,standardized_coefficient,9.879807461142004,9.879807461142004,139,60
+rolling_crop_development_rf,Rolling crop development random forest,2023-09-24,treatment_n_level,importance,0.09674107869379964,0.09674107869379964,139,60
+rolling_crop_development_rf,Rolling crop development random forest,2023-09-24,forecast_horizon_days,importance,0.01292226228598607,0.01292226228598607,139,60
+rolling_crop_development_rf,Rolling crop development random forest,2023-09-24,day_of_year,importance,0.003467409157028865,0.003467409157028865,139,60
+rolling_crop_development_rf,Rolling crop development random forest,2023-09-24,days_since_weather_start,importance,0.005313391848283057,0.005313391848283057,139,60
+rolling_crop_development_rf,Rolling crop development random forest,2023-09-24,tmax_c,importance,0.013802925919041682,0.013802925919041682,139,60
+rolling_crop_development_rf,Rolling crop development random forest,2023-09-24,tmin_c,importance,0.00815219219144809,0.00815219219144809,139,60
+rolling_crop_development_rf,Rolling crop development random forest,2023-09-24,tmean_c,importance,0.008605796361093274,0.008605796361093274,139,60
+rolling_crop_development_rf,Rolling crop development random forest,2023-09-24,rhmean_pct,importance,0.023141605459713752,0.023141605459713752,139,60
+rolling_crop_development_rf,Rolling crop development random forest,2023-09-24,solar_radiation,importance,0.05156382422584735,0.05156382422584735,139,60
+rolling_crop_development_rf,Rolling crop development random forest,2023-09-24,gdd_base_10,importance,0.006059944896623671,0.006059944896623671,139,60
+rolling_crop_development_rf,Rolling crop development random forest,2023-09-24,cumulative_gdd_base_10,importance,0.005480458705192754,0.005480458705192754,139,60
+rolling_crop_development_rf,Rolling crop development random forest,2023-09-24,cumulative_solar_radiation,importance,0.00769569989459493,0.00769569989459493,139,60
+rolling_crop_development_rf,Rolling crop development random forest,2023-09-24,tmean_7d,importance,0.03399837981687725,0.03399837981687725,139,60
+rolling_crop_development_rf,Rolling crop development random forest,2023-09-24,solar_radiation_7d,importance,0.009974234703363019,0.009974234703363019,139,60
+rolling_crop_development_rf,Rolling crop development random forest,2023-09-24,rhmean_7d,importance,0.05059019775005571,0.05059019775005571,139,60
+rolling_crop_development_rf,Rolling crop development random forest,2023-09-24,current_fruit_number,importance,0.03197761939671457,0.03197761939671457,139,60
+rolling_crop_development_rf,Rolling crop development random forest,2023-09-24,current_fresh_matter_g,importance,0.25165020606278476,0.25165020606278476,139,60
+rolling_crop_development_rf,Rolling crop development random forest,2023-09-24,current_dry_matter_g,importance,0.024814963039906202,0.024814963039906202,139,60
+rolling_crop_development_rf,Rolling crop development random forest,2023-09-24,previous_fruit_number,importance,0.008658600368118148,0.008658600368118148,139,60
+rolling_crop_development_rf,Rolling crop development random forest,2023-09-24,previous_fresh_matter_g,importance,0.012291078986175636,0.012291078986175636,139,60
+rolling_crop_development_rf,Rolling crop development random forest,2023-09-24,previous_dry_matter_g,importance,0.0070215309753859576,0.0070215309753859576,139,60
+rolling_crop_development_rf,Rolling crop development random forest,2023-09-24,change_fruit_number,importance,0.005232509540774621,0.005232509540774621,139,60
+rolling_crop_development_rf,Rolling crop development random forest,2023-09-24,change_fresh_matter_g,importance,0.01000573040380426,0.01000573040380426,139,60
+rolling_crop_development_rf,Rolling crop development random forest,2023-09-24,rolling_mean_2_fruit_number,importance,0.023037038054550076,0.023037038054550076,139,60
+rolling_crop_development_rf,Rolling crop development random forest,2023-09-24,rolling_mean_2_fresh_matter_g,importance,0.03517210176837526,0.03517210176837526,139,60
+rolling_crop_development_rf,Rolling crop development random forest,2023-09-24,rolling_mean_3_fruit_number,importance,0.028547375586052866,0.028547375586052866,139,60
+rolling_crop_development_rf,Rolling crop development random forest,2023-09-24,rolling_mean_3_fresh_matter_g,importance,0.1436726363150521,0.1436726363150521,139,60
+rolling_crop_development_rf,Rolling crop development random forest,2023-09-24,mean_fruit_diameter_mm,importance,0.015744193802072093,0.015744193802072093,139,60
+rolling_crop_development_rf,Rolling crop development random forest,2023-09-24,mean_individual_fruit_fresh_weight_g,importance,0.04129856118473829,0.04129856118473829,139,60
+rolling_crop_development_rf,Rolling crop development random forest,2023-09-24,mean_tagged_fruit_diameter_mm,importance,0.0051798041873818215,0.0051798041873818215,139,60
+rolling_crop_development_rf,Rolling crop development random forest,2023-09-24,mean_tagged_fruit_length_mm,importance,0.018186648419164075,0.018186648419164075,139,60

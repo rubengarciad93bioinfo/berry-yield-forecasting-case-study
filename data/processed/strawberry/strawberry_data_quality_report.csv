@@ -1,0 +1,11 @@
+check,status,value,detail
+yield_timeseries_rows,PASS,168.0,Rows in the joined treatment-date yield table.
+duplicate_year_date_treatment,PASS,0.0,Each year/date/nitrogen treatment should appear once.
+missing_weather_after_join,PASS,0.0,Rows without matching daily weather.
+negative_fruit_number,PASS,0.0,Negative values found in fruit_number.
+missing_share_fruit_number,PASS,0.0,Share of missing values in fruit_number.
+negative_fresh_matter_g,PASS,0.0,Negative values found in fresh_matter_g.
+missing_share_fresh_matter_g,PASS,0.119,Share of missing values in fresh_matter_g.
+negative_dry_matter_g,PASS,0.0,Negative values found in dry_matter_g.
+missing_share_dry_matter_g,PASS,0.131,Share of missing values in dry_matter_g.
+weather_temperature_sanity,PASS,0.0,Checks Tmax >= Tmin and plausible temperature bounds.

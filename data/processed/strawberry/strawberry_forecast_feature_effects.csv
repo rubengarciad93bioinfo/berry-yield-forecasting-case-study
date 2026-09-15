@@ -1,0 +1,69 @@
+model,model_label,feature,effect_type,effect_value,abs_effect_value
+weather_gdd_ridge,Weather + GDD linear model,treatment_n_level,coefficient,13.23089949112205,13.23089949112205
+weather_gdd_ridge,Weather + GDD linear model,rhmean_pct,coefficient,9.682912106943602,9.682912106943602
+weather_gdd_ridge,Weather + GDD linear model,cumulative_solar_radiation,coefficient,-6.533110366356601,6.533110366356601
+weather_gdd_ridge,Weather + GDD linear model,days_since_weather_start,coefficient,5.104009487280368,5.104009487280368
+weather_gdd_ridge,Weather + GDD linear model,day_of_year,coefficient,5.10400948728023,5.10400948728023
+weather_gdd_ridge,Weather + GDD linear model,solar_radiation_7d,coefficient,-5.015968322491248,5.015968322491248
+weather_gdd_ridge,Weather + GDD linear model,cumulative_gdd_base_10,coefficient,4.166365233502335,4.166365233502335
+weather_gdd_ridge,Weather + GDD linear model,rhmean_7d,coefficient,2.9102824788725408,2.9102824788725408
+weather_gdd_ridge,Weather + GDD linear model,gdd_base_10,coefficient,-2.373253130537079,2.373253130537079
+weather_gdd_ridge,Weather + GDD linear model,tmean_c,coefficient,-2.3732531305370643,2.3732531305370643
+weather_gdd_ridge,Weather + GDD linear model,tmean_7d,coefficient,-2.179485890777811,2.179485890777811
+weather_gdd_ridge,Weather + GDD linear model,forecast_horizon_days,coefficient,2.0024588190286887,2.0024588190286887
+weather_gdd_ridge,Weather + GDD linear model,solar_radiation,coefficient,-1.3488073185215608,1.3488073185215608
+crop_development_ridge,Crop development linear model,previous_fruit_number,coefficient,-17.31796830447548,17.31796830447548
+crop_development_ridge,Crop development linear model,change_fruit_number,coefficient,-15.768191314857491,15.768191314857491
+crop_development_ridge,Crop development linear model,current_fresh_matter_g,coefficient,11.209952592795403,11.209952592795403
+crop_development_ridge,Crop development linear model,change_fresh_matter_g,coefficient,9.755127823517267,9.755127823517267
+crop_development_ridge,Crop development linear model,mean_tagged_fruit_length_mm,coefficient,-9.573170251181772,9.573170251181772
+crop_development_ridge,Crop development linear model,rolling_mean_3_fresh_matter_g,coefficient,8.778861742274678,8.778861742274678
+crop_development_ridge,Crop development linear model,rolling_mean_3_fruit_number,coefficient,8.01206876538315,8.01206876538315
+crop_development_ridge,Crop development linear model,solar_radiation_7d,coefficient,-7.825343693386929,7.825343693386929
+crop_development_ridge,Crop development linear model,current_fruit_number,coefficient,6.2631080618732025,6.2631080618732025
+crop_development_ridge,Crop development linear model,forecast_horizon_days,coefficient,5.917980944551796,5.917980944551796
+crop_development_ridge,Crop development linear model,previous_fresh_matter_g,coefficient,4.64885005561474,4.64885005561474
+crop_development_ridge,Crop development linear model,treatment_n_level,coefficient,4.432462476549696,4.432462476549696
+crop_development_ridge,Crop development linear model,rolling_mean_2_fruit_number,coefficient,3.4800464124458417,3.4800464124458417
+crop_development_ridge,Crop development linear model,tmean_7d,coefficient,-3.3990695256356798,3.3990695256356798
+crop_development_ridge,Crop development linear model,mean_tagged_fruit_diameter_mm,coefficient,2.993628388363265,2.993628388363265
+crop_development_ridge,Crop development linear model,current_dry_matter_g,coefficient,-2.465484110787785,2.465484110787785
+crop_development_ridge,Crop development linear model,mean_individual_fruit_fresh_weight_g,coefficient,2.450337331801087,2.450337331801087
+crop_development_ridge,Crop development linear model,mean_fruit_diameter_mm,coefficient,1.5324903339063078,1.5324903339063078
+crop_development_ridge,Crop development linear model,cumulative_solar_radiation,coefficient,-1.2999866458520244,1.2999866458520244
+crop_development_ridge,Crop development linear model,day_of_year,coefficient,-0.9063365144340064,0.9063365144340064
+crop_development_ridge,Crop development linear model,days_since_weather_start,coefficient,-0.9063365144340016,0.9063365144340016
+crop_development_ridge,Crop development linear model,cumulative_gdd_base_10,coefficient,0.8820060477200768,0.8820060477200768
+crop_development_ridge,Crop development linear model,previous_dry_matter_g,coefficient,-0.4639114384139697,0.4639114384139697
+crop_development_ridge,Crop development linear model,rolling_mean_2_fresh_matter_g,coefficient,-0.10276162700026623,0.10276162700026623
+crop_development_rf,Crop development random forest,current_fresh_matter_g,importance,0.24328507166161484,0.24328507166161484
+crop_development_rf,Crop development random forest,rolling_mean_3_fresh_matter_g,importance,0.1609949881283452,0.1609949881283452
+crop_development_rf,Crop development random forest,treatment_n_level,importance,0.11646981058960593,0.11646981058960593
+crop_development_rf,Crop development random forest,solar_radiation,importance,0.08180475910070249,0.08180475910070249
+crop_development_rf,Crop development random forest,rolling_mean_2_fresh_matter_g,importance,0.04070606091308103,0.04070606091308103
+crop_development_rf,Crop development random forest,mean_individual_fruit_fresh_weight_g,importance,0.03779308945862922,0.03779308945862922
+crop_development_rf,Crop development random forest,rolling_mean_2_fruit_number,importance,0.036062095012260514,0.036062095012260514
+crop_development_rf,Crop development random forest,rolling_mean_3_fruit_number,importance,0.03432725386118351,0.03432725386118351
+crop_development_rf,Crop development random forest,solar_radiation_7d,importance,0.02620834206968927,0.02620834206968927
+crop_development_rf,Crop development random forest,rhmean_pct,importance,0.020461610301916636,0.020461610301916636
+crop_development_rf,Crop development random forest,change_fresh_matter_g,importance,0.017013165155471,0.017013165155471
+crop_development_rf,Crop development random forest,rhmean_7d,importance,0.016629626914465945,0.016629626914465945
+crop_development_rf,Crop development random forest,mean_fruit_diameter_mm,importance,0.016096228813644527,0.016096228813644527
+crop_development_rf,Crop development random forest,previous_fresh_matter_g,importance,0.01592486860291188,0.01592486860291188
+crop_development_rf,Crop development random forest,current_dry_matter_g,importance,0.015766242300138764,0.015766242300138764
+crop_development_rf,Crop development random forest,current_fruit_number,importance,0.014860747969760028,0.014860747969760028
+crop_development_rf,Crop development random forest,tmax_c,importance,0.0131433409453783,0.0131433409453783
+crop_development_rf,Crop development random forest,previous_fruit_number,importance,0.012703957986276486,0.012703957986276486
+crop_development_rf,Crop development random forest,previous_dry_matter_g,importance,0.012661851360588266,0.012661851360588266
+crop_development_rf,Crop development random forest,forecast_horizon_days,importance,0.010999630017338445,0.010999630017338445
+crop_development_rf,Crop development random forest,mean_tagged_fruit_length_mm,importance,0.010015610043740134,0.010015610043740134
+crop_development_rf,Crop development random forest,tmean_c,importance,0.009341354851963002,0.009341354851963002
+crop_development_rf,Crop development random forest,mean_tagged_fruit_diameter_mm,importance,0.006059124055077974,0.006059124055077974
+crop_development_rf,Crop development random forest,gdd_base_10,importance,0.005864178510465655,0.005864178510465655
+crop_development_rf,Crop development random forest,cumulative_gdd_base_10,importance,0.005712792238811531,0.005712792238811531
+crop_development_rf,Crop development random forest,days_since_weather_start,importance,0.0049382081439983605,0.0049382081439983605
+crop_development_rf,Crop development random forest,tmin_c,importance,0.004883532231286972,0.004883532231286972
+crop_development_rf,Crop development random forest,change_fruit_number,importance,0.0025067249335564527,0.0025067249335564527
+crop_development_rf,Crop development random forest,cumulative_solar_radiation,importance,0.0024512021424437334,0.0024512021424437334
+crop_development_rf,Crop development random forest,tmean_7d,importance,0.0024275212893199315,0.0024275212893199315
+crop_development_rf,Crop development random forest,day_of_year,importance,0.001887010396333699,0.001887010396333699

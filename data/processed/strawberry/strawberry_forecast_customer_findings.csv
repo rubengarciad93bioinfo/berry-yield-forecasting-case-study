@@ -1,0 +1,5 @@
+finding,result,interpretation
+Strict year-to-year validation,The best model was 'Persistence baseline' with MAE=20.53 and R²=-0.096.,The model does not generalize strongly from 2022 to 2023. This suggests that one previous season is not enough for a robust standalone forecast.
+Baseline comparison,Best MAE improvement vs persistence baseline: 0.00 g (0.0%).,Complex models should not be trusted unless they beat a simple operational baseline.
+Season shift,Average absolute treatment-level target shift between 2022 and 2023: 26.7%.,Large season-to-season differences make blind year-to-year forecasting difficult.
+Thermal time difference,Final cumulative GDD changed from 2203.4 in 2022 to 1734.7 in 2023.,"Weather and crop-development timing differ between campaigns, so forecasts need in-season updating."
