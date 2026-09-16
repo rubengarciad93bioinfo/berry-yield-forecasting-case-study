@@ -1,0 +1,86 @@
+feature_layer,join_key,feature,missing_share_in_forecast_rows,available_years,note
+treatment_specific_fruit_size_weight,year + current_observation_date + nitrogen_treatment,sample_diameter_mm_n_records,0.4825174825174825,2022,Treatment-specific but currently appears limited to 2022 files.
+treatment_specific_fruit_size_weight,year + current_observation_date + nitrogen_treatment,sample_diameter_mm_n_non_missing,0.4825174825174825,2022,Treatment-specific but currently appears limited to 2022 files.
+treatment_specific_fruit_size_weight,year + current_observation_date + nitrogen_treatment,sample_diameter_mm_mean,0.4825174825174825,2022,Treatment-specific but currently appears limited to 2022 files.
+treatment_specific_fruit_size_weight,year + current_observation_date + nitrogen_treatment,sample_diameter_mm_median,0.4825174825174825,2022,Treatment-specific but currently appears limited to 2022 files.
+treatment_specific_fruit_size_weight,year + current_observation_date + nitrogen_treatment,sample_diameter_mm_std,0.5174825174825175,2022,Treatment-specific but currently appears limited to 2022 files.
+treatment_specific_fruit_size_weight,year + current_observation_date + nitrogen_treatment,sample_diameter_mm_min,0.4825174825174825,2022,Treatment-specific but currently appears limited to 2022 files.
+treatment_specific_fruit_size_weight,year + current_observation_date + nitrogen_treatment,sample_diameter_mm_max,0.4825174825174825,2022,Treatment-specific but currently appears limited to 2022 files.
+treatment_specific_fruit_size_weight,year + current_observation_date + nitrogen_treatment,sample_diameter_mm_p10,0.4825174825174825,2022,Treatment-specific but currently appears limited to 2022 files.
+treatment_specific_fruit_size_weight,year + current_observation_date + nitrogen_treatment,sample_diameter_mm_p90,0.4825174825174825,2022,Treatment-specific but currently appears limited to 2022 files.
+treatment_specific_fruit_size_weight,year + current_observation_date + nitrogen_treatment,sample_length_mm_n_records,0.4825174825174825,2022,Treatment-specific but currently appears limited to 2022 files.
+treatment_specific_fruit_size_weight,year + current_observation_date + nitrogen_treatment,sample_length_mm_n_non_missing,0.4825174825174825,2022,Treatment-specific but currently appears limited to 2022 files.
+treatment_specific_fruit_size_weight,year + current_observation_date + nitrogen_treatment,sample_length_mm_mean,0.6083916083916084,2022,Treatment-specific but currently appears limited to 2022 files.
+treatment_specific_fruit_size_weight,year + current_observation_date + nitrogen_treatment,sample_length_mm_median,0.6083916083916084,2022,Treatment-specific but currently appears limited to 2022 files.
+treatment_specific_fruit_size_weight,year + current_observation_date + nitrogen_treatment,sample_length_mm_std,0.6363636363636364,2022,Treatment-specific but currently appears limited to 2022 files.
+treatment_specific_fruit_size_weight,year + current_observation_date + nitrogen_treatment,sample_length_mm_min,0.6083916083916084,2022,Treatment-specific but currently appears limited to 2022 files.
+treatment_specific_fruit_size_weight,year + current_observation_date + nitrogen_treatment,sample_length_mm_max,0.6083916083916084,2022,Treatment-specific but currently appears limited to 2022 files.
+treatment_specific_fruit_size_weight,year + current_observation_date + nitrogen_treatment,sample_length_mm_p10,0.6083916083916084,2022,Treatment-specific but currently appears limited to 2022 files.
+treatment_specific_fruit_size_weight,year + current_observation_date + nitrogen_treatment,sample_length_mm_p90,0.6083916083916084,2022,Treatment-specific but currently appears limited to 2022 files.
+treatment_specific_fruit_size_weight,year + current_observation_date + nitrogen_treatment,sample_individual_fruit_fresh_weight_g_n_records,0.4825174825174825,2022,Treatment-specific but currently appears limited to 2022 files.
+treatment_specific_fruit_size_weight,year + current_observation_date + nitrogen_treatment,sample_individual_fruit_fresh_weight_g_n_non_missing,0.4825174825174825,2022,Treatment-specific but currently appears limited to 2022 files.
+treatment_specific_fruit_size_weight,year + current_observation_date + nitrogen_treatment,sample_individual_fruit_fresh_weight_g_mean,0.4825174825174825,2022,Treatment-specific but currently appears limited to 2022 files.
+treatment_specific_fruit_size_weight,year + current_observation_date + nitrogen_treatment,sample_individual_fruit_fresh_weight_g_median,0.4825174825174825,2022,Treatment-specific but currently appears limited to 2022 files.
+treatment_specific_fruit_size_weight,year + current_observation_date + nitrogen_treatment,sample_individual_fruit_fresh_weight_g_std,0.5174825174825175,2022,Treatment-specific but currently appears limited to 2022 files.
+treatment_specific_fruit_size_weight,year + current_observation_date + nitrogen_treatment,sample_individual_fruit_fresh_weight_g_min,0.4825174825174825,2022,Treatment-specific but currently appears limited to 2022 files.
+treatment_specific_fruit_size_weight,year + current_observation_date + nitrogen_treatment,sample_individual_fruit_fresh_weight_g_max,0.4825174825174825,2022,Treatment-specific but currently appears limited to 2022 files.
+treatment_specific_fruit_size_weight,year + current_observation_date + nitrogen_treatment,sample_individual_fruit_fresh_weight_g_p10,0.4825174825174825,2022,Treatment-specific but currently appears limited to 2022 files.
+treatment_specific_fruit_size_weight,year + current_observation_date + nitrogen_treatment,sample_individual_fruit_fresh_weight_g_p90,0.4825174825174825,2022,Treatment-specific but currently appears limited to 2022 files.
+treatment_specific_fruit_size_weight,year + current_observation_date + nitrogen_treatment,sample_condition_code_n_records,0.4825174825174825,2022,Treatment-specific but currently appears limited to 2022 files.
+treatment_specific_fruit_size_weight,year + current_observation_date + nitrogen_treatment,sample_condition_code_n_non_missing,0.4825174825174825,2022,Treatment-specific but currently appears limited to 2022 files.
+treatment_specific_fruit_size_weight,year + current_observation_date + nitrogen_treatment,sample_condition_code_mean,0.6363636363636364,2022,Treatment-specific but currently appears limited to 2022 files.
+treatment_specific_fruit_size_weight,year + current_observation_date + nitrogen_treatment,sample_condition_code_median,0.6363636363636364,2022,Treatment-specific but currently appears limited to 2022 files.
+treatment_specific_fruit_size_weight,year + current_observation_date + nitrogen_treatment,sample_condition_code_std,0.6643356643356644,2022,Treatment-specific but currently appears limited to 2022 files.
+treatment_specific_fruit_size_weight,year + current_observation_date + nitrogen_treatment,sample_condition_code_min,0.6363636363636364,2022,Treatment-specific but currently appears limited to 2022 files.
+treatment_specific_fruit_size_weight,year + current_observation_date + nitrogen_treatment,sample_condition_code_max,0.6363636363636364,2022,Treatment-specific but currently appears limited to 2022 files.
+treatment_specific_fruit_size_weight,year + current_observation_date + nitrogen_treatment,sample_condition_code_p10,0.6363636363636364,2022,Treatment-specific but currently appears limited to 2022 files.
+treatment_specific_fruit_size_weight,year + current_observation_date + nitrogen_treatment,sample_condition_code_p90,0.6363636363636364,2022,Treatment-specific but currently appears limited to 2022 files.
+treatment_specific_fruit_size_weight,year + current_observation_date + nitrogen_treatment,n_fruit_size_samples,0.4825174825174825,2022,Treatment-specific but currently appears limited to 2022 files.
+date_level_tagged_fruit,year + current_observation_date,tagged_diameter_mm_n_records,0.027972027972027972,"2022, 2023",Date-level crop-development signal; not treatment-specific.
+date_level_tagged_fruit,year + current_observation_date,tagged_diameter_mm_n_non_missing,0.027972027972027972,"2022, 2023",Date-level crop-development signal; not treatment-specific.
+date_level_tagged_fruit,year + current_observation_date,tagged_diameter_mm_mean,0.027972027972027972,"2022, 2023",Date-level crop-development signal; not treatment-specific.
+date_level_tagged_fruit,year + current_observation_date,tagged_diameter_mm_median,0.027972027972027972,"2022, 2023",Date-level crop-development signal; not treatment-specific.
+date_level_tagged_fruit,year + current_observation_date,tagged_diameter_mm_std,0.027972027972027972,"2022, 2023",Date-level crop-development signal; not treatment-specific.
+date_level_tagged_fruit,year + current_observation_date,tagged_diameter_mm_min,0.027972027972027972,"2022, 2023",Date-level crop-development signal; not treatment-specific.
+date_level_tagged_fruit,year + current_observation_date,tagged_diameter_mm_max,0.027972027972027972,"2022, 2023",Date-level crop-development signal; not treatment-specific.
+date_level_tagged_fruit,year + current_observation_date,tagged_diameter_mm_p10,0.027972027972027972,"2022, 2023",Date-level crop-development signal; not treatment-specific.
+date_level_tagged_fruit,year + current_observation_date,tagged_diameter_mm_p90,0.027972027972027972,"2022, 2023",Date-level crop-development signal; not treatment-specific.
+date_level_tagged_fruit,year + current_observation_date,tagged_fresh_matter_g_n_records,0.5524475524475524,"2022, 2023",Date-level crop-development signal; not treatment-specific.
+date_level_tagged_fruit,year + current_observation_date,tagged_fresh_matter_g_n_non_missing,0.5524475524475524,"2022, 2023",Date-level crop-development signal; not treatment-specific.
+date_level_tagged_fruit,year + current_observation_date,tagged_fresh_matter_g_mean,0.7272727272727273,"2022, 2023",Date-level crop-development signal; not treatment-specific.
+date_level_tagged_fruit,year + current_observation_date,tagged_fresh_matter_g_median,0.7272727272727273,"2022, 2023",Date-level crop-development signal; not treatment-specific.
+date_level_tagged_fruit,year + current_observation_date,tagged_fresh_matter_g_std,0.7762237762237763,"2022, 2023",Date-level crop-development signal; not treatment-specific.
+date_level_tagged_fruit,year + current_observation_date,tagged_fresh_matter_g_min,0.7272727272727273,"2022, 2023",Date-level crop-development signal; not treatment-specific.
+date_level_tagged_fruit,year + current_observation_date,tagged_fresh_matter_g_max,0.7272727272727273,"2022, 2023",Date-level crop-development signal; not treatment-specific.
+date_level_tagged_fruit,year + current_observation_date,tagged_fresh_matter_g_p10,0.7272727272727273,"2022, 2023",Date-level crop-development signal; not treatment-specific.
+date_level_tagged_fruit,year + current_observation_date,tagged_fresh_matter_g_p90,0.7272727272727273,"2022, 2023",Date-level crop-development signal; not treatment-specific.
+date_level_tagged_fruit,year + current_observation_date,tagged_length_mm_n_records,0.16083916083916083,"2022, 2023",Date-level crop-development signal; not treatment-specific.
+date_level_tagged_fruit,year + current_observation_date,tagged_length_mm_n_non_missing,0.16083916083916083,"2022, 2023",Date-level crop-development signal; not treatment-specific.
+date_level_tagged_fruit,year + current_observation_date,tagged_length_mm_mean,0.16083916083916083,"2022, 2023",Date-level crop-development signal; not treatment-specific.
+date_level_tagged_fruit,year + current_observation_date,tagged_length_mm_median,0.16083916083916083,"2022, 2023",Date-level crop-development signal; not treatment-specific.
+date_level_tagged_fruit,year + current_observation_date,tagged_length_mm_std,0.16083916083916083,"2022, 2023",Date-level crop-development signal; not treatment-specific.
+date_level_tagged_fruit,year + current_observation_date,tagged_length_mm_min,0.16083916083916083,"2022, 2023",Date-level crop-development signal; not treatment-specific.
+date_level_tagged_fruit,year + current_observation_date,tagged_length_mm_max,0.16083916083916083,"2022, 2023",Date-level crop-development signal; not treatment-specific.
+date_level_tagged_fruit,year + current_observation_date,tagged_length_mm_p10,0.16083916083916083,"2022, 2023",Date-level crop-development signal; not treatment-specific.
+date_level_tagged_fruit,year + current_observation_date,tagged_length_mm_p90,0.16083916083916083,"2022, 2023",Date-level crop-development signal; not treatment-specific.
+date_level_tagged_fruit,year + current_observation_date,tagged_lifespan_code_n_records,0.5524475524475524,"2022, 2023",Date-level crop-development signal; not treatment-specific.
+date_level_tagged_fruit,year + current_observation_date,tagged_lifespan_code_n_non_missing,0.5524475524475524,"2022, 2023",Date-level crop-development signal; not treatment-specific.
+date_level_tagged_fruit,year + current_observation_date,tagged_lifespan_code_mean,0.5524475524475524,"2022, 2023",Date-level crop-development signal; not treatment-specific.
+date_level_tagged_fruit,year + current_observation_date,tagged_lifespan_code_median,0.5524475524475524,"2022, 2023",Date-level crop-development signal; not treatment-specific.
+date_level_tagged_fruit,year + current_observation_date,tagged_lifespan_code_std,0.5524475524475524,"2022, 2023",Date-level crop-development signal; not treatment-specific.
+date_level_tagged_fruit,year + current_observation_date,tagged_lifespan_code_min,0.5524475524475524,"2022, 2023",Date-level crop-development signal; not treatment-specific.
+date_level_tagged_fruit,year + current_observation_date,tagged_lifespan_code_max,0.5524475524475524,"2022, 2023",Date-level crop-development signal; not treatment-specific.
+date_level_tagged_fruit,year + current_observation_date,tagged_lifespan_code_p10,0.5524475524475524,"2022, 2023",Date-level crop-development signal; not treatment-specific.
+date_level_tagged_fruit,year + current_observation_date,tagged_lifespan_code_p90,0.5524475524475524,"2022, 2023",Date-level crop-development signal; not treatment-specific.
+date_level_tagged_fruit,year + current_observation_date,tagged_diameter_mm_mean_change_since_previous_date,0.027972027972027972,"2022, 2023",Date-level crop-development signal; not treatment-specific.
+date_level_tagged_fruit,year + current_observation_date,tagged_diameter_mm_mean_pct_change_since_previous_date,0.027972027972027972,"2022, 2023",Date-level crop-development signal; not treatment-specific.
+date_level_tagged_fruit,year + current_observation_date,tagged_diameter_mm_median_change_since_previous_date,0.027972027972027972,"2022, 2023",Date-level crop-development signal; not treatment-specific.
+date_level_tagged_fruit,year + current_observation_date,tagged_diameter_mm_median_pct_change_since_previous_date,0.027972027972027972,"2022, 2023",Date-level crop-development signal; not treatment-specific.
+date_level_tagged_fruit,year + current_observation_date,tagged_length_mm_mean_change_since_previous_date,0.1888111888111888,"2022, 2023",Date-level crop-development signal; not treatment-specific.
+date_level_tagged_fruit,year + current_observation_date,tagged_length_mm_mean_pct_change_since_previous_date,0.1888111888111888,"2022, 2023",Date-level crop-development signal; not treatment-specific.
+date_level_tagged_fruit,year + current_observation_date,tagged_length_mm_median_change_since_previous_date,0.1888111888111888,"2022, 2023",Date-level crop-development signal; not treatment-specific.
+date_level_tagged_fruit,year + current_observation_date,tagged_length_mm_median_pct_change_since_previous_date,0.1888111888111888,"2022, 2023",Date-level crop-development signal; not treatment-specific.
+date_level_tagged_fruit,year + current_observation_date,tagged_fresh_matter_g_mean_change_since_previous_date,0.8321678321678322,"2022, 2023",Date-level crop-development signal; not treatment-specific.
+date_level_tagged_fruit,year + current_observation_date,tagged_fresh_matter_g_mean_pct_change_since_previous_date,0.8321678321678322,"2022, 2023",Date-level crop-development signal; not treatment-specific.
+date_level_tagged_fruit,year + current_observation_date,tagged_lifespan_code_mean_change_since_previous_date,0.5524475524475524,"2022, 2023",Date-level crop-development signal; not treatment-specific.
+date_level_tagged_fruit,year + current_observation_date,tagged_lifespan_code_mean_pct_change_since_previous_date,0.5524475524475524,"2022, 2023",Date-level crop-development signal; not treatment-specific.

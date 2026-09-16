@@ -1,0 +1,150 @@
+model_id,model_label,feature,human_name,feature_family,mean_importance,share_of_model_importance_pct
+M1,Calendar + nitrogen RF,origin_day_of_year,Forecast day of year,calendar / lead time,0.4321299511352347,66.79895898967138
+M1,Calendar + nitrogen RF,nitrogen_treatment,Nitrogen treatment category,nitrogen treatment,0.11769626469675393,18.193573340755474
+M1,Calendar + nitrogen RF,forecast_horizon_days,Forecast lead time,calendar / lead time,0.09708499007774969,15.007467669573138
+M2,+ weather / GDD RF,tmean_7d,Tmean 7d,weather / thermal time,0.13612652647474585,19.892842509642122
+M2,+ weather / GDD RF,gdd_base_10,Gdd base 10,weather / thermal time,0.10601152971458465,15.491989103312024
+M2,+ weather / GDD RF,nitrogen_treatment,Nitrogen treatment category,nitrogen treatment,0.1052336597802871,15.378315122959359
+M2,+ weather / GDD RF,rhmean_7d,Rhmean 7d,weather / thermal time,0.09656429260146715,14.111417623899762
+M2,+ weather / GDD RF,solar_radiation_7d,Solar radiation 7d,weather / thermal time,0.08769051777669662,12.814649024666192
+M2,+ weather / GDD RF,cumulative_solar_radiation,Cumulative solar radiation,weather / thermal time,0.05318207055945562,7.771758975809867
+M2,+ weather / GDD RF,origin_day_of_year,Forecast day of year,calendar / lead time,0.04777467277836516,6.98154919648242
+M2,+ weather / GDD RF,cumulative_gdd_base_10,Cumulative gdd base 10,weather / thermal time,0.03813930040588395,5.573484581221082
+M2,+ weather / GDD RF,forecast_horizon_days,Forecast lead time,calendar / lead time,0.013576450567652575,1.9839938620071829
+M3,+ leading crop indicators RF,current_fruit_number,Current fruit count,fruit load,0.13597098792281992,16.473663665714685
+M3,+ leading crop indicators RF,mean_individual_fruit_fresh_weight_g,Mean individual fruit weight,fruit size sample,0.09610269707051297,11.643391969810004
+M3,+ leading crop indicators RF,current_dry_matter_g,Current dry matter,current dry matter state,0.08974103955650463,10.872640739395127
+M3,+ leading crop indicators RF,sample_length_mm_median,Median sample fruit length,fruit size sample,0.08663933934613506,10.496852000649564
+M3,+ leading crop indicators RF,gdd_base_10,Gdd base 10,weather / thermal time,0.06925951746882433,8.391187074986433
+M3,+ leading crop indicators RF,nitrogen_treatment,Nitrogen treatment category,nitrogen treatment,0.058205325619612204,7.051908443550948
+M3,+ leading crop indicators RF,solar_radiation_7d,Solar radiation 7d,weather / thermal time,0.05526814220674908,6.696051856736354
+M3,+ leading crop indicators RF,mean_fruit_diameter_mm,Mean fruit diameter,fruit size sample,0.04293593147407636,5.201933920488928
+M3,+ leading crop indicators RF,rhmean_7d,Rhmean 7d,weather / thermal time,0.042717507329001383,5.1754705847626425
+M3,+ leading crop indicators RF,tmean_7d,Tmean 7d,weather / thermal time,0.037684966945638776,4.565749504360543
+M3,+ leading crop indicators RF,fruit_number_trend,Fruit-count trend,fruit load,0.026296644195580317,3.1859890012776355
+M3,+ leading crop indicators RF,dry_matter_trend_g,Dry-matter trend,dry matter trajectory,0.02555503987386342,3.0961393917716777
+M3,+ leading crop indicators RF,origin_day_of_year,Forecast day of year,calendar / lead time,0.01763268079494792,2.1363002312357877
+M3,+ leading crop indicators RF,cumulative_solar_radiation,Cumulative solar radiation,weather / thermal time,0.016914543479044353,2.0492937838404828
+M3,+ leading crop indicators RF,cumulative_gdd_base_10,Cumulative gdd base 10,weather / thermal time,0.013635363955317616,1.6520024101539454
+M3,+ leading crop indicators RF,forecast_horizon_days,Forecast lead time,calendar / lead time,0.010824295902535036,1.3114254212652459
+M4,Compact crop/weather RF,current_fresh_matter_g,Current fresh matter,current fresh matter state,0.311865221441571,35.57417950898585
+M4,Compact crop/weather RF,gdd_base_10,Gdd base 10,weather / thermal time,0.061958135314260275,7.0675076160246935
+M4,Compact crop/weather RF,mean_individual_fruit_fresh_weight_g,Mean individual fruit weight,fruit size sample,0.04708662556247411,5.371128151093583
+M4,Compact crop/weather RF,fresh_matter_trend_g,Fresh-matter trend,fresh matter trajectory,0.04607587058362624,5.255832258557287
+M4,Compact crop/weather RF,solar_radiation_7d,Solar radiation 7d,weather / thermal time,0.044845907605380486,5.115531510768649
+M4,Compact crop/weather RF,sample_length_mm_median,Median sample fruit length,fruit size sample,0.04434057941711608,5.05788918823851
+M4,Compact crop/weather RF,current_fruit_number,Current fruit count,fruit load,0.044309106169799446,5.054299063810408
+M4,Compact crop/weather RF,nitrogen_treatment,Nitrogen treatment category,nitrogen treatment,0.04111275298910223,4.689693990828444
+M4,Compact crop/weather RF,tmean_7d,Tmean 7d,weather / thermal time,0.03902142434613514,4.451138052422424
+M4,Compact crop/weather RF,rhmean_7d,Rhmean 7d,weather / thermal time,0.035505138607698994,4.05003856628607
+M4,Compact crop/weather RF,current_dry_matter_g,Current dry matter,current dry matter state,0.03302444704550061,3.76706835712921
+M4,Compact crop/weather RF,mean_fruit_diameter_mm,Mean fruit diameter,fruit size sample,0.02608745467375688,2.9757720056342687
+M4,Compact crop/weather RF,fruit_number_trend,Fruit-count trend,fruit load,0.024043867926855818,2.742661941484127
+M4,Compact crop/weather RF,forecast_horizon_days,Forecast lead time,calendar / lead time,0.02134397535216933,2.4346876740653096
+M4,Compact crop/weather RF,dry_matter_trend_g,Dry-matter trend,dry matter trajectory,0.021065329771396874,2.4029028284709057
+M4,Compact crop/weather RF,origin_day_of_year,Forecast day of year,calendar / lead time,0.013013016836823299,1.4843828842689286
+M4,Compact crop/weather RF,cumulative_solar_radiation,Cumulative solar radiation,weather / thermal time,0.012226619756238547,1.3946792912207833
+M4,Compact crop/weather RF,cumulative_gdd_base_10,Cumulative gdd base 10,weather / thermal time,0.00973626763278796,1.1106071107105455
+M5,Compact crop/weather + tagged-fruit RF,current_fresh_matter_g,Current fresh matter,current fresh matter state,0.3086133256085676,35.0972100507288
+M5,Compact crop/weather + tagged-fruit RF,gdd_base_10,Gdd base 10,weather / thermal time,0.052662262218931936,5.989043004541932
+M5,Compact crop/weather + tagged-fruit RF,mean_individual_fruit_fresh_weight_g,Mean individual fruit weight,fruit size sample,0.044269206777129304,5.034538434049136
+M5,Compact crop/weather + tagged-fruit RF,sample_length_mm_median,Median sample fruit length,fruit size sample,0.043767797381137376,4.97751539119175
+M5,Compact crop/weather + tagged-fruit RF,current_fruit_number,Current fruit count,fruit load,0.04279311570405723,4.866669213420193
+M5,Compact crop/weather + tagged-fruit RF,fresh_matter_trend_g,Fresh-matter trend,fresh matter trajectory,0.04218003396892356,4.796946176043824
+M5,Compact crop/weather + tagged-fruit RF,nitrogen_treatment,Nitrogen treatment category,nitrogen treatment,0.04022995449637911,4.575172379567141
+M5,Compact crop/weather + tagged-fruit RF,solar_radiation_7d,Solar radiation 7d,weather / thermal time,0.03775745765920715,4.2939863981359565
+M5,Compact crop/weather + tagged-fruit RF,tmean_7d,Tmean 7d,weather / thermal time,0.03340957042327209,3.7995206737684826
+M5,Compact crop/weather + tagged-fruit RF,rhmean_7d,Rhmean 7d,weather / thermal time,0.029543376835715528,3.359835808665281
+M5,Compact crop/weather + tagged-fruit RF,current_dry_matter_g,Current dry matter,current dry matter state,0.029254728402316865,3.327009116305742
+M5,Compact crop/weather + tagged-fruit RF,mean_fruit_diameter_mm,Mean fruit diameter,fruit size sample,0.024416654696612312,2.776796682169338
+M5,Compact crop/weather + tagged-fruit RF,fruit_number_trend,Fruit-count trend,fruit load,0.021422349105556605,2.436267730355223
+M5,Compact crop/weather + tagged-fruit RF,forecast_horizon_days,Forecast lead time,calendar / lead time,0.019238683188931623,2.1879291947288904
+M5,Compact crop/weather + tagged-fruit RF,dry_matter_trend_g,Dry-matter trend,dry matter trajectory,0.018252215547586853,2.0757426520763613
+M5,Compact crop/weather + tagged-fruit RF,tagged_fruit_length_current_mm,Tagged-fruit length,tagged fruit development,0.01793737865931715,2.0399376641435496
+M5,Compact crop/weather + tagged-fruit RF,tagged_fruit_length_trend_mm,Tagged-fruit length trend,tagged fruit development,0.014184998272109376,1.6131962641072248
+M5,Compact crop/weather + tagged-fruit RF,tagged_fruit_diameter_trend_mm,Tagged-fruit diameter trend,tagged fruit development,0.011650891589073746,1.3250036710943587
+M5,Compact crop/weather + tagged-fruit RF,tagged_fruit_n_observed,Tagged fruits observed,tagged fruit development,0.011207865595202393,1.274620310835452
+M5,Compact crop/weather + tagged-fruit RF,origin_day_of_year,Forecast day of year,calendar / lead time,0.01069953179308947,1.2168097863110776
+M5,Compact crop/weather + tagged-fruit RF,tagged_fruit_diameter_current_mm,Tagged-fruit diameter,tagged fruit development,0.009294182746847625,1.0569857392668427
+M5,Compact crop/weather + tagged-fruit RF,cumulative_solar_radiation,Cumulative solar radiation,weather / thermal time,0.008764033214055882,0.9966942094892607
+M5,Compact crop/weather + tagged-fruit RF,cumulative_gdd_base_10,Cumulative gdd base 10,weather / thermal time,0.007760522626841913,0.8825694490041902
+M6,Full raw RF reference,current_fresh_matter_g,Current fresh matter,current fresh matter state,0.12942666650263504,13.89411622745007
+M6,Full raw RF reference,rolling_mean_3_fresh_matter_g,Rolling mean 3 fresh matter g,fresh matter trajectory,0.08673811518682151,9.311446290947423
+M6,Full raw RF reference,sample_individual_fruit_fresh_weight_g_max,Sample individual fruit fresh weight g max,fruit size sample,0.08431045661721503,9.050834075256997
+M6,Full raw RF reference,sample_length_mm_p90,Sample length mm p90,fruit size sample,0.05398385009299882,5.795234536015005
+M6,Full raw RF reference,sample_diameter_mm_p90,Sample diameter mm p90,fruit size sample,0.05153792153438793,5.532661013914076
+M6,Full raw RF reference,rolling_mean_3_dry_matter_g,Rolling mean 3 dry matter g,dry matter trajectory,0.032990981869111875,3.5416235999387813
+M6,Full raw RF reference,sample_individual_fruit_fresh_weight_g_p90,Sample individual fruit fresh weight g p90,fruit size sample,0.025267960940900742,2.7125475424061536
+M6,Full raw RF reference,solar_radiation,Solar radiation,weather / thermal time,0.024578965221337963,2.638582981110542
+M6,Full raw RF reference,rolling_mean_3_fruit_number,Rolling mean 3 fruit number,fruit load,0.02399860380118827,2.5762804491564824
+M6,Full raw RF reference,nitrogen_treatment,Nitrogen treatment category,nitrogen treatment,0.022826198793098346,2.4504212897713162
+M6,Full raw RF reference,solar_radiation_7d,Solar radiation 7d,weather / thermal time,0.01982661676389886,2.1284123678570697
+M6,Full raw RF reference,sample_diameter_mm_max,Sample diameter mm max,fruit size sample,0.017588381048438115,1.8881349349649208
+M6,Full raw RF reference,rolling_mean_2_fresh_matter_g,Rolling mean 2 fresh matter g,fresh matter trajectory,0.016193803004616883,1.738425219396316
+M6,Full raw RF reference,sample_length_mm_std,Sample length mm std,fruit size sample,0.015602629116890499,1.6749619553823527
+M6,Full raw RF reference,current_dry_matter_g,Current dry matter,current dry matter state,0.01532484400723442,1.6451413727766966
+M6,Full raw RF reference,rhmean_7d,Rhmean 7d,weather / thermal time,0.013437226910974365,1.4425032917918552
+M6,Full raw RF reference,sample_condition_code_std,Sample condition code std,other,0.013219060948181658,1.4190828999527925
+M6,Full raw RF reference,mean_tagged_fruit_length_mm,Mean tagged fruit length mm,fruit size sample,0.012833674907600397,1.3777112214188034
+M6,Full raw RF reference,tmax_c,Tmax c,weather / thermal time,0.012439289173407744,1.3353734144011948
+M6,Full raw RF reference,previous_fresh_matter_g,Previous fresh matter g,fresh matter trajectory,0.01194771921896543,1.2826027585116313
+M6,Full raw RF reference,sample_diameter_mm_min,Sample diameter mm min,fruit size sample,0.01032006052163036,1.1078715402048303
+M6,Full raw RF reference,rhmean_pct,Rhmean pct,weather / thermal time,0.010200823327905489,1.0950712767582353
+M6,Full raw RF reference,rolling_mean_2_fruit_number,Rolling mean 2 fruit number,fruit load,0.009735723127756515,1.045142182446372
+M6,Full raw RF reference,tmean_c,Tmean c,weather / thermal time,0.009700454512918236,1.0413560520685627
+M6,Full raw RF reference,gdd_base_10,Gdd base 10,weather / thermal time,0.009533406258585186,1.0234232108387473
+M6,Full raw RF reference,sample_individual_fruit_fresh_weight_g_std,Sample individual fruit fresh weight g std,fruit size sample,0.009529668991612665,1.02302201050583
+M6,Full raw RF reference,previous_fruit_number,Previous fruit number,fruit load,0.009293232004930731,0.9976402011600725
+M6,Full raw RF reference,change_fresh_matter_g,Change fresh matter g,fresh matter trajectory,0.009178811329687247,0.985356997059904
+M6,Full raw RF reference,current_fruit_number,Current fruit count,fruit load,0.00833760150751807,0.8950520594707619
+M6,Full raw RF reference,sample_diameter_mm_std,Sample diameter mm std,fruit size sample,0.008200081381714144,0.8802891001582435
+M6,Full raw RF reference,tmean_7d,Tmean 7d,weather / thermal time,0.008180546258726112,0.8781919800156358
+M6,Full raw RF reference,rolling_mean_2_dry_matter_g,Rolling mean 2 dry matter g,dry matter trajectory,0.007867805121569323,0.844618823677928
+M6,Full raw RF reference,previous_dry_matter_g,Previous dry matter g,dry matter trajectory,0.007571671986490024,0.8128285573535831
+M6,Full raw RF reference,tmin_c,Tmin c,weather / thermal time,0.006792123023897367,0.7291429909712488
+M6,Full raw RF reference,forecast_horizon_days,Forecast lead time,calendar / lead time,0.006549729800217148,0.70312177205582
+M6,Full raw RF reference,sample_length_mm_median,Median sample fruit length,fruit size sample,0.0063579208479599405,0.6825308386095598
+M6,Full raw RF reference,sample_diameter_mm_median,Median sample fruit diameter,fruit size sample,0.006121237141958094,0.6571225436329884
+M6,Full raw RF reference,sample_individual_fruit_fresh_weight_g_min,Sample individual fruit fresh weight g min,fruit size sample,0.005803830358349986,0.6230485242519642
+M6,Full raw RF reference,change_dry_matter_g,Change dry matter g,dry matter trajectory,0.005218932882725102,0.5602590410096617
+M6,Full raw RF reference,sample_length_mm_p10,Sample length mm p10,fruit size sample,0.005105032799881566,0.5480317231615885
+M6,Full raw RF reference,change_fruit_number,Change fruit number,fruit load,0.004531043967209366,0.48641329652735565
+M6,Full raw RF reference,cumulative_solar_radiation,Cumulative solar radiation,weather / thermal time,0.004359565213245344,0.4680048355625829
+M6,Full raw RF reference,sample_length_mm_mean,Mean sample fruit length,fruit size sample,0.004099061469608073,0.440039429440434
+M6,Full raw RF reference,sample_length_mm_max,Sample length mm max,fruit size sample,0.003917095914655292,0.42050519713557194
+M6,Full raw RF reference,mean_tagged_fruit_diameter_mm,Mean tagged fruit diameter mm,fruit size sample,0.0037804772906756723,0.40583901518327314
+M6,Full raw RF reference,sample_condition_code_p90,Sample condition code p90,other,0.0036542950200427167,0.39229318895292553
+M6,Full raw RF reference,sample_diameter_mm_p10,Sample diameter mm p10,fruit size sample,0.0035895760331303753,0.38534552391154414
+M6,Full raw RF reference,sample_condition_code_mean,Sample condition code mean,other,0.0034840639655768467,0.37401867010620843
+M6,Full raw RF reference,sample_length_mm_n_non_missing,Sample length mm n non missing,fruit size sample,0.003265983851355262,0.35060749421975695
+M6,Full raw RF reference,sample_condition_code_n_non_missing,Sample condition code n non missing,other,0.003158915157599817,0.3391135346242734
+M6,Full raw RF reference,day_of_year,Day of year,calendar / lead time,0.002999073284676389,0.3219543075467051
+M6,Full raw RF reference,sample_length_mm_min,Sample length mm min,fruit size sample,0.0029607713196532276,0.3178425431927905
+M6,Full raw RF reference,mean_fruit_length_mm,Mean fruit length,fruit size sample,0.00291956453896661,0.3134189432060964
+M6,Full raw RF reference,origin_week_of_year,Origin week of year,calendar / lead time,0.0028443944378095404,0.3053493378417009
+M6,Full raw RF reference,cumulative_gdd_base_10,Cumulative gdd base 10,weather / thermal time,0.002798017726600005,0.30037073927925506
+M6,Full raw RF reference,origin_day_of_year,Forecast day of year,calendar / lead time,0.0027703868637347128,0.29740453122886623
+M6,Full raw RF reference,days_since_weather_start,Days since weather start,other,0.0025676894960739087,0.27564471262749596
+M6,Full raw RF reference,sample_individual_fruit_fresh_weight_g_mean,Mean sample individual fruit weight,fruit size sample,0.0025616602478560763,0.2749974652111298
+M6,Full raw RF reference,mean_fruit_diameter_mm,Mean fruit diameter,fruit size sample,0.0024920863725686635,0.26752862176674
+M6,Full raw RF reference,mean_individual_fruit_fresh_weight_g,Mean individual fruit weight,fruit size sample,0.0024822841207304677,0.2664763376431444
+M6,Full raw RF reference,sample_individual_fruit_fresh_weight_g_median,Median sample individual fruit weight,fruit size sample,0.002147075258355991,0.2304912426070494
+M6,Full raw RF reference,sample_length_mm_n_records,Sample length mm n records,fruit size sample,0.0021131923623853425,0.22685387090104778
+M6,Full raw RF reference,sample_individual_fruit_fresh_weight_g_p10,Sample individual fruit fresh weight g p10,fruit size sample,0.0018975004181249343,0.20369906807826338
+M6,Full raw RF reference,days_since_previous_observation,Days since previous observation,other,0.001866803347497685,0.20040369874934255
+M6,Full raw RF reference,sample_diameter_mm_mean,Mean sample fruit diameter,fruit size sample,0.0018030209096052561,0.19355657342892427
+M6,Full raw RF reference,sample_individual_fruit_fresh_weight_g_n_records,Sample individual fruit fresh weight g n records,fruit size sample,0.0016441744204784437,0.17650420205995773
+M6,Full raw RF reference,n_tagged_fruit_length_mm_observations,N tagged fruit length mm observations,fruit size sample,0.0015318547605561437,0.1644465446099273
+M6,Full raw RF reference,sample_individual_fruit_fresh_weight_g_n_non_missing,Sample individual fruit fresh weight g n non missing,fruit size sample,0.0013694873797730322,0.14701620107171015
+M6,Full raw RF reference,script07_n_fruit_size_samples,Script07 n fruit size samples,fruit size sample,0.0012784104882265414,0.13723898165490592
+M6,Full raw RF reference,n_tagged_fruit_diameter_mm_observations,N tagged fruit diameter mm observations,fruit size sample,0.0011923889442224094,0.12800446018607253
+M6,Full raw RF reference,sample_diameter_mm_n_records,Sample diameter mm n records,fruit size sample,0.001165075340197156,0.1250723102731356
+M6,Full raw RF reference,sample_condition_code_n_records,Sample condition code n records,other,0.0011253660364457477,0.12080946632805142
+M6,Full raw RF reference,sample_diameter_mm_n_non_missing,Sample diameter mm n non missing,fruit size sample,0.0009796984529359585,0.10517186713348672
+M6,Full raw RF reference,sample_condition_code_max,Sample condition code max,other,0.0009445005312516394,0.10139332575510195
+M6,Full raw RF reference,n_fruit_size_samples,N fruit size samples,fruit size sample,0.0007658026417419455,0.0822098814654573
+M6,Full raw RF reference,sample_condition_code_median,Sample condition code median,other,0.0004764849323341097,0.05115125970075121
+M6,Full raw RF reference,origin_month,Origin month,calendar / lead time,0.00031290225886710304,0.03359045295694676
+M6,Full raw RF reference,forecast,Forecast,other,0.0,0.0
+M6,Full raw RF reference,sample_condition_code_min,Sample condition code min,other,0.0,0.0
+M6,Full raw RF reference,sample_condition_code_p10,Sample condition code p10,other,0.0,0.0
