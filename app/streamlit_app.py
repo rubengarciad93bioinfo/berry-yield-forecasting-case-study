@@ -121,6 +121,39 @@ st.markdown(
             line-height: 1.36;
             margin-top: .55rem;
         }
+        .side-profile {
+            padding: .92rem .95rem;
+            margin: .80rem 0 .95rem 0;
+            border: 1px solid rgba(148,163,184,.24);
+            border-radius: 16px;
+            background: rgba(17,24,39,.58);
+        }
+        .side-profile-name {
+            color: #fff;
+            font-size: 1.02rem;
+            font-weight: 850;
+            margin-bottom: .18rem;
+        }
+        .side-profile-role {
+            color: var(--muted);
+            font-size: .76rem;
+            line-height: 1.35;
+            margin-bottom: .55rem;
+        }
+        .side-link {
+            display: block;
+            color: #dff4ff !important;
+            text-decoration: none;
+            font-size: .78rem;
+            font-weight: 750;
+            margin-top: .28rem;
+        }
+        .side-stack {
+            color: var(--soft);
+            font-size: .72rem;
+            line-height: 1.35;
+            margin-top: .55rem;
+        }
 
         .hero-card {
             padding: 1.18rem 1.38rem;
@@ -599,6 +632,42 @@ def compact_columns(df: pd.DataFrame, preferred: list[str]) -> pd.DataFrame:
     return df[cols]
 
 
+def clean_feature_group_label(value: object) -> str:
+    text = str(value)
+    mapping = {
+        "Cultivar / plot context": "Cultivar/context",
+        "Other crop/context": "Other context",
+    }
+    return mapping.get(text, text)
+
+
+def clean_driver_summary_text(value: object) -> str:
+    text = str(value)
+    if not text or text == "nan":
+        return "Phenology counts and canopy structure"
+    parts = [part.strip() for part in text.split(";") if part.strip()]
+    cleaned: list[str] = []
+    for part in parts:
+        lowered = part.lower()
+        if "cultivar" in lowered or "plot context" in lowered or "context" in lowered:
+            continue
+        if "weather" in lowered and ("0.0%" in lowered or "0%" in lowered):
+            continue
+        cleaned.append(part.replace("Cultivar / plot context", "Cultivar/context"))
+    return "; ".join(cleaned) if cleaned else "Phenology counts and canopy structure"
+
+
+def has_positive_weather_signal(weather_driver_summary: pd.DataFrame, season: str | None, model_label: str | None) -> bool:
+    required = {"season", "model_label", "weather_importance_share_pct"}
+    if weather_driver_summary.empty or not required.issubset(weather_driver_summary.columns):
+        return False
+    df = filtered_season(weather_driver_summary, season)
+    if model_label:
+        df = df[df["model_label"].astype(str).eq(str(model_label))]
+    values = pd.to_numeric(df.get("weather_importance_share_pct"), errors="coerce")
+    return bool(values.fillna(0).gt(0.05).any())
+
+
 # -----------------------------------------------------------------------------
 # Charts
 # -----------------------------------------------------------------------------
@@ -856,14 +925,20 @@ def plot_grouped_importance(grouped_importance: pd.DataFrame, season: str | None
         df = df[df["model_label"].astype(str).eq(str(model_label))]
     if df.empty:
         return None
+    df["importance_share_pct"] = pd.to_numeric(df["importance_share_pct"], errors="coerce").fillna(0)
+    weather_zero = df["feature_group"].astype(str).str.contains("Weather", case=False, na=False) & df["importance_share_pct"].le(0.05)
+    df = df[~weather_zero].copy()
+    if df.empty:
+        return None
     df = df.sort_values("importance_share_pct", ascending=True)
+    df["feature_group_display"] = df["feature_group"].apply(clean_feature_group_label)
     fig = px.bar(
         df,
         x="importance_share_pct",
-        y="feature_group",
+        y="feature_group_display",
         orientation="h",
         text="importance_share_pct",
-        labels={"importance_share_pct": "Mean importance share (%)", "feature_group": "Feature group"},
+        labels={"importance_share_pct": "Mean importance share (%)", "feature_group_display": "Feature group"},
     )
     fig.update_traces(texttemplate="%{text:.1f}%", textposition="outside", cliponaxis=False)
     return apply_layout(fig, height=310)
@@ -877,6 +952,9 @@ def plot_weather_driver_summary(weather_driver_summary: pd.DataFrame, season: st
     if model_label:
         df = df[df["model_label"].astype(str).eq(str(model_label))]
     if df.empty:
+        return None
+    df["weather_importance_share_pct"] = pd.to_numeric(df["weather_importance_share_pct"], errors="coerce").fillna(0)
+    if not df["weather_importance_share_pct"].gt(0.05).any():
         return None
     df = df.sort_values("weather_importance_share_pct", ascending=True)
     fig = px.bar(
@@ -1043,9 +1121,15 @@ def render_data_audit(artifacts: dict[str, pd.DataFrame]) -> None:
     with st.expander("Quality reports", expanded=False):
         tabs = st.tabs(["Tidy observations", "Sequence dataset", "Features"])
         with tabs[0]:
-            st.dataframe(tidy, use_container_width=True, hide_index=True, height=360) if not tidy.empty else st.info("Tidy quality report not available.")
+            if not tidy.empty:
+                st.dataframe(tidy, use_container_width=True, hide_index=True, height=360)
+            else:
+                st.info("Tidy quality report not available.")
         with tabs[1]:
-            st.dataframe(seq, use_container_width=True, hide_index=True, height=360) if not seq.empty else st.info("Sequence quality report not available.")
+            if not seq.empty:
+                st.dataframe(seq, use_container_width=True, hide_index=True, height=360)
+            else:
+                st.info("Sequence quality report not available.")
         with tabs[2]:
             fs = artifacts["feature_sets"].copy()
             if fs.empty:
@@ -1188,41 +1272,63 @@ def render_aggregate_forecast(artifacts: dict[str, pd.DataFrame], seasons: list[
 def render_drivers(artifacts: dict[str, pd.DataFrame], seasons: list[str]) -> None:
     html_block('<div class="section-kicker">Forecast drivers</div>')
     st.header("Which signals drive the forecast?")
-    st.markdown('<div class="section-intro">Feature importance is grouped into stakeholder-friendly buckets instead of showing 98 individual flattened features.</div>', unsafe_allow_html=True)
+    st.markdown(
+        '<div class="section-intro">This page shows model reliance, not causal proof. Feature importance is grouped into crop-relevant buckets instead of showing 98 individual flattened features.</div>',
+        unsafe_allow_html=True,
+    )
     grouped = artifacts.get("grouped_importance", pd.DataFrame())
     weather = artifacts.get("weather_driver_summary", pd.DataFrame())
     if grouped.empty:
         st.info("Run the updated sequence model script to generate grouped feature importance outputs.")
         return
+
     season = season_control("Season", seasons, key="driver_season") if seasons else None
     season_grouped = filtered_season(grouped, season)
     models = safe_unique(season_grouped.get("model_label", []))
     default_model = selected_best_model(artifacts.get("model_metrics", pd.DataFrame()), season, "mae")
     model = st.selectbox("Model", models, index=models.index(default_model) if default_model in models else 0, key="driver_model") if models else None
 
+    message_card(
+        "How to read this page",
+        "These results describe what the fitted model relied on in this validation setup. They should not be read as causal agronomic effects. Weather/GDD features were included as agronomic context, but their separate contribution is hard to isolate here because all plots share the same weekly weather within a season.",
+        "note",
+    )
+
     c1, c2 = st.columns([1, 1])
     with c1:
-        chart_caption("Grouped feature importance")
+        chart_caption("Grouped model reliance")
         fig = plot_grouped_importance(grouped, season, model)
         if fig is not None:
             st.plotly_chart(fig, width="stretch", key="grouped_importance", config={"displayModeBar": False})
     with c2:
-        chart_caption("Weather and GDD signal breakdown")
+        chart_caption("Weather/GDD diagnostic")
         wfig = plot_weather_driver_summary(weather, season, model)
         if wfig is not None:
             st.plotly_chart(wfig, width="stretch", key="weather_driver_summary", config={"displayModeBar": False})
         else:
-            st.info("No weather-driver breakdown available for this model.")
+            message_card(
+                "No robust separate weather/GDD signal in this model",
+                "Weather is agronomically relevant and was included in the feature set. In this small within-season tabular validation, observed crop state carried most of the predictive signal and weather did not appear as a separate model-reliance driver.",
+                "warn",
+            )
 
-    st.dataframe(
-        compact_columns(
-            season_grouped[season_grouped["model_label"].astype(str).eq(str(model))].sort_values("importance_share_pct", ascending=False) if model else season_grouped,
-            ["season", "model_label", "feature_group", "importance_share_pct", "mean_group_importance", "n_model_fits"],
-        ),
-        use_container_width=True,
-        hide_index=True,
-    )
-
+    table = season_grouped[season_grouped["model_label"].astype(str).eq(str(model))].copy() if model else season_grouped.copy()
+    if not table.empty and "feature_group" in table.columns:
+        if "importance_share_pct" in table.columns:
+            table["importance_share_pct"] = pd.to_numeric(table["importance_share_pct"], errors="coerce").fillna(0)
+            weather_zero = table["feature_group"].astype(str).str.contains("Weather", case=False, na=False) & table["importance_share_pct"].le(0.05)
+            table = table[~weather_zero].copy()
+        table["feature_group"] = table["feature_group"].apply(clean_feature_group_label)
+    with st.expander("Model reliance table", expanded=False):
+        st.dataframe(
+            compact_columns(
+                table.sort_values("importance_share_pct", ascending=False) if "importance_share_pct" in table.columns else table,
+                ["season", "model_label", "feature_group", "importance_share_pct", "mean_group_importance", "n_model_fits"],
+            ),
+            use_container_width=True,
+            hide_index=True,
+            height=260,
+        )
 
 def render_uncertainty(artifacts: dict[str, pd.DataFrame], seasons: list[str]) -> None:
     html_block('<div class="section-kicker">Forecast uncertainty</div>')
@@ -1279,16 +1385,21 @@ def render_stakeholder_summary(artifacts: dict[str, pd.DataFrame]) -> None:
     if summary.empty:
         st.info("Run the updated sequence model script to generate the stakeholder summary.")
         return
-    for row in summary.itertuples(index=False):
+    display_summary = summary.drop(columns=["paper_context"], errors="ignore").copy()
+    if "top_driver_groups" in display_summary.columns:
+        display_summary["top_driver_groups"] = display_summary["top_driver_groups"].apply(clean_driver_summary_text)
+
+    for row in display_summary.itertuples(index=False):
         message_card(
             f"Season {season_label(row.season)}",
             f"<b>Plot model:</b> {escape(str(row.recommended_plot_model))} · MAE {float(row.plot_mae_g):.2f} g · improvement {float(row.plot_improvement_pct_vs_last_observed):.1f}%<br/>"
             f"<b>Aggregate model:</b> {escape(str(row.recommended_aggregate_model))} · MAE {float(row.aggregate_mae_g):.2f} g · improvement {float(row.aggregate_improvement_pct_vs_last_observed):.1f}%<br/>"
-            f"<b>Top drivers:</b> {escape(str(row.top_driver_groups))}<br/>"
+            f"<b>Main model signals:</b> {escape(str(row.top_driver_groups))}<br/>"
             f"<b>Uncertainty:</b> 80% interval coverage {float(row.uncertainty_coverage_pct):.1f}%; mean band width {float(row.mean_interval_width_g):.2f} g.",
             "note",
         )
-    st.dataframe(summary.drop(columns=["paper_context"], errors="ignore"), use_container_width=True, hide_index=True, height=260)
+    with st.expander("Detailed summary table", expanded=False):
+        st.dataframe(display_summary, use_container_width=True, hide_index=True, height=240)
 
 def render_lag_audit(artifacts: dict[str, pd.DataFrame], seasons: list[str]) -> None:
     html_block('<div class="section-kicker">Lag audit</div>')
@@ -1358,7 +1469,46 @@ def render_lag_audit(artifacts: dict[str, pd.DataFrame], seasons: list[str]) -> 
             )
 
 
-def render_limitations() -> None:
+def render_lag_audit_compact(artifacts: dict[str, pd.DataFrame], seasons: list[str]) -> None:
+    timeliness = artifacts.get("timeliness", pd.DataFrame())
+    if timeliness.empty:
+        st.info("Timeliness audit not available yet.")
+        return
+
+    season = season_control("Season", seasons, key="lag_limitations_season", include_all=True) if seasons else "All"
+    df = timeliness.copy() if season == "All" else filtered_season(timeliness, season)
+    if df.empty:
+        st.info("No timeliness rows for this selection.")
+        return
+
+    warning_bool = df["lag_warning"].fillna(False).astype(bool) if "lag_warning" in df.columns else pd.Series(False, index=df.index)
+    baseline_bool = df["model_label"].apply(is_baseline_label) if "model_label" in df.columns else pd.Series(False, index=df.index)
+    learned_bool = ~baseline_bool
+
+    card_grid([
+        metric_card_markup("Audited rows", fmt_int(len(df)), "model × fold combinations"),
+        metric_card_markup("Total warnings", fmt_int(warning_bool.sum()), "lag_warning = True"),
+        metric_card_markup("Baseline warnings", fmt_int((warning_bool & baseline_bool).sum()), "expected for reactive baselines"),
+        metric_card_markup("Learned warnings", fmt_int((warning_bool & learned_bool).sum()), "checked separately"),
+    ], columns=4)
+
+    learned_warn = df[warning_bool & learned_bool]
+    if learned_warn.empty:
+        message_card("No learned-model lag warnings in this view", "Warnings are concentrated in reactive baselines, which is expected.", "good")
+    else:
+        message_card("Some learned-model lag warnings", "A small number of learned model/fold combinations behave closer to the previous harvest window than the target. This is why lag checks are kept as a caveat rather than hidden.", "warn")
+        st.dataframe(
+            compact_columns(
+                learned_warn.sort_values([c for c in ["season", "same_horizon_mae_g"] if c in learned_warn.columns]),
+                ["season", "model_label", "fold_id", "same_horizon_corr", "prediction_vs_previous_horizon_corr", "same_horizon_mae_g", "prediction_vs_previous_horizon_mae_g", "direction_accuracy", "lag_note"],
+            ),
+            use_container_width=True,
+            hide_index=True,
+            height=260,
+        )
+
+
+def render_limitations(artifacts: dict[str, pd.DataFrame], seasons: list[str]) -> None:
     html_block('<div class="section-kicker">Limitations</div>')
     st.header("Honest interpretation")
 
@@ -1377,9 +1527,12 @@ def render_limitations() -> None:
     )
     message_card(
         "Key caveat",
-        "The two seasons should be interpreted carefully because yield scale and management conditions differ. The dashboard therefore emphasizes within-season validation and does not present cross-season transfer as proven.",
+        "The two seasons should be interpreted carefully because yield scale and management conditions differ. The dashboard therefore emphasizes within-season validation and does not present cross-season transfer as proven. Driver results are model evidence, not causal agronomic proof.",
         "warn",
     )
+
+    with st.expander("Technical lag/timeliness audit", expanded=False):
+        render_lag_audit_compact(artifacts, seasons)
 
 
 # -----------------------------------------------------------------------------
@@ -1399,8 +1552,23 @@ def main() -> None:
             """,
             unsafe_allow_html=True,
         )
-        processed_dir_input = st.text_input("Processed data directory", value=str(DEFAULT_PROCESSED_DIR))
-        st.caption("Use the top tabs to move through the analysis.")
+
+        st.markdown(
+            """
+            <div class="side-brand">
+                <div class="card-title">Rubén García Domínguez</div>
+                <div class="side-subtitle">
+                    Portfolio case study for agricultural forecasting and data-quality workflows.<br/><br/>
+                    <a href="https://github.com/rubengarciad93bioinfo" target="_blank">GitHub profile ↗</a><br/>
+                    <a href="https://github.com/rubengarciad93bioinfo/berry-yield-forecasting-case-study" target="_blank">Project repository ↗</a><br/><br/>
+                    Python · pandas · scikit-learn · Streamlit · Plotly
+                </div>
+            </div>
+            """,
+            unsafe_allow_html=True,
+        )
+
+        processed_dir_input = str(DEFAULT_PROCESSED_DIR)
 
     processed_dir = Path(processed_dir_input)
     artifacts = load_artifacts(processed_dir)
@@ -1415,12 +1583,7 @@ def main() -> None:
         ]
         if artifacts[key].empty
     ]
-    with st.sidebar.expander("Pipeline status", expanded=bool(missing_core)):
-        st.caption(f"Processed outputs: `{processed_dir}`")
-        if missing_core:
-            st.warning("Missing required outputs: " + ", ".join(missing_core))
-        else:
-            st.success("Core outputs found.")
+    
 
     tab_labels = [
         "Overview",
@@ -1430,7 +1593,6 @@ def main() -> None:
         "Drivers",
         "Uncertainty",
         "Stakeholder summary",
-        "Lag audit",
         "Limitations",
     ]
     tabs = st.tabs(tab_labels)
@@ -1450,9 +1612,7 @@ def main() -> None:
     with tabs[6]:
         render_stakeholder_summary(artifacts)
     with tabs[7]:
-        render_lag_audit(artifacts, seasons)
-    with tabs[8]:
-        render_limitations()
+        render_limitations(artifacts, seasons)
 
 
 if __name__ == "__main__":

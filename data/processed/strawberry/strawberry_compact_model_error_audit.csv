@@ -1,9 +1,0 @@
-model_id,model_label,mae_reference_g,actual_flush_threshold_g,n_large_underpredictions,n_actual_flush_rows,n_underpredicted_actual_flush_rows,mean_abs_error_on_actual_flush_rows_g
-M1,Calendar + nitrogen RF,25.586386873759242,55.04,5,16,5,22.191749439468712
-M2,+ weather / GDD RF,21.238172576615472,55.04,6,16,6,21.77199204127944
-M0b,Treatment mean baseline,21.58185400222307,55.04,6,16,6,21.109944738657163
-M3,+ leading crop indicators RF,18.66515250143107,55.04,8,16,8,23.05657721967637
-M5,Compact crop/weather + tagged-fruit RF,19.476114525156603,55.04,8,16,8,23.467137177655154
-M4,Compact crop/weather RF,19.59076222458063,55.04,8,16,8,23.192115491480735
-M0,Persistence baseline,19.77583333333333,55.04,14,16,8,23.204375
-M6,Full raw RF reference,18.66532720324716,55.04,11,16,10,27.966351710629638

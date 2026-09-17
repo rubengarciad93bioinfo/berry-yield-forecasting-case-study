@@ -1,6 +1,0 @@
-metric,value,detail
-forecast_rows,143,Rows available for next-observation forecasting.
-years,"2022, 2023",Campaign years present in the forecast feature table.
-nitrogen_treatments,"0N, 100N, 150N, 50N",Nitrogen treatment groups present in the forecast feature table.
-mean_forecast_horizon_days,4.007,Average lead time between forecast origin and target observation.
-max_forecast_horizon_days,11.0,Longest lead time between forecast origin and target observation.

@@ -1,7 +1,0 @@
-finding,result,interpretation
-Forecasting setup,The forecast table contains 143 next-observation records with an average lead time of 4.0 days.,"This supports a short-horizon in-season production-window forecast, not a full commercial yield forecast."
-Season shift,Average absolute treatment-level target shift between 2022 and 2023 was 26.7%.,Large year-to-year differences mean that a model trained on one previous season should be treated cautiously.
-Largest treatment shift,100N changed by -40.8% in mean next-window fresh matter.,"Treatment responses were not stable across years, so treatment alone is not enough to explain production-window changes."
-Thermal time difference,Final cumulative GDD changed from 2203.4 in 2022 to 1734.7 in 2023.,"Crop-development timing differs between campaigns, so forecasts need in-season updating rather than a blind year-to-year transfer."
-Radiation difference,Final cumulative solar radiation changed from 847.8 in 2022 to 490.9 in 2023.,Differences in seasonal energy exposure are a plausible contributor to year-to-year production differences.
-Modelling implication,This diagnostic step is independent of model outputs and is safe to run before model training.,"Model performance claims should come from the later rolling-validation script, while this script explains the data-shift context."
