@@ -1,0 +1,10 @@
+metric,value
+rows,680
+seasons,2
+observation_dates,17
+plot_units,40
+min_observation_date,2024-01-08
+max_observation_date,2025-03-05
+yield_missing_share,0.0015
+mean_yield_g,137.53
+median_yield_g,47.0

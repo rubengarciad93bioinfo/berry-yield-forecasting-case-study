@@ -1,0 +1,51 @@
+season,feature_set,model_label,feature_group,mean_group_importance,median_group_importance,n_model_fits,importance_share_pct
+2324,paper_informed_nonreactive,ElasticNet,Phenology counts,0.7575867545964065,0.7622062601349335,15,75.75867545964064
+2324,paper_informed_nonreactive,ElasticNet,Canopy structure,0.16862867072271834,0.1707439081407408,15,16.862867072271833
+2324,paper_informed_nonreactive,ElasticNet,Cultivar / plot context,0.07378457468087525,0.06603480184827479,15,7.378457468087525
+2324,paper_informed_nonreactive,ElasticNet,Other,0.0,0.0,15,0.0
+2324,paper_informed_nonreactive,ElasticNet,Weather / GDD,0.0,0.0,15,0.0
+2324,paper_informed_nonreactive,Extra Trees,Phenology counts,0.4818222993660978,0.4276482580357577,15,48.18222993660978
+2324,paper_informed_nonreactive,Extra Trees,Canopy structure,0.46544069944091626,0.491865717588414,15,46.544069944091625
+2324,paper_informed_nonreactive,Extra Trees,Cultivar / plot context,0.05273700119298589,0.04948779624184527,15,5.273700119298589
+2324,paper_informed_nonreactive,Extra Trees,Other,0.0,0.0,15,0.0
+2324,paper_informed_nonreactive,Extra Trees,Weather / GDD,0.0,0.0,15,0.0
+2324,paper_informed_nonreactive,Gradient Boosting,Phenology counts,0.5021554241852664,0.39371451316656586,15,50.21554241852664
+2324,paper_informed_nonreactive,Gradient Boosting,Canopy structure,0.4850722725864812,0.5715197014402378,15,48.50722725864812
+2324,paper_informed_nonreactive,Gradient Boosting,Cultivar / plot context,0.012772303228252383,0.009381009635527073,15,1.2772303228252382
+2324,paper_informed_nonreactive,Gradient Boosting,Other,0.0,0.0,15,0.0
+2324,paper_informed_nonreactive,Gradient Boosting,Weather / GDD,0.0,0.0,15,0.0
+2324,paper_informed_nonreactive,Random Forest,Phenology counts,0.496407838084612,0.449098747708432,15,49.640783808461194
+2324,paper_informed_nonreactive,Random Forest,Canopy structure,0.4861573192989326,0.5344723782911108,15,48.61573192989326
+2324,paper_informed_nonreactive,Random Forest,Cultivar / plot context,0.01743484261645549,0.016428874000457352,15,1.743484261645549
+2324,paper_informed_nonreactive,Random Forest,Other,0.0,0.0,15,0.0
+2324,paper_informed_nonreactive,Random Forest,Weather / GDD,0.0,0.0,15,0.0
+2324,paper_informed_nonreactive,Ridge,Phenology counts,0.7589869453416662,0.7453057720261101,15,75.89869453416662
+2324,paper_informed_nonreactive,Ridge,Canopy structure,0.16785827417001048,0.1690558141126059,15,16.785827417001048
+2324,paper_informed_nonreactive,Ridge,Cultivar / plot context,0.07315478048832338,0.07002038470558526,15,7.315478048832339
+2324,paper_informed_nonreactive,Ridge,Other,0.0,0.0,15,0.0
+2324,paper_informed_nonreactive,Ridge,Weather / GDD,0.0,0.0,15,0.0
+2425,paper_informed_nonreactive,ElasticNet,Phenology counts,0.7168028944231126,0.7190433065827101,20,71.68028944231126
+2425,paper_informed_nonreactive,ElasticNet,Canopy structure,0.19883179550628913,0.19294852748082952,20,19.883179550628913
+2425,paper_informed_nonreactive,ElasticNet,Cultivar / plot context,0.08436531007059822,0.07568697876994074,20,8.436531007059822
+2425,paper_informed_nonreactive,ElasticNet,Other,0.0,0.0,20,0.0
+2425,paper_informed_nonreactive,ElasticNet,Weather / GDD,0.0,0.0,20,0.0
+2425,paper_informed_nonreactive,Extra Trees,Phenology counts,0.6580377247742998,0.6995420479503001,20,65.80377247742997
+2425,paper_informed_nonreactive,Extra Trees,Canopy structure,0.2655134080300039,0.21632716289549553,20,26.55134080300039
+2425,paper_informed_nonreactive,Extra Trees,Cultivar / plot context,0.0764488671956963,0.05997818801180885,20,7.644886719569629
+2425,paper_informed_nonreactive,Extra Trees,Other,0.0,0.0,20,0.0
+2425,paper_informed_nonreactive,Extra Trees,Weather / GDD,0.0,0.0,20,0.0
+2425,paper_informed_nonreactive,Gradient Boosting,Phenology counts,0.6283649341162845,0.6629013228096707,20,62.836493411628446
+2425,paper_informed_nonreactive,Gradient Boosting,Canopy structure,0.334050672429409,0.31473411743460267,20,33.4050672429409
+2425,paper_informed_nonreactive,Gradient Boosting,Cultivar / plot context,0.03758439345430654,0.03756644895834432,20,3.758439345430654
+2425,paper_informed_nonreactive,Gradient Boosting,Other,0.0,0.0,20,0.0
+2425,paper_informed_nonreactive,Gradient Boosting,Weather / GDD,0.0,0.0,20,0.0
+2425,paper_informed_nonreactive,Random Forest,Phenology counts,0.6534368601274547,0.6905657515920607,20,65.34368601274548
+2425,paper_informed_nonreactive,Random Forest,Canopy structure,0.31981519895675686,0.2738313264461609,20,31.981519895675685
+2425,paper_informed_nonreactive,Random Forest,Cultivar / plot context,0.026747940915788387,0.02653249732145171,20,2.6747940915788386
+2425,paper_informed_nonreactive,Random Forest,Other,0.0,0.0,20,0.0
+2425,paper_informed_nonreactive,Random Forest,Weather / GDD,0.0,0.0,20,0.0
+2425,paper_informed_nonreactive,Ridge,Phenology counts,0.7202202503540228,0.7080009423651843,20,72.02202503540228
+2425,paper_informed_nonreactive,Ridge,Canopy structure,0.19689050640452663,0.19358996899101152,20,19.689050640452663
+2425,paper_informed_nonreactive,Ridge,Cultivar / plot context,0.08288924324145061,0.07728295527460335,20,8.28892432414506
+2425,paper_informed_nonreactive,Ridge,Other,0.0,0.0,20,0.0
+2425,paper_informed_nonreactive,Ridge,Weather / GDD,0.0,0.0,20,0.0

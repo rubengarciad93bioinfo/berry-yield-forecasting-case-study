@@ -1,0 +1,15 @@
+check,status,value,threshold,note
+plot_forecast_rows,PASS,598.0,> 0,Plot-level next-window rows.
+aggregate_forecast_rows,PASS,15.0,> 0,Aggregate next-window rows.
+plot_forecast_seasons,PASS,2.0,>= 2,Season holdout possible.
+aggregate_forecast_seasons,PASS,2.0,>= 2,Season holdout possible.
+plot_target_missing_share,PASS,0.0,0,Target availability for plot.
+plot_delta_target_missing_share,PASS,0.0,0,Target availability for plot_delta.
+aggregate_target_missing_share,PASS,0.0,0,Target availability for aggregate.
+aggregate_delta_target_missing_share,PASS,0.0,0,Target availability for aggregate_delta.
+plot_min_forecast_horizon_days,PASS,5.0,> 0,Forecast target must be in the future.
+plot_max_forecast_horizon_days,PASS,9.0,<= 21,Unexpectedly long gaps should be reviewed.
+aggregate_min_forecast_horizon_days,PASS,5.0,> 0,Forecast target must be in the future.
+aggregate_max_forecast_horizon_days,PASS,9.0,<= 21,Unexpectedly long gaps should be reviewed.
+duplicate_plot_forecast_keys,PASS,0.0,0,Unique plot-level forecast rows.
+duplicate_aggregate_forecast_keys,PASS,0.0,0,Unique aggregate forecast rows.

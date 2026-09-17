@@ -1,0 +1,5 @@
+season,selection_scope,best_by_mae_model,best_by_mae,best_non_baseline_model,best_non_baseline_mae,recommendation
+2324,plot_level_all_horizons,Extra Trees,108.34541677886338,Extra Trees,108.34541677886338,candidate learned model beats simple baseline
+2425,plot_level_all_horizons,Random Forest,24.22136872583435,Random Forest,24.22136872583435,candidate learned model beats simple baseline
+2324,aggregate_future_curve,Random Forest,382.46336954033626,Random Forest,382.46336954033626,inspect future-curve timeliness before selecting
+2425,aggregate_future_curve,Gradient Boosting,54.98494103213851,Gradient Boosting,54.98494103213851,inspect future-curve timeliness before selecting

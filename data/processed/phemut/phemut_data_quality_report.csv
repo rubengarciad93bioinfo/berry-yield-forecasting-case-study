@@ -1,0 +1,20 @@
+check,status,value,threshold,note
+observation_rows,PASS,680.0,> 0,Tidy rows produced.
+seasons,PASS,2.0,>= 2,Needed for season-holdout validation.
+observation_dates,PASS,17.0,>= 10,Repeated dates are needed for next-window forecasting.
+plot_units,PASS,40.0,>= 20,Plot/unit replication supports plot-level modelling.
+duplicate_season_date_plot,PASS,0.0,0,One row per season/date/plot is expected.
+missing_yield_share,PASS,0.0015,< 0.05,Yield must be present for supervised forecasting.
+negative_yield_rows,PASS,0.0,0,Yield should not be negative.
+missing_flower_count_share,PASS,0.0029,< 0.10,Phenology count availability.
+negative_flower_count_rows,PASS,0.0,0,Phenology counts should not be negative.
+missing_green_fruit_count_share,PASS,0.0029,< 0.10,Phenology count availability.
+negative_green_fruit_count_rows,PASS,0.0,0,Phenology counts should not be negative.
+missing_white_fruit_count_share,PASS,0.0029,< 0.10,Phenology count availability.
+negative_white_fruit_count_rows,PASS,0.0,0,Phenology counts should not be negative.
+missing_pink_fruit_count_share,PASS,0.0029,< 0.10,Phenology count availability.
+negative_pink_fruit_count_rows,PASS,0.0,0,Phenology counts should not be negative.
+missing_red_or_ripe_fruit_count_share,PASS,0.0029,< 0.10,Phenology count availability.
+negative_red_or_ripe_fruit_count_rows,PASS,0.0,0,Phenology counts should not be negative.
+daily_weather_rows,PASS,302.0,> 0,Daily weather features produced.
+missing_weather_join_share,PASS,0.0,< 0.05,Observation dates should join to weather features.

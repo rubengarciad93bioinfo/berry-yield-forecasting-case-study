@@ -1,0 +1,386 @@
+season,feature_set,model_label,fold_id,input_start_date,input_end_date,target_horizon_index,target_date,n_heldout_plots,observed_total_yield_g,predicted_total_yield_g,last_observed_total_yield_baseline_g,mean_observed_history_total_yield_baseline_g,aggregate_error_g,aggregate_abs_error_g,validation_scope
+2324,paper_informed_nonreactive,Cultivar horizon mean baseline,1,2024-01-08,2024-02-06,1,2024-02-13,8,3534.0,3190.2352941176473,2747.0,1405.6,-343.7647058823527,343.7647058823527,held_out_cv_fold_aggregate_primary
+2324,paper_informed_nonreactive,Cultivar horizon mean baseline,1,2024-01-08,2024-02-06,2,2024-02-20,8,2468.0,2220.0,2747.0,1405.6,-248.0,248.0,held_out_cv_fold_aggregate_primary
+2324,paper_informed_nonreactive,Cultivar horizon mean baseline,1,2024-01-08,2024-02-06,3,2024-02-27,8,2367.0,3257.529411764706,2747.0,1405.6,890.5294117647059,890.5294117647059,held_out_cv_fold_aggregate_primary
+2324,paper_informed_nonreactive,Cultivar horizon mean baseline,2,2024-01-08,2024-02-06,1,2024-02-13,8,3284.0,3426.0,3248.0,1770.8,142.0,142.0,held_out_cv_fold_aggregate_primary
+2324,paper_informed_nonreactive,Cultivar horizon mean baseline,2,2024-01-08,2024-02-06,2,2024-02-20,8,2683.0,2207.25,3248.0,1770.8,-475.75,475.75,held_out_cv_fold_aggregate_primary
+2324,paper_informed_nonreactive,Cultivar horizon mean baseline,2,2024-01-08,2024-02-06,3,2024-02-27,8,3913.0,2793.0,3248.0,1770.8,-1120.0,1120.0,held_out_cv_fold_aggregate_primary
+2324,paper_informed_nonreactive,Cultivar horizon mean baseline,3,2024-01-08,2024-02-06,1,2024-02-13,8,3088.0,3363.21568627451,3173.0,1639.0,275.21568627451006,275.21568627451006,held_out_cv_fold_aggregate_primary
+2324,paper_informed_nonreactive,Cultivar horizon mean baseline,3,2024-01-08,2024-02-06,2,2024-02-20,8,1914.0,2400.431372549019,3173.0,1639.0,486.4313725490192,486.4313725490192,held_out_cv_fold_aggregate_primary
+2324,paper_informed_nonreactive,Cultivar horizon mean baseline,3,2024-01-08,2024-02-06,3,2024-02-27,8,2452.0,3229.6666666666665,3173.0,1639.0,777.6666666666665,777.6666666666665,held_out_cv_fold_aggregate_primary
+2324,paper_informed_nonreactive,Cultivar horizon mean baseline,4,2024-01-08,2024-02-06,1,2024-02-13,8,4173.0,3301.3492063492067,3554.0,1863.2,-871.6507936507933,871.6507936507933,held_out_cv_fold_aggregate_primary
+2324,paper_informed_nonreactive,Cultivar horizon mean baseline,4,2024-01-08,2024-02-06,2,2024-02-20,8,2408.0,2256.0,3554.0,1863.2,-152.0,152.0,held_out_cv_fold_aggregate_primary
+2324,paper_informed_nonreactive,Cultivar horizon mean baseline,4,2024-01-08,2024-02-06,3,2024-02-27,8,3510.0,2622.6190476190477,3554.0,1863.2,-887.3809523809523,887.3809523809523,held_out_cv_fold_aggregate_primary
+2324,paper_informed_nonreactive,Cultivar horizon mean baseline,5,2024-01-08,2024-02-06,1,2024-02-13,8,2909.0,3519.75,3069.0,1540.6,610.75,610.75,held_out_cv_fold_aggregate_primary
+2324,paper_informed_nonreactive,Cultivar horizon mean baseline,5,2024-01-08,2024-02-06,2,2024-02-20,8,2039.0,2368.25,3069.0,1540.6,329.25,329.25,held_out_cv_fold_aggregate_primary
+2324,paper_informed_nonreactive,Cultivar horizon mean baseline,5,2024-01-08,2024-02-06,3,2024-02-27,8,2843.0,3060.5,3069.0,1540.6,217.5,217.5,held_out_cv_fold_aggregate_primary
+2324,paper_informed_nonreactive,ElasticNet,1,2024-01-08,2024-02-06,1,2024-02-13,8,3534.0,4263.357828904048,2747.0,1405.6,729.3578289040479,729.3578289040479,held_out_cv_fold_aggregate_primary
+2324,paper_informed_nonreactive,ElasticNet,1,2024-01-08,2024-02-06,2,2024-02-20,8,2468.0,2282.900625516317,2747.0,1405.6,-185.09937448368282,185.09937448368282,held_out_cv_fold_aggregate_primary
+2324,paper_informed_nonreactive,ElasticNet,1,2024-01-08,2024-02-06,3,2024-02-27,8,2367.0,3573.5172061110793,2747.0,1405.6,1206.5172061110793,1206.5172061110793,held_out_cv_fold_aggregate_primary
+2324,paper_informed_nonreactive,ElasticNet,2,2024-01-08,2024-02-06,1,2024-02-13,8,3284.0,4033.482716951376,3248.0,1770.8,749.482716951376,749.482716951376,held_out_cv_fold_aggregate_primary
+2324,paper_informed_nonreactive,ElasticNet,2,2024-01-08,2024-02-06,2,2024-02-20,8,2683.0,2176.9296463575465,3248.0,1770.8,-506.0703536424535,506.0703536424535,held_out_cv_fold_aggregate_primary
+2324,paper_informed_nonreactive,ElasticNet,2,2024-01-08,2024-02-06,3,2024-02-27,8,3913.0,3276.2515192608976,3248.0,1770.8,-636.7484807391024,636.7484807391024,held_out_cv_fold_aggregate_primary
+2324,paper_informed_nonreactive,ElasticNet,3,2024-01-08,2024-02-06,1,2024-02-13,8,3088.0,3476.661576582262,3173.0,1639.0,388.6615765822621,388.6615765822621,held_out_cv_fold_aggregate_primary
+2324,paper_informed_nonreactive,ElasticNet,3,2024-01-08,2024-02-06,2,2024-02-20,8,1914.0,2046.2435587149603,3173.0,1639.0,132.24355871496027,132.24355871496027,held_out_cv_fold_aggregate_primary
+2324,paper_informed_nonreactive,ElasticNet,3,2024-01-08,2024-02-06,3,2024-02-27,8,2452.0,3112.0472535130584,3173.0,1639.0,660.0472535130584,660.0472535130584,held_out_cv_fold_aggregate_primary
+2324,paper_informed_nonreactive,ElasticNet,4,2024-01-08,2024-02-06,1,2024-02-13,8,4173.0,3284.6390736905496,3554.0,1863.2,-888.3609263094504,888.3609263094504,held_out_cv_fold_aggregate_primary
+2324,paper_informed_nonreactive,ElasticNet,4,2024-01-08,2024-02-06,2,2024-02-20,8,2408.0,2234.3259922587963,3554.0,1863.2,-173.6740077412037,173.6740077412037,held_out_cv_fold_aggregate_primary
+2324,paper_informed_nonreactive,ElasticNet,4,2024-01-08,2024-02-06,3,2024-02-27,8,3510.0,2993.6705849676227,3554.0,1863.2,-516.3294150323773,516.3294150323773,held_out_cv_fold_aggregate_primary
+2324,paper_informed_nonreactive,ElasticNet,5,2024-01-08,2024-02-06,1,2024-02-13,8,2909.0,1904.6180522760644,3069.0,1540.6,-1004.3819477239356,1004.3819477239356,held_out_cv_fold_aggregate_primary
+2324,paper_informed_nonreactive,ElasticNet,5,2024-01-08,2024-02-06,2,2024-02-20,8,2039.0,2622.628020223397,3069.0,1540.6,583.628020223397,583.628020223397,held_out_cv_fold_aggregate_primary
+2324,paper_informed_nonreactive,ElasticNet,5,2024-01-08,2024-02-06,3,2024-02-27,8,2843.0,2711.2413300809567,3069.0,1540.6,-131.7586699190433,131.7586699190433,held_out_cv_fold_aggregate_primary
+2324,paper_informed_nonreactive,Extra Trees,1,2024-01-08,2024-02-06,1,2024-02-13,8,3534.0,3791.412428090428,2747.0,1405.6,257.41242809042797,257.41242809042797,held_out_cv_fold_aggregate_primary
+2324,paper_informed_nonreactive,Extra Trees,1,2024-01-08,2024-02-06,2,2024-02-20,8,2468.0,2384.4018872053866,2747.0,1405.6,-83.59811279461337,83.59811279461337,held_out_cv_fold_aggregate_primary
+2324,paper_informed_nonreactive,Extra Trees,1,2024-01-08,2024-02-06,3,2024-02-27,8,2367.0,3494.5737950937955,2747.0,1405.6,1127.5737950937955,1127.5737950937955,held_out_cv_fold_aggregate_primary
+2324,paper_informed_nonreactive,Extra Trees,2,2024-01-08,2024-02-06,1,2024-02-13,8,3284.0,3756.9694298849295,3248.0,1770.8,472.96942988492947,472.96942988492947,held_out_cv_fold_aggregate_primary
+2324,paper_informed_nonreactive,Extra Trees,2,2024-01-08,2024-02-06,2,2024-02-20,8,2683.0,2252.4584460724454,3248.0,1770.8,-430.54155392755456,430.54155392755456,held_out_cv_fold_aggregate_primary
+2324,paper_informed_nonreactive,Extra Trees,2,2024-01-08,2024-02-06,3,2024-02-27,8,3913.0,2834.910449911744,3248.0,1770.8,-1078.0895500882561,1078.0895500882561,held_out_cv_fold_aggregate_primary
+2324,paper_informed_nonreactive,Extra Trees,3,2024-01-08,2024-02-06,1,2024-02-13,8,3088.0,3284.9279649979644,3173.0,1639.0,196.9279649979644,196.9279649979644,held_out_cv_fold_aggregate_primary
+2324,paper_informed_nonreactive,Extra Trees,3,2024-01-08,2024-02-06,2,2024-02-20,8,1914.0,2286.3934415399417,3173.0,1639.0,372.3934415399417,372.3934415399417,held_out_cv_fold_aggregate_primary
+2324,paper_informed_nonreactive,Extra Trees,3,2024-01-08,2024-02-06,3,2024-02-27,8,2452.0,3214.9439760624373,3173.0,1639.0,762.9439760624373,762.9439760624373,held_out_cv_fold_aggregate_primary
+2324,paper_informed_nonreactive,Extra Trees,4,2024-01-08,2024-02-06,1,2024-02-13,8,4173.0,3561.3148730158737,3554.0,1863.2,-611.6851269841263,611.6851269841263,held_out_cv_fold_aggregate_primary
+2324,paper_informed_nonreactive,Extra Trees,4,2024-01-08,2024-02-06,2,2024-02-20,8,2408.0,2527.7191185296188,3554.0,1863.2,119.71911852961875,119.71911852961875,held_out_cv_fold_aggregate_primary
+2324,paper_informed_nonreactive,Extra Trees,4,2024-01-08,2024-02-06,3,2024-02-27,8,3510.0,3121.709211399712,3554.0,1863.2,-388.2907886002881,388.2907886002881,held_out_cv_fold_aggregate_primary
+2324,paper_informed_nonreactive,Extra Trees,5,2024-01-08,2024-02-06,1,2024-02-13,8,2909.0,2807.5329708994705,3069.0,1540.6,-101.46702910052954,101.46702910052954,held_out_cv_fold_aggregate_primary
+2324,paper_informed_nonreactive,Extra Trees,5,2024-01-08,2024-02-06,2,2024-02-20,8,2039.0,2010.7204002571502,3069.0,1540.6,-28.27959974284977,28.27959974284977,held_out_cv_fold_aggregate_primary
+2324,paper_informed_nonreactive,Extra Trees,5,2024-01-08,2024-02-06,3,2024-02-27,8,2843.0,2571.229495818996,3069.0,1540.6,-271.77050418100407,271.77050418100407,held_out_cv_fold_aggregate_primary
+2324,paper_informed_nonreactive,Gradient Boosting,1,2024-01-08,2024-02-06,1,2024-02-13,8,3534.0,3807.6406678085004,2747.0,1405.6,273.64066780850044,273.64066780850044,held_out_cv_fold_aggregate_primary
+2324,paper_informed_nonreactive,Gradient Boosting,1,2024-01-08,2024-02-06,2,2024-02-20,8,2468.0,2415.8319047581044,2747.0,1405.6,-52.16809524189557,52.16809524189557,held_out_cv_fold_aggregate_primary
+2324,paper_informed_nonreactive,Gradient Boosting,1,2024-01-08,2024-02-06,3,2024-02-27,8,2367.0,3442.333141056202,2747.0,1405.6,1075.3331410562018,1075.3331410562018,held_out_cv_fold_aggregate_primary
+2324,paper_informed_nonreactive,Gradient Boosting,2,2024-01-08,2024-02-06,1,2024-02-13,8,3284.0,3848.772694547144,3248.0,1770.8,564.772694547144,564.772694547144,held_out_cv_fold_aggregate_primary
+2324,paper_informed_nonreactive,Gradient Boosting,2,2024-01-08,2024-02-06,2,2024-02-20,8,2683.0,2367.7326194472007,3248.0,1770.8,-315.2673805527993,315.2673805527993,held_out_cv_fold_aggregate_primary
+2324,paper_informed_nonreactive,Gradient Boosting,2,2024-01-08,2024-02-06,3,2024-02-27,8,3913.0,2713.8369780898256,3248.0,1770.8,-1199.1630219101744,1199.1630219101744,held_out_cv_fold_aggregate_primary
+2324,paper_informed_nonreactive,Gradient Boosting,3,2024-01-08,2024-02-06,1,2024-02-13,8,3088.0,3490.514121664426,3173.0,1639.0,402.51412166442606,402.51412166442606,held_out_cv_fold_aggregate_primary
+2324,paper_informed_nonreactive,Gradient Boosting,3,2024-01-08,2024-02-06,2,2024-02-20,8,1914.0,2249.7896151490713,3173.0,1639.0,335.7896151490713,335.7896151490713,held_out_cv_fold_aggregate_primary
+2324,paper_informed_nonreactive,Gradient Boosting,3,2024-01-08,2024-02-06,3,2024-02-27,8,2452.0,3101.289032235921,3173.0,1639.0,649.2890322359208,649.2890322359208,held_out_cv_fold_aggregate_primary
+2324,paper_informed_nonreactive,Gradient Boosting,4,2024-01-08,2024-02-06,1,2024-02-13,8,4173.0,3509.666020704314,3554.0,1863.2,-663.3339792956858,663.3339792956858,held_out_cv_fold_aggregate_primary
+2324,paper_informed_nonreactive,Gradient Boosting,4,2024-01-08,2024-02-06,2,2024-02-20,8,2408.0,2356.2633637094805,3554.0,1863.2,-51.73663629051953,51.73663629051953,held_out_cv_fold_aggregate_primary
+2324,paper_informed_nonreactive,Gradient Boosting,4,2024-01-08,2024-02-06,3,2024-02-27,8,3510.0,2999.0306677504545,3554.0,1863.2,-510.96933224954546,510.96933224954546,held_out_cv_fold_aggregate_primary
+2324,paper_informed_nonreactive,Gradient Boosting,5,2024-01-08,2024-02-06,1,2024-02-13,8,2909.0,2962.742809053511,3069.0,1540.6,53.74280905351088,53.74280905351088,held_out_cv_fold_aggregate_primary
+2324,paper_informed_nonreactive,Gradient Boosting,5,2024-01-08,2024-02-06,2,2024-02-20,8,2039.0,2121.8339170066997,3069.0,1540.6,82.83391700669972,82.83391700669972,held_out_cv_fold_aggregate_primary
+2324,paper_informed_nonreactive,Gradient Boosting,5,2024-01-08,2024-02-06,3,2024-02-27,8,2843.0,3036.023267588574,3069.0,1540.6,193.02326758857407,193.02326758857407,held_out_cv_fold_aggregate_primary
+2324,paper_informed_nonreactive,HistGradientBoosting,1,2024-01-08,2024-02-06,1,2024-02-13,8,3534.0,3363.5,2747.0,1405.6,-170.5,170.5,held_out_cv_fold_aggregate_primary
+2324,paper_informed_nonreactive,HistGradientBoosting,1,2024-01-08,2024-02-06,2,2024-02-20,8,2468.0,2261.0,2747.0,1405.6,-207.0,207.0,held_out_cv_fold_aggregate_primary
+2324,paper_informed_nonreactive,HistGradientBoosting,1,2024-01-08,2024-02-06,3,2024-02-27,8,2367.0,3179.5,2747.0,1405.6,812.5,812.5,held_out_cv_fold_aggregate_primary
+2324,paper_informed_nonreactive,HistGradientBoosting,2,2024-01-08,2024-02-06,1,2024-02-13,8,3284.0,3426.0,3248.0,1770.8,142.0,142.0,held_out_cv_fold_aggregate_primary
+2324,paper_informed_nonreactive,HistGradientBoosting,2,2024-01-08,2024-02-06,2,2024-02-20,8,2683.0,2207.25,3248.0,1770.8,-475.75,475.75,held_out_cv_fold_aggregate_primary
+2324,paper_informed_nonreactive,HistGradientBoosting,2,2024-01-08,2024-02-06,3,2024-02-27,8,3913.0,2793.0,3248.0,1770.8,-1120.0,1120.0,held_out_cv_fold_aggregate_primary
+2324,paper_informed_nonreactive,HistGradientBoosting,3,2024-01-08,2024-02-06,1,2024-02-13,8,3088.0,3475.0,3173.0,1639.0,387.0,387.0,held_out_cv_fold_aggregate_primary
+2324,paper_informed_nonreactive,HistGradientBoosting,3,2024-01-08,2024-02-06,2,2024-02-20,8,1914.0,2399.5,3173.0,1639.0,485.5,485.5,held_out_cv_fold_aggregate_primary
+2324,paper_informed_nonreactive,HistGradientBoosting,3,2024-01-08,2024-02-06,3,2024-02-27,8,2452.0,3158.25,3173.0,1639.0,706.25,706.25,held_out_cv_fold_aggregate_primary
+2324,paper_informed_nonreactive,HistGradientBoosting,4,2024-01-08,2024-02-06,1,2024-02-13,8,4173.0,3203.75,3554.0,1863.2,-969.25,969.25,held_out_cv_fold_aggregate_primary
+2324,paper_informed_nonreactive,HistGradientBoosting,4,2024-01-08,2024-02-06,2,2024-02-20,8,2408.0,2276.0,3554.0,1863.2,-132.0,132.0,held_out_cv_fold_aggregate_primary
+2324,paper_informed_nonreactive,HistGradientBoosting,4,2024-01-08,2024-02-06,3,2024-02-27,8,3510.0,2893.75,3554.0,1863.2,-616.25,616.25,held_out_cv_fold_aggregate_primary
+2324,paper_informed_nonreactive,HistGradientBoosting,5,2024-01-08,2024-02-06,1,2024-02-13,8,2909.0,3519.75,3069.0,1540.6,610.75,610.75,held_out_cv_fold_aggregate_primary
+2324,paper_informed_nonreactive,HistGradientBoosting,5,2024-01-08,2024-02-06,2,2024-02-20,8,2039.0,2368.25,3069.0,1540.6,329.25,329.25,held_out_cv_fold_aggregate_primary
+2324,paper_informed_nonreactive,HistGradientBoosting,5,2024-01-08,2024-02-06,3,2024-02-27,8,2843.0,3060.5,3069.0,1540.6,217.5,217.5,held_out_cv_fold_aggregate_primary
+2324,paper_informed_nonreactive,Last observed week-5 yield baseline,1,2024-01-08,2024-02-06,1,2024-02-13,8,3534.0,2747.0,2747.0,1405.6,-787.0,787.0,held_out_cv_fold_aggregate_primary
+2324,paper_informed_nonreactive,Last observed week-5 yield baseline,1,2024-01-08,2024-02-06,2,2024-02-20,8,2468.0,2747.0,2747.0,1405.6,279.0,279.0,held_out_cv_fold_aggregate_primary
+2324,paper_informed_nonreactive,Last observed week-5 yield baseline,1,2024-01-08,2024-02-06,3,2024-02-27,8,2367.0,2747.0,2747.0,1405.6,380.0,380.0,held_out_cv_fold_aggregate_primary
+2324,paper_informed_nonreactive,Last observed week-5 yield baseline,2,2024-01-08,2024-02-06,1,2024-02-13,8,3284.0,3248.0,3248.0,1770.8,-36.0,36.0,held_out_cv_fold_aggregate_primary
+2324,paper_informed_nonreactive,Last observed week-5 yield baseline,2,2024-01-08,2024-02-06,2,2024-02-20,8,2683.0,3248.0,3248.0,1770.8,565.0,565.0,held_out_cv_fold_aggregate_primary
+2324,paper_informed_nonreactive,Last observed week-5 yield baseline,2,2024-01-08,2024-02-06,3,2024-02-27,8,3913.0,3248.0,3248.0,1770.8,-665.0,665.0,held_out_cv_fold_aggregate_primary
+2324,paper_informed_nonreactive,Last observed week-5 yield baseline,3,2024-01-08,2024-02-06,1,2024-02-13,8,3088.0,3173.0,3173.0,1639.0,85.0,85.0,held_out_cv_fold_aggregate_primary
+2324,paper_informed_nonreactive,Last observed week-5 yield baseline,3,2024-01-08,2024-02-06,2,2024-02-20,8,1914.0,3173.0,3173.0,1639.0,1259.0,1259.0,held_out_cv_fold_aggregate_primary
+2324,paper_informed_nonreactive,Last observed week-5 yield baseline,3,2024-01-08,2024-02-06,3,2024-02-27,8,2452.0,3173.0,3173.0,1639.0,721.0,721.0,held_out_cv_fold_aggregate_primary
+2324,paper_informed_nonreactive,Last observed week-5 yield baseline,4,2024-01-08,2024-02-06,1,2024-02-13,8,4173.0,3554.0,3554.0,1863.2,-619.0,619.0,held_out_cv_fold_aggregate_primary
+2324,paper_informed_nonreactive,Last observed week-5 yield baseline,4,2024-01-08,2024-02-06,2,2024-02-20,8,2408.0,3554.0,3554.0,1863.2,1146.0,1146.0,held_out_cv_fold_aggregate_primary
+2324,paper_informed_nonreactive,Last observed week-5 yield baseline,4,2024-01-08,2024-02-06,3,2024-02-27,8,3510.0,3554.0,3554.0,1863.2,44.0,44.0,held_out_cv_fold_aggregate_primary
+2324,paper_informed_nonreactive,Last observed week-5 yield baseline,5,2024-01-08,2024-02-06,1,2024-02-13,8,2909.0,3069.0,3069.0,1540.6,160.0,160.0,held_out_cv_fold_aggregate_primary
+2324,paper_informed_nonreactive,Last observed week-5 yield baseline,5,2024-01-08,2024-02-06,2,2024-02-20,8,2039.0,3069.0,3069.0,1540.6,1030.0,1030.0,held_out_cv_fold_aggregate_primary
+2324,paper_informed_nonreactive,Last observed week-5 yield baseline,5,2024-01-08,2024-02-06,3,2024-02-27,8,2843.0,3069.0,3069.0,1540.6,226.0,226.0,held_out_cv_fold_aggregate_primary
+2324,paper_informed_nonreactive,Observed 5-week mean yield baseline,1,2024-01-08,2024-02-06,1,2024-02-13,8,3534.0,1405.6,2747.0,1405.6,-2128.4,2128.4,held_out_cv_fold_aggregate_primary
+2324,paper_informed_nonreactive,Observed 5-week mean yield baseline,1,2024-01-08,2024-02-06,2,2024-02-20,8,2468.0,1405.6,2747.0,1405.6,-1062.4,1062.4,held_out_cv_fold_aggregate_primary
+2324,paper_informed_nonreactive,Observed 5-week mean yield baseline,1,2024-01-08,2024-02-06,3,2024-02-27,8,2367.0,1405.6,2747.0,1405.6,-961.4000000000001,961.4000000000001,held_out_cv_fold_aggregate_primary
+2324,paper_informed_nonreactive,Observed 5-week mean yield baseline,2,2024-01-08,2024-02-06,1,2024-02-13,8,3284.0,1770.8,3248.0,1770.8,-1513.2,1513.2,held_out_cv_fold_aggregate_primary
+2324,paper_informed_nonreactive,Observed 5-week mean yield baseline,2,2024-01-08,2024-02-06,2,2024-02-20,8,2683.0,1770.8,3248.0,1770.8,-912.2,912.2,held_out_cv_fold_aggregate_primary
+2324,paper_informed_nonreactive,Observed 5-week mean yield baseline,2,2024-01-08,2024-02-06,3,2024-02-27,8,3913.0,1770.8,3248.0,1770.8,-2142.2,2142.2,held_out_cv_fold_aggregate_primary
+2324,paper_informed_nonreactive,Observed 5-week mean yield baseline,3,2024-01-08,2024-02-06,1,2024-02-13,8,3088.0,1639.0,3173.0,1639.0,-1449.0,1449.0,held_out_cv_fold_aggregate_primary
+2324,paper_informed_nonreactive,Observed 5-week mean yield baseline,3,2024-01-08,2024-02-06,2,2024-02-20,8,1914.0,1639.0,3173.0,1639.0,-275.0,275.0,held_out_cv_fold_aggregate_primary
+2324,paper_informed_nonreactive,Observed 5-week mean yield baseline,3,2024-01-08,2024-02-06,3,2024-02-27,8,2452.0,1639.0,3173.0,1639.0,-813.0,813.0,held_out_cv_fold_aggregate_primary
+2324,paper_informed_nonreactive,Observed 5-week mean yield baseline,4,2024-01-08,2024-02-06,1,2024-02-13,8,4173.0,1863.2,3554.0,1863.2,-2309.8,2309.8,held_out_cv_fold_aggregate_primary
+2324,paper_informed_nonreactive,Observed 5-week mean yield baseline,4,2024-01-08,2024-02-06,2,2024-02-20,8,2408.0,1863.2,3554.0,1863.2,-544.8,544.8,held_out_cv_fold_aggregate_primary
+2324,paper_informed_nonreactive,Observed 5-week mean yield baseline,4,2024-01-08,2024-02-06,3,2024-02-27,8,3510.0,1863.2,3554.0,1863.2,-1646.8,1646.8,held_out_cv_fold_aggregate_primary
+2324,paper_informed_nonreactive,Observed 5-week mean yield baseline,5,2024-01-08,2024-02-06,1,2024-02-13,8,2909.0,1540.6,3069.0,1540.6,-1368.4,1368.4,held_out_cv_fold_aggregate_primary
+2324,paper_informed_nonreactive,Observed 5-week mean yield baseline,5,2024-01-08,2024-02-06,2,2024-02-20,8,2039.0,1540.6,3069.0,1540.6,-498.4000000000001,498.4000000000001,held_out_cv_fold_aggregate_primary
+2324,paper_informed_nonreactive,Observed 5-week mean yield baseline,5,2024-01-08,2024-02-06,3,2024-02-27,8,2843.0,1540.6,3069.0,1540.6,-1302.4,1302.4,held_out_cv_fold_aggregate_primary
+2324,paper_informed_nonreactive,Random Forest,1,2024-01-08,2024-02-06,1,2024-02-13,8,3534.0,3778.705414918415,2747.0,1405.6,244.70541491841504,244.70541491841504,held_out_cv_fold_aggregate_primary
+2324,paper_informed_nonreactive,Random Forest,1,2024-01-08,2024-02-06,2,2024-02-20,8,2468.0,2476.8625374440367,2747.0,1405.6,8.862537444036661,8.862537444036661,held_out_cv_fold_aggregate_primary
+2324,paper_informed_nonreactive,Random Forest,1,2024-01-08,2024-02-06,3,2024-02-27,8,2367.0,3525.699238076738,2747.0,1405.6,1158.6992380767379,1158.6992380767379,held_out_cv_fold_aggregate_primary
+2324,paper_informed_nonreactive,Random Forest,2,2024-01-08,2024-02-06,1,2024-02-13,8,3284.0,3682.8338954933947,3248.0,1770.8,398.8338954933947,398.8338954933947,held_out_cv_fold_aggregate_primary
+2324,paper_informed_nonreactive,Random Forest,2,2024-01-08,2024-02-06,2,2024-02-20,8,2683.0,2370.686891145891,3248.0,1770.8,-312.31310885410903,312.31310885410903,held_out_cv_fold_aggregate_primary
+2324,paper_informed_nonreactive,Random Forest,2,2024-01-08,2024-02-06,3,2024-02-27,8,3913.0,2938.5226676471675,3248.0,1770.8,-974.4773323528325,974.4773323528325,held_out_cv_fold_aggregate_primary
+2324,paper_informed_nonreactive,Random Forest,3,2024-01-08,2024-02-06,1,2024-02-13,8,3088.0,3291.101606689607,3173.0,1639.0,203.1016066896068,203.1016066896068,held_out_cv_fold_aggregate_primary
+2324,paper_informed_nonreactive,Random Forest,3,2024-01-08,2024-02-06,2,2024-02-20,8,1914.0,2220.7647558922563,3173.0,1639.0,306.7647558922563,306.7647558922563,held_out_cv_fold_aggregate_primary
+2324,paper_informed_nonreactive,Random Forest,3,2024-01-08,2024-02-06,3,2024-02-27,8,2452.0,3142.8710781625787,3173.0,1639.0,690.8710781625787,690.8710781625787,held_out_cv_fold_aggregate_primary
+2324,paper_informed_nonreactive,Random Forest,4,2024-01-08,2024-02-06,1,2024-02-13,8,4173.0,3562.018561457061,3554.0,1863.2,-610.981438542939,610.981438542939,held_out_cv_fold_aggregate_primary
+2324,paper_informed_nonreactive,Random Forest,4,2024-01-08,2024-02-06,2,2024-02-20,8,2408.0,2616.96542953343,3554.0,1863.2,208.96542953342987,208.96542953342987,held_out_cv_fold_aggregate_primary
+2324,paper_informed_nonreactive,Random Forest,4,2024-01-08,2024-02-06,3,2024-02-27,8,3510.0,3036.420855699856,3554.0,1863.2,-473.579144300144,473.579144300144,held_out_cv_fold_aggregate_primary
+2324,paper_informed_nonreactive,Random Forest,5,2024-01-08,2024-02-06,1,2024-02-13,8,2909.0,2845.68608994709,3069.0,1540.6,-63.31391005291016,63.31391005291016,held_out_cv_fold_aggregate_primary
+2324,paper_informed_nonreactive,Random Forest,5,2024-01-08,2024-02-06,2,2024-02-20,8,2039.0,2045.6874116809122,3069.0,1540.6,6.6874116809121915,6.6874116809121915,held_out_cv_fold_aggregate_primary
+2324,paper_informed_nonreactive,Random Forest,5,2024-01-08,2024-02-06,3,2024-02-27,8,2843.0,2768.2057588892585,3069.0,1540.6,-74.7942411107415,74.7942411107415,held_out_cv_fold_aggregate_primary
+2324,paper_informed_nonreactive,Ridge,1,2024-01-08,2024-02-06,1,2024-02-13,8,3534.0,4129.066938760837,2747.0,1405.6,595.0669387608368,595.0669387608368,held_out_cv_fold_aggregate_primary
+2324,paper_informed_nonreactive,Ridge,1,2024-01-08,2024-02-06,2,2024-02-20,8,2468.0,2233.2985628187157,2747.0,1405.6,-234.7014371812843,234.7014371812843,held_out_cv_fold_aggregate_primary
+2324,paper_informed_nonreactive,Ridge,1,2024-01-08,2024-02-06,3,2024-02-27,8,2367.0,3553.290447245283,2747.0,1405.6,1186.2904472452828,1186.2904472452828,held_out_cv_fold_aggregate_primary
+2324,paper_informed_nonreactive,Ridge,2,2024-01-08,2024-02-06,1,2024-02-13,8,3284.0,3904.360144334135,3248.0,1770.8,620.3601443341349,620.3601443341349,held_out_cv_fold_aggregate_primary
+2324,paper_informed_nonreactive,Ridge,2,2024-01-08,2024-02-06,2,2024-02-20,8,2683.0,2188.4120829052295,3248.0,1770.8,-494.58791709477055,494.58791709477055,held_out_cv_fold_aggregate_primary
+2324,paper_informed_nonreactive,Ridge,2,2024-01-08,2024-02-06,3,2024-02-27,8,3913.0,3034.769885245781,3248.0,1770.8,-878.2301147542189,878.2301147542189,held_out_cv_fold_aggregate_primary
+2324,paper_informed_nonreactive,Ridge,3,2024-01-08,2024-02-06,1,2024-02-13,8,3088.0,3487.1123258566645,3173.0,1639.0,399.1123258566645,399.1123258566645,held_out_cv_fold_aggregate_primary
+2324,paper_informed_nonreactive,Ridge,3,2024-01-08,2024-02-06,2,2024-02-20,8,1914.0,2175.5623444946154,3173.0,1639.0,261.56234449461545,261.56234449461545,held_out_cv_fold_aggregate_primary
+2324,paper_informed_nonreactive,Ridge,3,2024-01-08,2024-02-06,3,2024-02-27,8,2452.0,3158.646005545302,3173.0,1639.0,706.6460055453022,706.6460055453022,held_out_cv_fold_aggregate_primary
+2324,paper_informed_nonreactive,Ridge,4,2024-01-08,2024-02-06,1,2024-02-13,8,4173.0,3373.3330046772026,3554.0,1863.2,-799.6669953227974,799.6669953227974,held_out_cv_fold_aggregate_primary
+2324,paper_informed_nonreactive,Ridge,4,2024-01-08,2024-02-06,2,2024-02-20,8,2408.0,2340.3359351446725,3554.0,1863.2,-67.66406485532752,67.66406485532752,held_out_cv_fold_aggregate_primary
+2324,paper_informed_nonreactive,Ridge,4,2024-01-08,2024-02-06,3,2024-02-27,8,3510.0,2966.663254879303,3554.0,1863.2,-543.3367451206968,543.3367451206968,held_out_cv_fold_aggregate_primary
+2324,paper_informed_nonreactive,Ridge,5,2024-01-08,2024-02-06,1,2024-02-13,8,2909.0,2280.984537575823,3069.0,1540.6,-628.0154624241768,628.0154624241768,held_out_cv_fold_aggregate_primary
+2324,paper_informed_nonreactive,Ridge,5,2024-01-08,2024-02-06,2,2024-02-20,8,2039.0,2443.08869715728,3069.0,1540.6,404.08869715727997,404.08869715727997,held_out_cv_fold_aggregate_primary
+2324,paper_informed_nonreactive,Ridge,5,2024-01-08,2024-02-06,3,2024-02-27,8,2843.0,2714.7694325214693,3069.0,1540.6,-128.2305674785307,128.2305674785307,held_out_cv_fold_aggregate_primary
+2324,paper_informed_nonreactive,Training horizon mean baseline,1,2024-01-08,2024-02-06,1,2024-02-13,8,3534.0,3363.5,2747.0,1405.6,-170.5,170.5,held_out_cv_fold_aggregate_primary
+2324,paper_informed_nonreactive,Training horizon mean baseline,1,2024-01-08,2024-02-06,2,2024-02-20,8,2468.0,2261.0,2747.0,1405.6,-207.0,207.0,held_out_cv_fold_aggregate_primary
+2324,paper_informed_nonreactive,Training horizon mean baseline,1,2024-01-08,2024-02-06,3,2024-02-27,8,2367.0,3179.5,2747.0,1405.6,812.5,812.5,held_out_cv_fold_aggregate_primary
+2324,paper_informed_nonreactive,Training horizon mean baseline,2,2024-01-08,2024-02-06,1,2024-02-13,8,3284.0,3426.0,3248.0,1770.8,142.0,142.0,held_out_cv_fold_aggregate_primary
+2324,paper_informed_nonreactive,Training horizon mean baseline,2,2024-01-08,2024-02-06,2,2024-02-20,8,2683.0,2207.25,3248.0,1770.8,-475.75,475.75,held_out_cv_fold_aggregate_primary
+2324,paper_informed_nonreactive,Training horizon mean baseline,2,2024-01-08,2024-02-06,3,2024-02-27,8,3913.0,2793.0,3248.0,1770.8,-1120.0,1120.0,held_out_cv_fold_aggregate_primary
+2324,paper_informed_nonreactive,Training horizon mean baseline,3,2024-01-08,2024-02-06,1,2024-02-13,8,3088.0,3475.0,3173.0,1639.0,387.0,387.0,held_out_cv_fold_aggregate_primary
+2324,paper_informed_nonreactive,Training horizon mean baseline,3,2024-01-08,2024-02-06,2,2024-02-20,8,1914.0,2399.5,3173.0,1639.0,485.5,485.5,held_out_cv_fold_aggregate_primary
+2324,paper_informed_nonreactive,Training horizon mean baseline,3,2024-01-08,2024-02-06,3,2024-02-27,8,2452.0,3158.25,3173.0,1639.0,706.25,706.25,held_out_cv_fold_aggregate_primary
+2324,paper_informed_nonreactive,Training horizon mean baseline,4,2024-01-08,2024-02-06,1,2024-02-13,8,4173.0,3203.75,3554.0,1863.2,-969.25,969.25,held_out_cv_fold_aggregate_primary
+2324,paper_informed_nonreactive,Training horizon mean baseline,4,2024-01-08,2024-02-06,2,2024-02-20,8,2408.0,2276.0,3554.0,1863.2,-132.0,132.0,held_out_cv_fold_aggregate_primary
+2324,paper_informed_nonreactive,Training horizon mean baseline,4,2024-01-08,2024-02-06,3,2024-02-27,8,3510.0,2893.75,3554.0,1863.2,-616.25,616.25,held_out_cv_fold_aggregate_primary
+2324,paper_informed_nonreactive,Training horizon mean baseline,5,2024-01-08,2024-02-06,1,2024-02-13,8,2909.0,3519.75,3069.0,1540.6,610.75,610.75,held_out_cv_fold_aggregate_primary
+2324,paper_informed_nonreactive,Training horizon mean baseline,5,2024-01-08,2024-02-06,2,2024-02-20,8,2039.0,2368.25,3069.0,1540.6,329.25,329.25,held_out_cv_fold_aggregate_primary
+2324,paper_informed_nonreactive,Training horizon mean baseline,5,2024-01-08,2024-02-06,3,2024-02-27,8,2843.0,3060.5,3069.0,1540.6,217.5,217.5,held_out_cv_fold_aggregate_primary
+2324,paper_informed_nonreactive,Zero yield baseline,1,2024-01-08,2024-02-06,1,2024-02-13,8,3534.0,0.0,2747.0,1405.6,-3534.0,3534.0,held_out_cv_fold_aggregate_primary
+2324,paper_informed_nonreactive,Zero yield baseline,1,2024-01-08,2024-02-06,2,2024-02-20,8,2468.0,0.0,2747.0,1405.6,-2468.0,2468.0,held_out_cv_fold_aggregate_primary
+2324,paper_informed_nonreactive,Zero yield baseline,1,2024-01-08,2024-02-06,3,2024-02-27,8,2367.0,0.0,2747.0,1405.6,-2367.0,2367.0,held_out_cv_fold_aggregate_primary
+2324,paper_informed_nonreactive,Zero yield baseline,2,2024-01-08,2024-02-06,1,2024-02-13,8,3284.0,0.0,3248.0,1770.8,-3284.0,3284.0,held_out_cv_fold_aggregate_primary
+2324,paper_informed_nonreactive,Zero yield baseline,2,2024-01-08,2024-02-06,2,2024-02-20,8,2683.0,0.0,3248.0,1770.8,-2683.0,2683.0,held_out_cv_fold_aggregate_primary
+2324,paper_informed_nonreactive,Zero yield baseline,2,2024-01-08,2024-02-06,3,2024-02-27,8,3913.0,0.0,3248.0,1770.8,-3913.0,3913.0,held_out_cv_fold_aggregate_primary
+2324,paper_informed_nonreactive,Zero yield baseline,3,2024-01-08,2024-02-06,1,2024-02-13,8,3088.0,0.0,3173.0,1639.0,-3088.0,3088.0,held_out_cv_fold_aggregate_primary
+2324,paper_informed_nonreactive,Zero yield baseline,3,2024-01-08,2024-02-06,2,2024-02-20,8,1914.0,0.0,3173.0,1639.0,-1914.0,1914.0,held_out_cv_fold_aggregate_primary
+2324,paper_informed_nonreactive,Zero yield baseline,3,2024-01-08,2024-02-06,3,2024-02-27,8,2452.0,0.0,3173.0,1639.0,-2452.0,2452.0,held_out_cv_fold_aggregate_primary
+2324,paper_informed_nonreactive,Zero yield baseline,4,2024-01-08,2024-02-06,1,2024-02-13,8,4173.0,0.0,3554.0,1863.2,-4173.0,4173.0,held_out_cv_fold_aggregate_primary
+2324,paper_informed_nonreactive,Zero yield baseline,4,2024-01-08,2024-02-06,2,2024-02-20,8,2408.0,0.0,3554.0,1863.2,-2408.0,2408.0,held_out_cv_fold_aggregate_primary
+2324,paper_informed_nonreactive,Zero yield baseline,4,2024-01-08,2024-02-06,3,2024-02-27,8,3510.0,0.0,3554.0,1863.2,-3510.0,3510.0,held_out_cv_fold_aggregate_primary
+2324,paper_informed_nonreactive,Zero yield baseline,5,2024-01-08,2024-02-06,1,2024-02-13,8,2909.0,0.0,3069.0,1540.6,-2909.0,2909.0,held_out_cv_fold_aggregate_primary
+2324,paper_informed_nonreactive,Zero yield baseline,5,2024-01-08,2024-02-06,2,2024-02-20,8,2039.0,0.0,3069.0,1540.6,-2039.0,2039.0,held_out_cv_fold_aggregate_primary
+2324,paper_informed_nonreactive,Zero yield baseline,5,2024-01-08,2024-02-06,3,2024-02-27,8,2843.0,0.0,3069.0,1540.6,-2843.0,2843.0,held_out_cv_fold_aggregate_primary
+2425,paper_informed_nonreactive,Cultivar horizon mean baseline,1,2025-01-07,2025-02-05,1,2025-02-12,8,259.0,163.62745098039215,19.0,79.0,-95.37254901960785,95.37254901960785,held_out_cv_fold_aggregate_primary
+2425,paper_informed_nonreactive,Cultivar horizon mean baseline,1,2025-01-07,2025-02-05,2,2025-02-20,8,542.0,412.27450980392155,19.0,79.0,-129.72549019607845,129.72549019607845,held_out_cv_fold_aggregate_primary
+2425,paper_informed_nonreactive,Cultivar horizon mean baseline,1,2025-01-07,2025-02-05,3,2025-02-26,8,237.0,211.09803921568627,19.0,79.0,-25.90196078431373,25.90196078431373,held_out_cv_fold_aggregate_primary
+2425,paper_informed_nonreactive,Cultivar horizon mean baseline,1,2025-01-07,2025-02-05,4,2025-03-05,8,516.0,451.96078431372547,19.0,79.0,-64.03921568627453,64.03921568627453,held_out_cv_fold_aggregate_primary
+2425,paper_informed_nonreactive,Cultivar horizon mean baseline,2,2025-01-07,2025-02-05,1,2025-02-12,8,167.0,193.25,171.0,105.80000000000001,26.25,26.25,held_out_cv_fold_aggregate_primary
+2425,paper_informed_nonreactive,Cultivar horizon mean baseline,2,2025-01-07,2025-02-05,2,2025-02-20,8,355.0,475.25,171.0,105.80000000000001,120.25,120.25,held_out_cv_fold_aggregate_primary
+2425,paper_informed_nonreactive,Cultivar horizon mean baseline,2,2025-01-07,2025-02-05,3,2025-02-26,8,190.0,227.25,171.0,105.80000000000001,37.25,37.25,held_out_cv_fold_aggregate_primary
+2425,paper_informed_nonreactive,Cultivar horizon mean baseline,2,2025-01-07,2025-02-05,4,2025-03-05,8,401.0,431.25,171.0,105.80000000000001,30.25,30.25,held_out_cv_fold_aggregate_primary
+2425,paper_informed_nonreactive,Cultivar horizon mean baseline,3,2025-01-07,2025-02-05,1,2025-02-12,8,107.0,199.39215686274508,71.0,86.15,92.39215686274508,92.39215686274508,held_out_cv_fold_aggregate_primary
+2425,paper_informed_nonreactive,Cultivar horizon mean baseline,3,2025-01-07,2025-02-05,2,2025-02-20,8,364.0,451.21568627450984,71.0,86.15,87.21568627450984,87.21568627450984,held_out_cv_fold_aggregate_primary
+2425,paper_informed_nonreactive,Cultivar horizon mean baseline,3,2025-01-07,2025-02-05,3,2025-02-26,8,281.0,191.72549019607843,71.0,86.15,-89.27450980392157,89.27450980392157,held_out_cv_fold_aggregate_primary
+2425,paper_informed_nonreactive,Cultivar horizon mean baseline,3,2025-01-07,2025-02-05,4,2025-03-05,8,422.0,476.39215686274514,71.0,86.15,54.39215686274514,54.39215686274514,held_out_cv_fold_aggregate_primary
+2425,paper_informed_nonreactive,Cultivar horizon mean baseline,4,2025-01-07,2025-02-05,1,2025-02-12,8,245.0,170.23809523809524,105.0,97.6,-74.76190476190476,74.76190476190476,held_out_cv_fold_aggregate_primary
+2425,paper_informed_nonreactive,Cultivar horizon mean baseline,4,2025-01-07,2025-02-05,2,2025-02-20,8,510.0,443.8412698412699,105.0,97.6,-66.15873015873012,66.15873015873012,held_out_cv_fold_aggregate_primary
+2425,paper_informed_nonreactive,Cultivar horizon mean baseline,4,2025-01-07,2025-02-05,3,2025-02-26,8,223.0,226.53968253968256,105.0,97.6,3.539682539682559,3.539682539682559,held_out_cv_fold_aggregate_primary
+2425,paper_informed_nonreactive,Cultivar horizon mean baseline,4,2025-01-07,2025-02-05,4,2025-03-05,8,289.0,355.53968253968253,105.0,97.6,66.53968253968253,66.53968253968253,held_out_cv_fold_aggregate_primary
+2425,paper_informed_nonreactive,Cultivar horizon mean baseline,5,2025-01-07,2025-02-05,1,2025-02-12,8,162.0,194.5,121.0,89.4,32.5,32.5,held_out_cv_fold_aggregate_primary
+2425,paper_informed_nonreactive,Cultivar horizon mean baseline,5,2025-01-07,2025-02-05,2,2025-02-20,8,485.0,442.75,121.0,89.4,-42.25,42.25,held_out_cv_fold_aggregate_primary
+2425,paper_informed_nonreactive,Cultivar horizon mean baseline,5,2025-01-07,2025-02-05,3,2025-02-26,8,168.0,232.75,121.0,89.4,64.75,64.75,held_out_cv_fold_aggregate_primary
+2425,paper_informed_nonreactive,Cultivar horizon mean baseline,5,2025-01-07,2025-02-05,4,2025-03-05,8,498.0,407.0,121.0,89.4,-91.0,91.0,held_out_cv_fold_aggregate_primary
+2425,paper_informed_nonreactive,ElasticNet,1,2025-01-07,2025-02-05,1,2025-02-12,8,259.0,173.68560087590922,19.0,79.0,-85.31439912409078,85.31439912409078,held_out_cv_fold_aggregate_primary
+2425,paper_informed_nonreactive,ElasticNet,1,2025-01-07,2025-02-05,2,2025-02-20,8,542.0,284.1700304638257,19.0,79.0,-257.8299695361743,257.8299695361743,held_out_cv_fold_aggregate_primary
+2425,paper_informed_nonreactive,ElasticNet,1,2025-01-07,2025-02-05,3,2025-02-26,8,237.0,196.92512626074847,19.0,79.0,-40.07487373925153,40.07487373925153,held_out_cv_fold_aggregate_primary
+2425,paper_informed_nonreactive,ElasticNet,1,2025-01-07,2025-02-05,4,2025-03-05,8,516.0,555.8783355584387,19.0,79.0,39.87833555843872,39.87833555843872,held_out_cv_fold_aggregate_primary
+2425,paper_informed_nonreactive,ElasticNet,2,2025-01-07,2025-02-05,1,2025-02-12,8,167.0,197.9459086416744,171.0,105.80000000000001,30.945908641674407,30.945908641674407,held_out_cv_fold_aggregate_primary
+2425,paper_informed_nonreactive,ElasticNet,2,2025-01-07,2025-02-05,2,2025-02-20,8,355.0,609.1422933010089,171.0,105.80000000000001,254.14229330100886,254.14229330100886,held_out_cv_fold_aggregate_primary
+2425,paper_informed_nonreactive,ElasticNet,2,2025-01-07,2025-02-05,3,2025-02-26,8,190.0,163.05894729240723,171.0,105.80000000000001,-26.941052707592775,26.941052707592775,held_out_cv_fold_aggregate_primary
+2425,paper_informed_nonreactive,ElasticNet,2,2025-01-07,2025-02-05,4,2025-03-05,8,401.0,347.31871262794846,171.0,105.80000000000001,-53.68128737205154,53.68128737205154,held_out_cv_fold_aggregate_primary
+2425,paper_informed_nonreactive,ElasticNet,3,2025-01-07,2025-02-05,1,2025-02-12,8,107.0,25.98249216592568,71.0,86.15,-81.01750783407432,81.01750783407432,held_out_cv_fold_aggregate_primary
+2425,paper_informed_nonreactive,ElasticNet,3,2025-01-07,2025-02-05,2,2025-02-20,8,364.0,20.25565943873353,71.0,86.15,-343.7443405612665,343.7443405612665,held_out_cv_fold_aggregate_primary
+2425,paper_informed_nonreactive,ElasticNet,3,2025-01-07,2025-02-05,3,2025-02-26,8,281.0,168.5888585958104,71.0,86.15,-112.4111414041896,112.4111414041896,held_out_cv_fold_aggregate_primary
+2425,paper_informed_nonreactive,ElasticNet,3,2025-01-07,2025-02-05,4,2025-03-05,8,422.0,634.0881768817225,71.0,86.15,212.08817688172246,212.08817688172246,held_out_cv_fold_aggregate_primary
+2425,paper_informed_nonreactive,ElasticNet,4,2025-01-07,2025-02-05,1,2025-02-12,8,245.0,208.1225810867593,105.0,97.6,-36.87741891324069,36.87741891324069,held_out_cv_fold_aggregate_primary
+2425,paper_informed_nonreactive,ElasticNet,4,2025-01-07,2025-02-05,2,2025-02-20,8,510.0,625.9543266862547,105.0,97.6,115.95432668625472,115.95432668625472,held_out_cv_fold_aggregate_primary
+2425,paper_informed_nonreactive,ElasticNet,4,2025-01-07,2025-02-05,3,2025-02-26,8,223.0,130.95096307448162,105.0,97.6,-92.04903692551838,92.04903692551838,held_out_cv_fold_aggregate_primary
+2425,paper_informed_nonreactive,ElasticNet,4,2025-01-07,2025-02-05,4,2025-03-05,8,289.0,326.4111072187983,105.0,97.6,37.41110721879829,37.41110721879829,held_out_cv_fold_aggregate_primary
+2425,paper_informed_nonreactive,ElasticNet,5,2025-01-07,2025-02-05,1,2025-02-12,8,162.0,250.8269086254614,121.0,89.4,88.82690862546141,88.82690862546141,held_out_cv_fold_aggregate_primary
+2425,paper_informed_nonreactive,ElasticNet,5,2025-01-07,2025-02-05,2,2025-02-20,8,485.0,577.2760704764416,121.0,89.4,92.27607047644165,92.27607047644165,held_out_cv_fold_aggregate_primary
+2425,paper_informed_nonreactive,ElasticNet,5,2025-01-07,2025-02-05,3,2025-02-26,8,168.0,289.71863201714666,121.0,89.4,121.71863201714666,121.71863201714666,held_out_cv_fold_aggregate_primary
+2425,paper_informed_nonreactive,ElasticNet,5,2025-01-07,2025-02-05,4,2025-03-05,8,498.0,418.34778509615234,121.0,89.4,-79.65221490384766,79.65221490384766,held_out_cv_fold_aggregate_primary
+2425,paper_informed_nonreactive,Extra Trees,1,2025-01-07,2025-02-05,1,2025-02-12,8,259.0,162.99227115313877,19.0,79.0,-96.00772884686123,96.00772884686123,held_out_cv_fold_aggregate_primary
+2425,paper_informed_nonreactive,Extra Trees,1,2025-01-07,2025-02-05,2,2025-02-20,8,542.0,479.7192440870677,19.0,79.0,-62.28075591293231,62.28075591293231,held_out_cv_fold_aggregate_primary
+2425,paper_informed_nonreactive,Extra Trees,1,2025-01-07,2025-02-05,3,2025-02-26,8,237.0,227.7490454545455,19.0,79.0,-9.250954545454505,9.250954545454505,held_out_cv_fold_aggregate_primary
+2425,paper_informed_nonreactive,Extra Trees,1,2025-01-07,2025-02-05,4,2025-03-05,8,516.0,464.45943386243385,19.0,79.0,-51.540566137566145,51.540566137566145,held_out_cv_fold_aggregate_primary
+2425,paper_informed_nonreactive,Extra Trees,2,2025-01-07,2025-02-05,1,2025-02-12,8,167.0,207.87591799892576,171.0,105.80000000000001,40.87591799892576,40.87591799892576,held_out_cv_fold_aggregate_primary
+2425,paper_informed_nonreactive,Extra Trees,2,2025-01-07,2025-02-05,2,2025-02-20,8,355.0,543.8832280482676,171.0,105.80000000000001,188.8832280482676,188.8832280482676,held_out_cv_fold_aggregate_primary
+2425,paper_informed_nonreactive,Extra Trees,2,2025-01-07,2025-02-05,3,2025-02-26,8,190.0,196.50591697191697,171.0,105.80000000000001,6.5059169719169745,6.5059169719169745,held_out_cv_fold_aggregate_primary
+2425,paper_informed_nonreactive,Extra Trees,2,2025-01-07,2025-02-05,4,2025-03-05,8,401.0,438.4420437416613,171.0,105.80000000000001,37.44204374166128,37.44204374166128,held_out_cv_fold_aggregate_primary
+2425,paper_informed_nonreactive,Extra Trees,3,2025-01-07,2025-02-05,1,2025-02-12,8,107.0,168.75654597956225,71.0,86.15,61.75654597956225,61.75654597956225,held_out_cv_fold_aggregate_primary
+2425,paper_informed_nonreactive,Extra Trees,3,2025-01-07,2025-02-05,2,2025-02-20,8,364.0,392.3156063751064,71.0,86.15,28.315606375106427,28.315606375106427,held_out_cv_fold_aggregate_primary
+2425,paper_informed_nonreactive,Extra Trees,3,2025-01-07,2025-02-05,3,2025-02-26,8,281.0,195.07644071124952,71.0,86.15,-85.92355928875048,85.92355928875048,held_out_cv_fold_aggregate_primary
+2425,paper_informed_nonreactive,Extra Trees,3,2025-01-07,2025-02-05,4,2025-03-05,8,422.0,540.2400599585601,71.0,86.15,118.2400599585601,118.2400599585601,held_out_cv_fold_aggregate_primary
+2425,paper_informed_nonreactive,Extra Trees,4,2025-01-07,2025-02-05,1,2025-02-12,8,245.0,154.06139488435542,105.0,97.6,-90.93860511564458,90.93860511564458,held_out_cv_fold_aggregate_primary
+2425,paper_informed_nonreactive,Extra Trees,4,2025-01-07,2025-02-05,2,2025-02-20,8,510.0,428.301703074703,105.0,97.6,-81.69829692529697,81.69829692529697,held_out_cv_fold_aggregate_primary
+2425,paper_informed_nonreactive,Extra Trees,4,2025-01-07,2025-02-05,3,2025-02-26,8,223.0,220.85318945868943,105.0,97.6,-2.146810541310572,2.146810541310572,held_out_cv_fold_aggregate_primary
+2425,paper_informed_nonreactive,Extra Trees,4,2025-01-07,2025-02-05,4,2025-03-05,8,289.0,337.38417547267545,105.0,97.6,48.38417547267545,48.38417547267545,held_out_cv_fold_aggregate_primary
+2425,paper_informed_nonreactive,Extra Trees,5,2025-01-07,2025-02-05,1,2025-02-12,8,162.0,224.21911105669926,121.0,89.4,62.21911105669926,62.21911105669926,held_out_cv_fold_aggregate_primary
+2425,paper_informed_nonreactive,Extra Trees,5,2025-01-07,2025-02-05,2,2025-02-20,8,485.0,467.9299372718786,121.0,89.4,-17.0700627281214,17.0700627281214,held_out_cv_fold_aggregate_primary
+2425,paper_informed_nonreactive,Extra Trees,5,2025-01-07,2025-02-05,3,2025-02-26,8,168.0,223.0608584378584,121.0,89.4,55.0608584378584,55.0608584378584,held_out_cv_fold_aggregate_primary
+2425,paper_informed_nonreactive,Extra Trees,5,2025-01-07,2025-02-05,4,2025-03-05,8,498.0,363.48408727383725,121.0,89.4,-134.51591272616275,134.51591272616275,held_out_cv_fold_aggregate_primary
+2425,paper_informed_nonreactive,Gradient Boosting,1,2025-01-07,2025-02-05,1,2025-02-12,8,259.0,135.99087781347106,19.0,79.0,-123.00912218652894,123.00912218652894,held_out_cv_fold_aggregate_primary
+2425,paper_informed_nonreactive,Gradient Boosting,1,2025-01-07,2025-02-05,2,2025-02-20,8,542.0,554.9923701271501,19.0,79.0,12.992370127150139,12.992370127150139,held_out_cv_fold_aggregate_primary
+2425,paper_informed_nonreactive,Gradient Boosting,1,2025-01-07,2025-02-05,3,2025-02-26,8,237.0,228.37412600488327,19.0,79.0,-8.625873995116734,8.625873995116734,held_out_cv_fold_aggregate_primary
+2425,paper_informed_nonreactive,Gradient Boosting,1,2025-01-07,2025-02-05,4,2025-03-05,8,516.0,472.16805281859047,19.0,79.0,-43.83194718140953,43.83194718140953,held_out_cv_fold_aggregate_primary
+2425,paper_informed_nonreactive,Gradient Boosting,2,2025-01-07,2025-02-05,1,2025-02-12,8,167.0,175.04625817735666,171.0,105.80000000000001,8.046258177356663,8.046258177356663,held_out_cv_fold_aggregate_primary
+2425,paper_informed_nonreactive,Gradient Boosting,2,2025-01-07,2025-02-05,2,2025-02-20,8,355.0,557.4380594058682,171.0,105.80000000000001,202.43805940586822,202.43805940586822,held_out_cv_fold_aggregate_primary
+2425,paper_informed_nonreactive,Gradient Boosting,2,2025-01-07,2025-02-05,3,2025-02-26,8,190.0,196.21467835279176,171.0,105.80000000000001,6.214678352791765,6.214678352791765,held_out_cv_fold_aggregate_primary
+2425,paper_informed_nonreactive,Gradient Boosting,2,2025-01-07,2025-02-05,4,2025-03-05,8,401.0,401.55263340759353,171.0,105.80000000000001,0.5526334075935324,0.5526334075935324,held_out_cv_fold_aggregate_primary
+2425,paper_informed_nonreactive,Gradient Boosting,3,2025-01-07,2025-02-05,1,2025-02-12,8,107.0,164.26207923623946,71.0,86.15,57.26207923623946,57.26207923623946,held_out_cv_fold_aggregate_primary
+2425,paper_informed_nonreactive,Gradient Boosting,3,2025-01-07,2025-02-05,2,2025-02-20,8,364.0,385.91583297741823,71.0,86.15,21.915832977418233,21.915832977418233,held_out_cv_fold_aggregate_primary
+2425,paper_informed_nonreactive,Gradient Boosting,3,2025-01-07,2025-02-05,3,2025-02-26,8,281.0,214.8437585476394,71.0,86.15,-66.1562414523606,66.1562414523606,held_out_cv_fold_aggregate_primary
+2425,paper_informed_nonreactive,Gradient Boosting,3,2025-01-07,2025-02-05,4,2025-03-05,8,422.0,527.7289789412134,71.0,86.15,105.72897894121343,105.72897894121343,held_out_cv_fold_aggregate_primary
+2425,paper_informed_nonreactive,Gradient Boosting,4,2025-01-07,2025-02-05,1,2025-02-12,8,245.0,148.06735661233685,105.0,97.6,-96.93264338766315,96.93264338766315,held_out_cv_fold_aggregate_primary
+2425,paper_informed_nonreactive,Gradient Boosting,4,2025-01-07,2025-02-05,2,2025-02-20,8,510.0,456.58314118974397,105.0,97.6,-53.41685881025603,53.41685881025603,held_out_cv_fold_aggregate_primary
+2425,paper_informed_nonreactive,Gradient Boosting,4,2025-01-07,2025-02-05,3,2025-02-26,8,223.0,230.15769819301852,105.0,97.6,7.157698193018518,7.157698193018518,held_out_cv_fold_aggregate_primary
+2425,paper_informed_nonreactive,Gradient Boosting,4,2025-01-07,2025-02-05,4,2025-03-05,8,289.0,369.49374515076704,105.0,97.6,80.49374515076704,80.49374515076704,held_out_cv_fold_aggregate_primary
+2425,paper_informed_nonreactive,Gradient Boosting,5,2025-01-07,2025-02-05,1,2025-02-12,8,162.0,189.89200601492422,121.0,89.4,27.89200601492422,27.89200601492422,held_out_cv_fold_aggregate_primary
+2425,paper_informed_nonreactive,Gradient Boosting,5,2025-01-07,2025-02-05,2,2025-02-20,8,485.0,438.3832945887539,121.0,89.4,-46.61670541124607,46.61670541124607,held_out_cv_fold_aggregate_primary
+2425,paper_informed_nonreactive,Gradient Boosting,5,2025-01-07,2025-02-05,3,2025-02-26,8,168.0,214.44104795799444,121.0,89.4,46.44104795799444,46.44104795799444,held_out_cv_fold_aggregate_primary
+2425,paper_informed_nonreactive,Gradient Boosting,5,2025-01-07,2025-02-05,4,2025-03-05,8,498.0,414.0259597241466,121.0,89.4,-83.97404027585338,83.97404027585338,held_out_cv_fold_aggregate_primary
+2425,paper_informed_nonreactive,HistGradientBoosting,1,2025-01-07,2025-02-05,1,2025-02-12,8,259.0,170.25,19.0,79.0,-88.75,88.75,held_out_cv_fold_aggregate_primary
+2425,paper_informed_nonreactive,HistGradientBoosting,1,2025-01-07,2025-02-05,2,2025-02-20,8,542.0,428.5,19.0,79.0,-113.5,113.5,held_out_cv_fold_aggregate_primary
+2425,paper_informed_nonreactive,HistGradientBoosting,1,2025-01-07,2025-02-05,3,2025-02-26,8,237.0,215.5,19.0,79.0,-21.5,21.5,held_out_cv_fold_aggregate_primary
+2425,paper_informed_nonreactive,HistGradientBoosting,1,2025-01-07,2025-02-05,4,2025-03-05,8,516.0,402.5,19.0,79.0,-113.5,113.5,held_out_cv_fold_aggregate_primary
+2425,paper_informed_nonreactive,HistGradientBoosting,2,2025-01-07,2025-02-05,1,2025-02-12,8,167.0,193.25,171.0,105.80000000000001,26.25,26.25,held_out_cv_fold_aggregate_primary
+2425,paper_informed_nonreactive,HistGradientBoosting,2,2025-01-07,2025-02-05,2,2025-02-20,8,355.0,475.25,171.0,105.80000000000001,120.25,120.25,held_out_cv_fold_aggregate_primary
+2425,paper_informed_nonreactive,HistGradientBoosting,2,2025-01-07,2025-02-05,3,2025-02-26,8,190.0,227.25,171.0,105.80000000000001,37.25,37.25,held_out_cv_fold_aggregate_primary
+2425,paper_informed_nonreactive,HistGradientBoosting,2,2025-01-07,2025-02-05,4,2025-03-05,8,401.0,431.25,171.0,105.80000000000001,30.25,30.25,held_out_cv_fold_aggregate_primary
+2425,paper_informed_nonreactive,HistGradientBoosting,3,2025-01-07,2025-02-05,1,2025-02-12,8,107.0,208.25,71.0,86.15,101.25,101.25,held_out_cv_fold_aggregate_primary
+2425,paper_informed_nonreactive,HistGradientBoosting,3,2025-01-07,2025-02-05,2,2025-02-20,8,364.0,473.0,71.0,86.15,109.0,109.0,held_out_cv_fold_aggregate_primary
+2425,paper_informed_nonreactive,HistGradientBoosting,3,2025-01-07,2025-02-05,3,2025-02-26,8,281.0,204.5,71.0,86.15,-76.5,76.5,held_out_cv_fold_aggregate_primary
+2425,paper_informed_nonreactive,HistGradientBoosting,3,2025-01-07,2025-02-05,4,2025-03-05,8,422.0,426.0,71.0,86.15,4.0,4.0,held_out_cv_fold_aggregate_primary
+2425,paper_informed_nonreactive,HistGradientBoosting,4,2025-01-07,2025-02-05,1,2025-02-12,8,245.0,173.75,105.0,97.6,-71.25,71.25,held_out_cv_fold_aggregate_primary
+2425,paper_informed_nonreactive,HistGradientBoosting,4,2025-01-07,2025-02-05,2,2025-02-20,8,510.0,436.5,105.0,97.6,-73.5,73.5,held_out_cv_fold_aggregate_primary
+2425,paper_informed_nonreactive,HistGradientBoosting,4,2025-01-07,2025-02-05,3,2025-02-26,8,223.0,219.0,105.0,97.6,-4.0,4.0,held_out_cv_fold_aggregate_primary
+2425,paper_informed_nonreactive,HistGradientBoosting,4,2025-01-07,2025-02-05,4,2025-03-05,8,289.0,459.25,105.0,97.6,170.25,170.25,held_out_cv_fold_aggregate_primary
+2425,paper_informed_nonreactive,HistGradientBoosting,5,2025-01-07,2025-02-05,1,2025-02-12,8,162.0,194.5,121.0,89.4,32.5,32.5,held_out_cv_fold_aggregate_primary
+2425,paper_informed_nonreactive,HistGradientBoosting,5,2025-01-07,2025-02-05,2,2025-02-20,8,485.0,442.75,121.0,89.4,-42.25,42.25,held_out_cv_fold_aggregate_primary
+2425,paper_informed_nonreactive,HistGradientBoosting,5,2025-01-07,2025-02-05,3,2025-02-26,8,168.0,232.75,121.0,89.4,64.75,64.75,held_out_cv_fold_aggregate_primary
+2425,paper_informed_nonreactive,HistGradientBoosting,5,2025-01-07,2025-02-05,4,2025-03-05,8,498.0,407.0,121.0,89.4,-91.0,91.0,held_out_cv_fold_aggregate_primary
+2425,paper_informed_nonreactive,Last observed week-5 yield baseline,1,2025-01-07,2025-02-05,1,2025-02-12,8,259.0,19.0,19.0,79.0,-240.0,240.0,held_out_cv_fold_aggregate_primary
+2425,paper_informed_nonreactive,Last observed week-5 yield baseline,1,2025-01-07,2025-02-05,2,2025-02-20,8,542.0,19.0,19.0,79.0,-523.0,523.0,held_out_cv_fold_aggregate_primary
+2425,paper_informed_nonreactive,Last observed week-5 yield baseline,1,2025-01-07,2025-02-05,3,2025-02-26,8,237.0,19.0,19.0,79.0,-218.0,218.0,held_out_cv_fold_aggregate_primary
+2425,paper_informed_nonreactive,Last observed week-5 yield baseline,1,2025-01-07,2025-02-05,4,2025-03-05,8,516.0,19.0,19.0,79.0,-497.0,497.0,held_out_cv_fold_aggregate_primary
+2425,paper_informed_nonreactive,Last observed week-5 yield baseline,2,2025-01-07,2025-02-05,1,2025-02-12,8,167.0,171.0,171.0,105.80000000000001,4.0,4.0,held_out_cv_fold_aggregate_primary
+2425,paper_informed_nonreactive,Last observed week-5 yield baseline,2,2025-01-07,2025-02-05,2,2025-02-20,8,355.0,171.0,171.0,105.80000000000001,-184.0,184.0,held_out_cv_fold_aggregate_primary
+2425,paper_informed_nonreactive,Last observed week-5 yield baseline,2,2025-01-07,2025-02-05,3,2025-02-26,8,190.0,171.0,171.0,105.80000000000001,-19.0,19.0,held_out_cv_fold_aggregate_primary
+2425,paper_informed_nonreactive,Last observed week-5 yield baseline,2,2025-01-07,2025-02-05,4,2025-03-05,8,401.0,171.0,171.0,105.80000000000001,-230.0,230.0,held_out_cv_fold_aggregate_primary
+2425,paper_informed_nonreactive,Last observed week-5 yield baseline,3,2025-01-07,2025-02-05,1,2025-02-12,8,107.0,71.0,71.0,86.15,-36.0,36.0,held_out_cv_fold_aggregate_primary
+2425,paper_informed_nonreactive,Last observed week-5 yield baseline,3,2025-01-07,2025-02-05,2,2025-02-20,8,364.0,71.0,71.0,86.15,-293.0,293.0,held_out_cv_fold_aggregate_primary
+2425,paper_informed_nonreactive,Last observed week-5 yield baseline,3,2025-01-07,2025-02-05,3,2025-02-26,8,281.0,71.0,71.0,86.15,-210.0,210.0,held_out_cv_fold_aggregate_primary
+2425,paper_informed_nonreactive,Last observed week-5 yield baseline,3,2025-01-07,2025-02-05,4,2025-03-05,8,422.0,71.0,71.0,86.15,-351.0,351.0,held_out_cv_fold_aggregate_primary
+2425,paper_informed_nonreactive,Last observed week-5 yield baseline,4,2025-01-07,2025-02-05,1,2025-02-12,8,245.0,105.0,105.0,97.6,-140.0,140.0,held_out_cv_fold_aggregate_primary
+2425,paper_informed_nonreactive,Last observed week-5 yield baseline,4,2025-01-07,2025-02-05,2,2025-02-20,8,510.0,105.0,105.0,97.6,-405.0,405.0,held_out_cv_fold_aggregate_primary
+2425,paper_informed_nonreactive,Last observed week-5 yield baseline,4,2025-01-07,2025-02-05,3,2025-02-26,8,223.0,105.0,105.0,97.6,-118.0,118.0,held_out_cv_fold_aggregate_primary
+2425,paper_informed_nonreactive,Last observed week-5 yield baseline,4,2025-01-07,2025-02-05,4,2025-03-05,8,289.0,105.0,105.0,97.6,-184.0,184.0,held_out_cv_fold_aggregate_primary
+2425,paper_informed_nonreactive,Last observed week-5 yield baseline,5,2025-01-07,2025-02-05,1,2025-02-12,8,162.0,121.0,121.0,89.4,-41.0,41.0,held_out_cv_fold_aggregate_primary
+2425,paper_informed_nonreactive,Last observed week-5 yield baseline,5,2025-01-07,2025-02-05,2,2025-02-20,8,485.0,121.0,121.0,89.4,-364.0,364.0,held_out_cv_fold_aggregate_primary
+2425,paper_informed_nonreactive,Last observed week-5 yield baseline,5,2025-01-07,2025-02-05,3,2025-02-26,8,168.0,121.0,121.0,89.4,-47.0,47.0,held_out_cv_fold_aggregate_primary
+2425,paper_informed_nonreactive,Last observed week-5 yield baseline,5,2025-01-07,2025-02-05,4,2025-03-05,8,498.0,121.0,121.0,89.4,-377.0,377.0,held_out_cv_fold_aggregate_primary
+2425,paper_informed_nonreactive,Observed 5-week mean yield baseline,1,2025-01-07,2025-02-05,1,2025-02-12,8,259.0,79.0,19.0,79.0,-180.0,180.0,held_out_cv_fold_aggregate_primary
+2425,paper_informed_nonreactive,Observed 5-week mean yield baseline,1,2025-01-07,2025-02-05,2,2025-02-20,8,542.0,79.0,19.0,79.0,-463.0,463.0,held_out_cv_fold_aggregate_primary
+2425,paper_informed_nonreactive,Observed 5-week mean yield baseline,1,2025-01-07,2025-02-05,3,2025-02-26,8,237.0,79.0,19.0,79.0,-158.0,158.0,held_out_cv_fold_aggregate_primary
+2425,paper_informed_nonreactive,Observed 5-week mean yield baseline,1,2025-01-07,2025-02-05,4,2025-03-05,8,516.0,79.0,19.0,79.0,-437.0,437.0,held_out_cv_fold_aggregate_primary
+2425,paper_informed_nonreactive,Observed 5-week mean yield baseline,2,2025-01-07,2025-02-05,1,2025-02-12,8,167.0,105.80000000000001,171.0,105.80000000000001,-61.19999999999999,61.19999999999999,held_out_cv_fold_aggregate_primary
+2425,paper_informed_nonreactive,Observed 5-week mean yield baseline,2,2025-01-07,2025-02-05,2,2025-02-20,8,355.0,105.80000000000001,171.0,105.80000000000001,-249.2,249.2,held_out_cv_fold_aggregate_primary
+2425,paper_informed_nonreactive,Observed 5-week mean yield baseline,2,2025-01-07,2025-02-05,3,2025-02-26,8,190.0,105.80000000000001,171.0,105.80000000000001,-84.19999999999999,84.19999999999999,held_out_cv_fold_aggregate_primary
+2425,paper_informed_nonreactive,Observed 5-week mean yield baseline,2,2025-01-07,2025-02-05,4,2025-03-05,8,401.0,105.80000000000001,171.0,105.80000000000001,-295.2,295.2,held_out_cv_fold_aggregate_primary
+2425,paper_informed_nonreactive,Observed 5-week mean yield baseline,3,2025-01-07,2025-02-05,1,2025-02-12,8,107.0,86.15,71.0,86.15,-20.849999999999994,20.849999999999994,held_out_cv_fold_aggregate_primary
+2425,paper_informed_nonreactive,Observed 5-week mean yield baseline,3,2025-01-07,2025-02-05,2,2025-02-20,8,364.0,86.15,71.0,86.15,-277.85,277.85,held_out_cv_fold_aggregate_primary
+2425,paper_informed_nonreactive,Observed 5-week mean yield baseline,3,2025-01-07,2025-02-05,3,2025-02-26,8,281.0,86.15,71.0,86.15,-194.85,194.85,held_out_cv_fold_aggregate_primary
+2425,paper_informed_nonreactive,Observed 5-week mean yield baseline,3,2025-01-07,2025-02-05,4,2025-03-05,8,422.0,86.15,71.0,86.15,-335.85,335.85,held_out_cv_fold_aggregate_primary
+2425,paper_informed_nonreactive,Observed 5-week mean yield baseline,4,2025-01-07,2025-02-05,1,2025-02-12,8,245.0,97.6,105.0,97.6,-147.4,147.4,held_out_cv_fold_aggregate_primary
+2425,paper_informed_nonreactive,Observed 5-week mean yield baseline,4,2025-01-07,2025-02-05,2,2025-02-20,8,510.0,97.6,105.0,97.6,-412.4,412.4,held_out_cv_fold_aggregate_primary
+2425,paper_informed_nonreactive,Observed 5-week mean yield baseline,4,2025-01-07,2025-02-05,3,2025-02-26,8,223.0,97.6,105.0,97.6,-125.4,125.4,held_out_cv_fold_aggregate_primary
+2425,paper_informed_nonreactive,Observed 5-week mean yield baseline,4,2025-01-07,2025-02-05,4,2025-03-05,8,289.0,97.6,105.0,97.6,-191.4,191.4,held_out_cv_fold_aggregate_primary
+2425,paper_informed_nonreactive,Observed 5-week mean yield baseline,5,2025-01-07,2025-02-05,1,2025-02-12,8,162.0,89.4,121.0,89.4,-72.6,72.6,held_out_cv_fold_aggregate_primary
+2425,paper_informed_nonreactive,Observed 5-week mean yield baseline,5,2025-01-07,2025-02-05,2,2025-02-20,8,485.0,89.4,121.0,89.4,-395.6,395.6,held_out_cv_fold_aggregate_primary
+2425,paper_informed_nonreactive,Observed 5-week mean yield baseline,5,2025-01-07,2025-02-05,3,2025-02-26,8,168.0,89.4,121.0,89.4,-78.6,78.6,held_out_cv_fold_aggregate_primary
+2425,paper_informed_nonreactive,Observed 5-week mean yield baseline,5,2025-01-07,2025-02-05,4,2025-03-05,8,498.0,89.4,121.0,89.4,-408.6,408.6,held_out_cv_fold_aggregate_primary
+2425,paper_informed_nonreactive,Random Forest,1,2025-01-07,2025-02-05,1,2025-02-12,8,259.0,164.02328571428572,19.0,79.0,-94.97671428571428,94.97671428571428,held_out_cv_fold_aggregate_primary
+2425,paper_informed_nonreactive,Random Forest,1,2025-01-07,2025-02-05,2,2025-02-20,8,542.0,499.00878353128354,19.0,79.0,-42.99121646871646,42.99121646871646,held_out_cv_fold_aggregate_primary
+2425,paper_informed_nonreactive,Random Forest,1,2025-01-07,2025-02-05,3,2025-02-26,8,237.0,226.74103254153258,19.0,79.0,-10.258967458467424,10.258967458467424,held_out_cv_fold_aggregate_primary
+2425,paper_informed_nonreactive,Random Forest,1,2025-01-07,2025-02-05,4,2025-03-05,8,516.0,439.9766055796056,19.0,79.0,-76.02339442039442,76.02339442039442,held_out_cv_fold_aggregate_primary
+2425,paper_informed_nonreactive,Random Forest,2,2025-01-07,2025-02-05,1,2025-02-12,8,167.0,196.43879326229327,171.0,105.80000000000001,29.438793262293274,29.438793262293274,held_out_cv_fold_aggregate_primary
+2425,paper_informed_nonreactive,Random Forest,2,2025-01-07,2025-02-05,2,2025-02-20,8,355.0,496.7092594997596,171.0,105.80000000000001,141.70925949975958,141.70925949975958,held_out_cv_fold_aggregate_primary
+2425,paper_informed_nonreactive,Random Forest,2,2025-01-07,2025-02-05,3,2025-02-26,8,190.0,195.11843963443957,171.0,105.80000000000001,5.118439634439568,5.118439634439568,held_out_cv_fold_aggregate_primary
+2425,paper_informed_nonreactive,Random Forest,2,2025-01-07,2025-02-05,4,2025-03-05,8,401.0,395.53193375143366,171.0,105.80000000000001,-5.468066248566345,5.468066248566345,held_out_cv_fold_aggregate_primary
+2425,paper_informed_nonreactive,Random Forest,3,2025-01-07,2025-02-05,1,2025-02-12,8,107.0,170.25927217227218,71.0,86.15,63.259272172272176,63.259272172272176,held_out_cv_fold_aggregate_primary
+2425,paper_informed_nonreactive,Random Forest,3,2025-01-07,2025-02-05,2,2025-02-20,8,364.0,409.49194662744657,71.0,86.15,45.491946627446566,45.491946627446566,held_out_cv_fold_aggregate_primary
+2425,paper_informed_nonreactive,Random Forest,3,2025-01-07,2025-02-05,3,2025-02-26,8,281.0,212.5133552743553,71.0,86.15,-68.48664472564471,68.48664472564471,held_out_cv_fold_aggregate_primary
+2425,paper_informed_nonreactive,Random Forest,3,2025-01-07,2025-02-05,4,2025-03-05,8,422.0,509.7741845006845,71.0,86.15,87.7741845006845,87.7741845006845,held_out_cv_fold_aggregate_primary
+2425,paper_informed_nonreactive,Random Forest,4,2025-01-07,2025-02-05,1,2025-02-12,8,245.0,153.37039897139897,105.0,97.6,-91.62960102860103,91.62960102860103,held_out_cv_fold_aggregate_primary
+2425,paper_informed_nonreactive,Random Forest,4,2025-01-07,2025-02-05,2,2025-02-20,8,510.0,443.2443369408369,105.0,97.6,-66.75566305916311,66.75566305916311,held_out_cv_fold_aggregate_primary
+2425,paper_informed_nonreactive,Random Forest,4,2025-01-07,2025-02-05,3,2025-02-26,8,223.0,223.82500025900023,105.0,97.6,0.8250002590002339,0.8250002590002339,held_out_cv_fold_aggregate_primary
+2425,paper_informed_nonreactive,Random Forest,4,2025-01-07,2025-02-05,4,2025-03-05,8,289.0,397.64278995078996,105.0,97.6,108.64278995078996,108.64278995078996,held_out_cv_fold_aggregate_primary
+2425,paper_informed_nonreactive,Random Forest,5,2025-01-07,2025-02-05,1,2025-02-12,8,162.0,218.88599104599103,121.0,89.4,56.885991045991034,56.885991045991034,held_out_cv_fold_aggregate_primary
+2425,paper_informed_nonreactive,Random Forest,5,2025-01-07,2025-02-05,2,2025-02-20,8,485.0,442.56673285973295,121.0,89.4,-42.43326714026705,42.43326714026705,held_out_cv_fold_aggregate_primary
+2425,paper_informed_nonreactive,Random Forest,5,2025-01-07,2025-02-05,3,2025-02-26,8,168.0,217.86855281755285,121.0,89.4,49.86855281755285,49.86855281755285,held_out_cv_fold_aggregate_primary
+2425,paper_informed_nonreactive,Random Forest,5,2025-01-07,2025-02-05,4,2025-03-05,8,498.0,392.12891323926624,121.0,89.4,-105.87108676073376,105.87108676073376,held_out_cv_fold_aggregate_primary
+2425,paper_informed_nonreactive,Ridge,1,2025-01-07,2025-02-05,1,2025-02-12,8,259.0,168.09700911022625,19.0,79.0,-90.90299088977375,90.90299088977375,held_out_cv_fold_aggregate_primary
+2425,paper_informed_nonreactive,Ridge,1,2025-01-07,2025-02-05,2,2025-02-20,8,542.0,439.50743163208483,19.0,79.0,-102.49256836791517,102.49256836791517,held_out_cv_fold_aggregate_primary
+2425,paper_informed_nonreactive,Ridge,1,2025-01-07,2025-02-05,3,2025-02-26,8,237.0,205.6655626826826,19.0,79.0,-31.334437317317395,31.334437317317395,held_out_cv_fold_aggregate_primary
+2425,paper_informed_nonreactive,Ridge,1,2025-01-07,2025-02-05,4,2025-03-05,8,516.0,488.36542640320386,19.0,79.0,-27.634573596796145,27.634573596796145,held_out_cv_fold_aggregate_primary
+2425,paper_informed_nonreactive,Ridge,2,2025-01-07,2025-02-05,1,2025-02-12,8,167.0,187.00547188077746,171.0,105.80000000000001,20.005471880777463,20.005471880777463,held_out_cv_fold_aggregate_primary
+2425,paper_informed_nonreactive,Ridge,2,2025-01-07,2025-02-05,2,2025-02-20,8,355.0,531.8145174917496,171.0,105.80000000000001,176.8145174917496,176.8145174917496,held_out_cv_fold_aggregate_primary
+2425,paper_informed_nonreactive,Ridge,2,2025-01-07,2025-02-05,3,2025-02-26,8,190.0,164.6541699727147,171.0,105.80000000000001,-25.345830027285302,25.345830027285302,held_out_cv_fold_aggregate_primary
+2425,paper_informed_nonreactive,Ridge,2,2025-01-07,2025-02-05,4,2025-03-05,8,401.0,350.25352611062385,171.0,105.80000000000001,-50.74647388937615,50.74647388937615,held_out_cv_fold_aggregate_primary
+2425,paper_informed_nonreactive,Ridge,3,2025-01-07,2025-02-05,1,2025-02-12,8,107.0,66.5088451862225,71.0,86.15,-40.4911548137775,40.4911548137775,held_out_cv_fold_aggregate_primary
+2425,paper_informed_nonreactive,Ridge,3,2025-01-07,2025-02-05,2,2025-02-20,8,364.0,184.0885089787874,71.0,86.15,-179.9114910212126,179.9114910212126,held_out_cv_fold_aggregate_primary
+2425,paper_informed_nonreactive,Ridge,3,2025-01-07,2025-02-05,3,2025-02-26,8,281.0,209.29343335686644,71.0,86.15,-71.70656664313356,71.70656664313356,held_out_cv_fold_aggregate_primary
+2425,paper_informed_nonreactive,Ridge,3,2025-01-07,2025-02-05,4,2025-03-05,8,422.0,641.2430705980847,71.0,86.15,219.24307059808473,219.24307059808473,held_out_cv_fold_aggregate_primary
+2425,paper_informed_nonreactive,Ridge,4,2025-01-07,2025-02-05,1,2025-02-12,8,245.0,188.82869441349192,105.0,97.6,-56.17130558650808,56.17130558650808,held_out_cv_fold_aggregate_primary
+2425,paper_informed_nonreactive,Ridge,4,2025-01-07,2025-02-05,2,2025-02-20,8,510.0,576.4490261872431,105.0,97.6,66.44902618724313,66.44902618724313,held_out_cv_fold_aggregate_primary
+2425,paper_informed_nonreactive,Ridge,4,2025-01-07,2025-02-05,3,2025-02-26,8,223.0,155.98217833777602,105.0,97.6,-67.01782166222398,67.01782166222398,held_out_cv_fold_aggregate_primary
+2425,paper_informed_nonreactive,Ridge,4,2025-01-07,2025-02-05,4,2025-03-05,8,289.0,371.35899268727877,105.0,97.6,82.35899268727877,82.35899268727877,held_out_cv_fold_aggregate_primary
+2425,paper_informed_nonreactive,Ridge,5,2025-01-07,2025-02-05,1,2025-02-12,8,162.0,246.47632105101744,121.0,89.4,84.47632105101744,84.47632105101744,held_out_cv_fold_aggregate_primary
+2425,paper_informed_nonreactive,Ridge,5,2025-01-07,2025-02-05,2,2025-02-20,8,485.0,544.8839141803414,121.0,89.4,59.883914180341435,59.883914180341435,held_out_cv_fold_aggregate_primary
+2425,paper_informed_nonreactive,Ridge,5,2025-01-07,2025-02-05,3,2025-02-26,8,168.0,262.8320906882996,121.0,89.4,94.83209068829962,94.83209068829962,held_out_cv_fold_aggregate_primary
+2425,paper_informed_nonreactive,Ridge,5,2025-01-07,2025-02-05,4,2025-03-05,8,498.0,364.72467703438366,121.0,89.4,-133.27532296561634,133.27532296561634,held_out_cv_fold_aggregate_primary
+2425,paper_informed_nonreactive,Training horizon mean baseline,1,2025-01-07,2025-02-05,1,2025-02-12,8,259.0,170.25,19.0,79.0,-88.75,88.75,held_out_cv_fold_aggregate_primary
+2425,paper_informed_nonreactive,Training horizon mean baseline,1,2025-01-07,2025-02-05,2,2025-02-20,8,542.0,428.5,19.0,79.0,-113.5,113.5,held_out_cv_fold_aggregate_primary
+2425,paper_informed_nonreactive,Training horizon mean baseline,1,2025-01-07,2025-02-05,3,2025-02-26,8,237.0,215.5,19.0,79.0,-21.5,21.5,held_out_cv_fold_aggregate_primary
+2425,paper_informed_nonreactive,Training horizon mean baseline,1,2025-01-07,2025-02-05,4,2025-03-05,8,516.0,402.5,19.0,79.0,-113.5,113.5,held_out_cv_fold_aggregate_primary
+2425,paper_informed_nonreactive,Training horizon mean baseline,2,2025-01-07,2025-02-05,1,2025-02-12,8,167.0,193.25,171.0,105.80000000000001,26.25,26.25,held_out_cv_fold_aggregate_primary
+2425,paper_informed_nonreactive,Training horizon mean baseline,2,2025-01-07,2025-02-05,2,2025-02-20,8,355.0,475.25,171.0,105.80000000000001,120.25,120.25,held_out_cv_fold_aggregate_primary
+2425,paper_informed_nonreactive,Training horizon mean baseline,2,2025-01-07,2025-02-05,3,2025-02-26,8,190.0,227.25,171.0,105.80000000000001,37.25,37.25,held_out_cv_fold_aggregate_primary
+2425,paper_informed_nonreactive,Training horizon mean baseline,2,2025-01-07,2025-02-05,4,2025-03-05,8,401.0,431.25,171.0,105.80000000000001,30.25,30.25,held_out_cv_fold_aggregate_primary
+2425,paper_informed_nonreactive,Training horizon mean baseline,3,2025-01-07,2025-02-05,1,2025-02-12,8,107.0,208.25,71.0,86.15,101.25,101.25,held_out_cv_fold_aggregate_primary
+2425,paper_informed_nonreactive,Training horizon mean baseline,3,2025-01-07,2025-02-05,2,2025-02-20,8,364.0,473.0,71.0,86.15,109.0,109.0,held_out_cv_fold_aggregate_primary
+2425,paper_informed_nonreactive,Training horizon mean baseline,3,2025-01-07,2025-02-05,3,2025-02-26,8,281.0,204.5,71.0,86.15,-76.5,76.5,held_out_cv_fold_aggregate_primary
+2425,paper_informed_nonreactive,Training horizon mean baseline,3,2025-01-07,2025-02-05,4,2025-03-05,8,422.0,426.0,71.0,86.15,4.0,4.0,held_out_cv_fold_aggregate_primary
+2425,paper_informed_nonreactive,Training horizon mean baseline,4,2025-01-07,2025-02-05,1,2025-02-12,8,245.0,173.75,105.0,97.6,-71.25,71.25,held_out_cv_fold_aggregate_primary
+2425,paper_informed_nonreactive,Training horizon mean baseline,4,2025-01-07,2025-02-05,2,2025-02-20,8,510.0,436.5,105.0,97.6,-73.5,73.5,held_out_cv_fold_aggregate_primary
+2425,paper_informed_nonreactive,Training horizon mean baseline,4,2025-01-07,2025-02-05,3,2025-02-26,8,223.0,219.0,105.0,97.6,-4.0,4.0,held_out_cv_fold_aggregate_primary
+2425,paper_informed_nonreactive,Training horizon mean baseline,4,2025-01-07,2025-02-05,4,2025-03-05,8,289.0,459.25,105.0,97.6,170.25,170.25,held_out_cv_fold_aggregate_primary
+2425,paper_informed_nonreactive,Training horizon mean baseline,5,2025-01-07,2025-02-05,1,2025-02-12,8,162.0,194.5,121.0,89.4,32.5,32.5,held_out_cv_fold_aggregate_primary
+2425,paper_informed_nonreactive,Training horizon mean baseline,5,2025-01-07,2025-02-05,2,2025-02-20,8,485.0,442.75,121.0,89.4,-42.25,42.25,held_out_cv_fold_aggregate_primary
+2425,paper_informed_nonreactive,Training horizon mean baseline,5,2025-01-07,2025-02-05,3,2025-02-26,8,168.0,232.75,121.0,89.4,64.75,64.75,held_out_cv_fold_aggregate_primary
+2425,paper_informed_nonreactive,Training horizon mean baseline,5,2025-01-07,2025-02-05,4,2025-03-05,8,498.0,407.0,121.0,89.4,-91.0,91.0,held_out_cv_fold_aggregate_primary
+2425,paper_informed_nonreactive,Zero yield baseline,1,2025-01-07,2025-02-05,1,2025-02-12,8,259.0,0.0,19.0,79.0,-259.0,259.0,held_out_cv_fold_aggregate_primary
+2425,paper_informed_nonreactive,Zero yield baseline,1,2025-01-07,2025-02-05,2,2025-02-20,8,542.0,0.0,19.0,79.0,-542.0,542.0,held_out_cv_fold_aggregate_primary
+2425,paper_informed_nonreactive,Zero yield baseline,1,2025-01-07,2025-02-05,3,2025-02-26,8,237.0,0.0,19.0,79.0,-237.0,237.0,held_out_cv_fold_aggregate_primary
+2425,paper_informed_nonreactive,Zero yield baseline,1,2025-01-07,2025-02-05,4,2025-03-05,8,516.0,0.0,19.0,79.0,-516.0,516.0,held_out_cv_fold_aggregate_primary
+2425,paper_informed_nonreactive,Zero yield baseline,2,2025-01-07,2025-02-05,1,2025-02-12,8,167.0,0.0,171.0,105.80000000000001,-167.0,167.0,held_out_cv_fold_aggregate_primary
+2425,paper_informed_nonreactive,Zero yield baseline,2,2025-01-07,2025-02-05,2,2025-02-20,8,355.0,0.0,171.0,105.80000000000001,-355.0,355.0,held_out_cv_fold_aggregate_primary
+2425,paper_informed_nonreactive,Zero yield baseline,2,2025-01-07,2025-02-05,3,2025-02-26,8,190.0,0.0,171.0,105.80000000000001,-190.0,190.0,held_out_cv_fold_aggregate_primary
+2425,paper_informed_nonreactive,Zero yield baseline,2,2025-01-07,2025-02-05,4,2025-03-05,8,401.0,0.0,171.0,105.80000000000001,-401.0,401.0,held_out_cv_fold_aggregate_primary
+2425,paper_informed_nonreactive,Zero yield baseline,3,2025-01-07,2025-02-05,1,2025-02-12,8,107.0,0.0,71.0,86.15,-107.0,107.0,held_out_cv_fold_aggregate_primary
+2425,paper_informed_nonreactive,Zero yield baseline,3,2025-01-07,2025-02-05,2,2025-02-20,8,364.0,0.0,71.0,86.15,-364.0,364.0,held_out_cv_fold_aggregate_primary
+2425,paper_informed_nonreactive,Zero yield baseline,3,2025-01-07,2025-02-05,3,2025-02-26,8,281.0,0.0,71.0,86.15,-281.0,281.0,held_out_cv_fold_aggregate_primary
+2425,paper_informed_nonreactive,Zero yield baseline,3,2025-01-07,2025-02-05,4,2025-03-05,8,422.0,0.0,71.0,86.15,-422.0,422.0,held_out_cv_fold_aggregate_primary
+2425,paper_informed_nonreactive,Zero yield baseline,4,2025-01-07,2025-02-05,1,2025-02-12,8,245.0,0.0,105.0,97.6,-245.0,245.0,held_out_cv_fold_aggregate_primary
+2425,paper_informed_nonreactive,Zero yield baseline,4,2025-01-07,2025-02-05,2,2025-02-20,8,510.0,0.0,105.0,97.6,-510.0,510.0,held_out_cv_fold_aggregate_primary
+2425,paper_informed_nonreactive,Zero yield baseline,4,2025-01-07,2025-02-05,3,2025-02-26,8,223.0,0.0,105.0,97.6,-223.0,223.0,held_out_cv_fold_aggregate_primary
+2425,paper_informed_nonreactive,Zero yield baseline,4,2025-01-07,2025-02-05,4,2025-03-05,8,289.0,0.0,105.0,97.6,-289.0,289.0,held_out_cv_fold_aggregate_primary
+2425,paper_informed_nonreactive,Zero yield baseline,5,2025-01-07,2025-02-05,1,2025-02-12,8,162.0,0.0,121.0,89.4,-162.0,162.0,held_out_cv_fold_aggregate_primary
+2425,paper_informed_nonreactive,Zero yield baseline,5,2025-01-07,2025-02-05,2,2025-02-20,8,485.0,0.0,121.0,89.4,-485.0,485.0,held_out_cv_fold_aggregate_primary
+2425,paper_informed_nonreactive,Zero yield baseline,5,2025-01-07,2025-02-05,3,2025-02-26,8,168.0,0.0,121.0,89.4,-168.0,168.0,held_out_cv_fold_aggregate_primary
+2425,paper_informed_nonreactive,Zero yield baseline,5,2025-01-07,2025-02-05,4,2025-03-05,8,498.0,0.0,121.0,89.4,-498.0,498.0,held_out_cv_fold_aggregate_primary

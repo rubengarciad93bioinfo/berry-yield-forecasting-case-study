@@ -1,0 +1,3 @@
+dataset,rows,seasons,forecast_origin_dates,target_dates,mean_horizon_days,min_horizon_days,max_horizon_days,mean_target_yield_g
+plot_level,598,2,15,15,7.137,5,9,147.105
+aggregate,15,2,15,15,7.133,5,9,5864.6
