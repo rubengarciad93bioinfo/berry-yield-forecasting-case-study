@@ -69,7 +69,14 @@ st.markdown(
 
         .block-container {
             max-width: min(1480px, calc(100vw - 1rem));
-            padding: .75rem 1.05rem 2.0rem 1.05rem;
+            padding: 3.60rem 1.05rem 2.0rem 1.05rem !important;
+        }
+        [data-testid="stHeader"] {
+            background: rgba(7, 11, 16, 0.96);
+            backdrop-filter: blur(8px);
+        }
+        div[data-testid="stTabs"] {
+            margin-top: .20rem;
         }
 
         h1, h2, h3, h4, h5, h6, p, li, label, div, span {
@@ -289,7 +296,7 @@ st.markdown(
         hr { border: none; border-top: 1px solid var(--line); margin: 1.15rem 0; }
 
         @media (max-width: 900px) {
-            .block-container { padding-left: .70rem; padding-right: .70rem; }
+            .block-container { padding-top: 3.75rem !important; padding-left: .70rem; padding-right: .70rem; }
             .hero-title { font-size: 1.78rem; }
             .metric-value { font-size: 1.35rem; }
             .stTabs [data-baseweb="tab"] { padding: .55rem .62rem; }
